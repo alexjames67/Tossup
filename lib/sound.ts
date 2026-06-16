@@ -5,6 +5,8 @@
  * finger-pluck transient, and a fat sub-octave.
  */
 
+import type { Theme } from "./theme";
+
 type WebkitWindow = Window &
   typeof globalThis & { webkitAudioContext?: typeof AudioContext };
 
@@ -124,4 +126,98 @@ export function playTwangyBass(): void {
   osc.stop(end);
   sub.stop(end);
   lfo.stop(end);
+}
+
+/** Play one short tone with a pluck envelope into `dest`. */
+function blip(
+  ac: AudioContext,
+  dest: AudioNode,
+  opts: {
+    type: OscillatorType;
+    freq: number;
+    start: number;
+    peak: number;
+    release: number;
+  },
+): void {
+  const osc = ac.createOscillator();
+  osc.type = opts.type;
+  osc.frequency.value = opts.freq;
+  const g = ac.createGain();
+  g.gain.setValueAtTime(0.0001, opts.start);
+  g.gain.exponentialRampToValueAtTime(opts.peak, opts.start + 0.008);
+  g.gain.exponentialRampToValueAtTime(0.0001, opts.start + opts.release);
+  osc.connect(g);
+  g.connect(dest);
+  osc.start(opts.start);
+  osc.stop(opts.start + opts.release + 0.02);
+}
+
+/** Dark theme: a punchy ascending "level-up" arpeggio with shimmer. */
+export function playDarkChime(): void {
+  const ac = getCtx();
+  if (!ac) return;
+  if (ac.state === "suspended") void ac.resume();
+  const t = ac.currentTime;
+
+  const out = ac.createGain();
+  out.gain.value = 0.5;
+  const filter = ac.createBiquadFilter();
+  filter.type = "lowpass";
+  filter.frequency.value = 5000;
+  filter.Q.value = 0.7;
+  filter.connect(out);
+  out.connect(ac.destination);
+
+  // C5 – E5 – G5 – C6 (major triad to the octave).
+  const notes = [523.25, 659.25, 783.99, 1046.5];
+  notes.forEach((f, i) => {
+    const st = t + i * 0.06;
+    blip(ac, filter, {
+      type: "triangle",
+      freq: f,
+      start: st,
+      peak: 0.3,
+      release: 0.22,
+    });
+    blip(ac, filter, {
+      type: "sine",
+      freq: f * 2,
+      start: st,
+      peak: 0.07,
+      release: 0.18,
+    });
+  });
+}
+
+/** Light theme: an airy, glassy ascending chime. */
+export function playLightChime(): void {
+  const ac = getCtx();
+  if (!ac) return;
+  if (ac.state === "suspended") void ac.resume();
+  const t = ac.currentTime;
+
+  const out = ac.createGain();
+  out.gain.value = 0.42;
+  out.connect(ac.destination);
+
+  // E5 – G#5 – B5 – E6 (bright major, soft sine tones with a long tail).
+  const notes = [659.25, 830.61, 987.77, 1318.51];
+  notes.forEach((f, i) => {
+    const st = t + i * 0.07;
+    blip(ac, out, {
+      type: "sine",
+      freq: f,
+      start: st,
+      peak: 0.26,
+      release: 0.5,
+    });
+  });
+}
+
+/** Play the success/selection sound for a given theme. */
+export function playThemeSound(theme: Theme): void {
+  if (theme === "funky") playTwangyBass();
+  else if (theme === "light") playLightChime();
+  else playDarkChime();
 }

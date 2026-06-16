@@ -2,7 +2,7 @@
 
 import { useSyncExternalStore } from "react";
 import { getTheme, setTheme, subscribeTheme, type Theme } from "@/lib/theme";
-import { playTwangyBass } from "@/lib/sound";
+import { playThemeSound } from "@/lib/sound";
 
 const OPTIONS: { value: Theme; label: string; icon: React.ReactNode }[] = [
   {
@@ -68,8 +68,8 @@ export function ThemeSwitcher({ showLabel = true }: ThemeSwitcherProps) {
 
   function choose(next: Theme) {
     setTheme(next);
-    // Funky's signature twang on selection.
-    if (next === "funky") playTwangyBass();
+    // Each theme has its own signature sound, played on selection.
+    playThemeSound(next);
   }
 
   return (

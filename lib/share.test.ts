@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { buildPath, buildShareText, SHARE_URL } from "./share";
+import { buildPath, buildShareText, SHARE_URL, SHARE_TITLE } from "./share";
 import { validatePuzzles } from "./validate";
 import rawPuzzles from "@/data/puzzles.json";
 
@@ -57,9 +57,24 @@ describe("buildShareText", () => {
         { won: true, buzzedOn: 1, negs: 0, score: 80 },
         p.id,
       );
-      const lower = text.toLowerCase();
+      // Scrub the fixed scaffolding (title, URL, score labels, emoji) so we
+      // only scan the truly variable content. Otherwise short answers like
+      // "Ra" false-match substrings of "pyRAmidal".
+      let haystack = text.toLowerCase();
+      for (const s of [
+        SHARE_TITLE.toLowerCase(),
+        SHARE_URL.toLowerCase(),
+        "buzzed on clue",
+        "missed",
+        "negs",
+        "neg",
+        "pts",
+      ]) {
+        haystack = haystack.split(s).join(" ");
+      }
+
       // The answer must not appear.
-      expect(lower).not.toContain(p.answer.toLowerCase());
+      expect(haystack).not.toContain(p.answer.toLowerCase());
       // No clue text (use a distinctive long token from each clue).
       for (const clue of p.clues) {
         const token = clue
@@ -67,7 +82,7 @@ describe("buildShareText", () => {
           .replace(/[^a-z ]/g, " ")
           .split(/\s+/)
           .filter((w) => w.length >= 6)[0];
-        if (token) expect(lower).not.toContain(token);
+        if (token) expect(haystack).not.toContain(token);
       }
     }
   });

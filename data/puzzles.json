@@ -2308,5 +2308,2832 @@
       "Lou Gehrig",
       "Joe DiMaggio"
     ]
+  },
+  {
+    "id": 105,
+    "date": "2026-09-28",
+    "category": "Art",
+    "difficulty": "easy",
+    "clues": [
+      "This artist created the bronze equestrian monument of the condottiere Gattamelata in Padua, the first large bronze equestrian statue cast since antiquity.",
+      "He made a marble Saint George and a gilded bronze figure for guild niches at Orsanmichele in his home city.",
+      "His gaunt wooden sculpture of the penitent Mary Magdalene shows the emaciated saint covered by her own hair.",
+      "He sculpted a famous bronze David standing over the severed head of Goliath.",
+      "Name this early Italian Renaissance sculptor, a forerunner to Michelangelo."
+    ],
+    "answer": "Donatello",
+    "accept": [
+      "Donato di Niccolo di Betto Bardi"
+    ],
+    "prompt": [],
+    "reject": [
+      "Verrocchio",
+      "Ghiberti",
+      "Brunelleschi"
+    ]
+  },
+  {
+    "id": 106,
+    "date": "2026-09-29",
+    "category": "Art",
+    "difficulty": "medium",
+    "clues": [
+      "This artist's painting Luncheon of the Boating Party shows friends dining on a balcony above a river.",
+      "His Bal du moulin de la Galette captures a sunlit crowd dancing at a Parisian dance garden.",
+      "His soft, rounded nudes and rosy-cheeked figures became a hallmark of his later style.",
+      "He was a founding member of the Impressionist movement alongside Claude Monet.",
+      "Name this French Impressionist painter whose surname is shared with a famous filmmaker son."
+    ],
+    "answer": "Pierre-Auguste Renoir",
+    "accept": [
+      "Renoir",
+      "Auguste Renoir"
+    ],
+    "prompt": [],
+    "reject": [
+      "Edouard Manet",
+      "Camille Pissarro",
+      "Edgar Degas",
+      "Claude Monet"
+    ]
+  },
+  {
+    "id": 107,
+    "date": "2026-09-30",
+    "category": "Art",
+    "difficulty": "hard",
+    "clues": [
+      "This artist's painting The Death of Marat shows a murdered revolutionary slumped in a bathtub holding a letter.",
+      "He served as a deputy who voted to execute the king and later became a court painter to an emperor.",
+      "His Neoclassical works include The Oath of the Horatii and The Intervention of the Sabine Women.",
+      "He depicted a general crossing the Alps on a rearing horse in a famous equestrian portrait.",
+      "Name this leading French Neoclassical painter who glorified Napoleon."
+    ],
+    "answer": "Jacques-Louis David",
+    "accept": [
+      "David",
+      "Jacques Louis David"
+    ],
+    "prompt": [],
+    "reject": [
+      "Jean-Auguste-Dominique Ingres",
+      "Eugene Delacroix"
+    ]
+  },
+  {
+    "id": 108,
+    "date": "2026-10-01",
+    "category": "Art",
+    "difficulty": "easy",
+    "clues": [
+      "This painter's huge mural cycles depict the history and industry of his homeland, including a controversial work for Rockefeller Center that was destroyed.",
+      "He was a leading figure of the muralist movement and a committed communist.",
+      "He painted a vast series of frescoes inside the National Palace in his nation's capital.",
+      "He was married to a famous painter known for her self-portraits and unibrow.",
+      "Name this Mexican muralist, the husband of Frida Kahlo."
+    ],
+    "answer": "Diego Rivera",
+    "accept": [
+      "Rivera"
+    ],
+    "prompt": [],
+    "reject": [
+      "David Alfaro Siqueiros",
+      "Jose Clemente Orozco",
+      "Frida Kahlo"
+    ]
+  },
+  {
+    "id": 109,
+    "date": "2026-10-02",
+    "category": "Art",
+    "difficulty": "medium",
+    "clues": [
+      "This artist painted a portrait of his mother in gray and black, formally titled Arrangement in Grey and Black No. 1.",
+      "He sued a critic for libel after the critic accused him of flinging a pot of paint in the public's face.",
+      "He titled many works using musical terms such as nocturnes and symphonies to stress mood over subject.",
+      "His Nocturne paintings depict the River Thames and fireworks at twilight.",
+      "Name this American-born painter best known as 'Whistler.'"
+    ],
+    "answer": "James McNeill Whistler",
+    "accept": [
+      "Whistler",
+      "James Whistler",
+      "James Abbott McNeill Whistler"
+    ],
+    "prompt": [],
+    "reject": [
+      "John Singer Sargent",
+      "Thomas Eakins"
+    ]
+  },
+  {
+    "id": 110,
+    "date": "2026-10-03",
+    "category": "Art",
+    "difficulty": "hard",
+    "clues": [
+      "This artist's altarpiece for a hospital chapel could be opened to reveal panels showing a serene Nativity, contrasting with a tortured crucified figure.",
+      "His most famous work, the Isenheim Altarpiece, depicts Christ's body covered in plague-like sores.",
+      "Little is known of his life, and his name was long confused with that of another artist named Mathis.",
+      "He worked in the early sixteenth century as a contemporary of Albrecht Durer in the German lands.",
+      "Name this German Renaissance painter of the Isenheim Altarpiece."
+    ],
+    "answer": "Matthias Grunewald",
+    "accept": [
+      "Grunewald",
+      "Matthias Grünewald",
+      "Mathis Gothart Nithart",
+      "Mathis Grunewald"
+    ],
+    "prompt": [],
+    "reject": [
+      "Albrecht Durer",
+      "Hans Holbein",
+      "Lucas Cranach"
+    ]
+  },
+  {
+    "id": 111,
+    "date": "2026-10-04",
+    "category": "Art",
+    "difficulty": "medium",
+    "clues": [
+      "This artist depicted laundresses and milliners at work, sympathetic to women's labor in the city.",
+      "He preferred to call himself a Realist and exhibited with the Impressionists despite disliking working outdoors.",
+      "He made many sculptures and pastels, including the wax Little Dancer Aged Fourteen dressed in a real tutu.",
+      "He is best known for paintings and sculptures of ballet dancers rehearsing and performing.",
+      "Name this French artist famous for his images of ballerinas."
+    ],
+    "answer": "Edgar Degas",
+    "accept": [
+      "Degas"
+    ],
+    "prompt": [],
+    "reject": [
+      "Pierre-Auguste Renoir",
+      "Edouard Manet",
+      "Mary Cassatt"
+    ]
+  },
+  {
+    "id": 112,
+    "date": "2026-10-05",
+    "category": "Art",
+    "difficulty": "easy",
+    "clues": [
+      "This artist used the comic-strip technique of Ben-Day dots in his large paintings.",
+      "His work Whaam! depicts a fighter jet firing a rocket at an enemy plane.",
+      "He painted a distressed blonde woman in the work Drowning Girl.",
+      "He was a leading figure of the Pop Art movement alongside Andy Warhol.",
+      "Name this American Pop artist famous for paintings that mimic comic books."
+    ],
+    "answer": "Roy Lichtenstein",
+    "accept": [
+      "Lichtenstein"
+    ],
+    "prompt": [],
+    "reject": [
+      "Andy Warhol",
+      "Robert Rauschenberg",
+      "Jasper Johns"
+    ]
+  },
+  {
+    "id": 113,
+    "date": "2026-10-06",
+    "category": "Art",
+    "difficulty": "medium",
+    "clues": [
+      "This artist's fresco cycle in the Arena Chapel at Padua includes a scene of a grieving Lamentation with mourning angels.",
+      "According to legend, he was discovered as a shepherd boy drawing sheep by the master Cimabue.",
+      "He is credited with moving away from flat Byzantine style toward greater naturalism and depth.",
+      "He designed the freestanding bell tower, or campanile, next to a cathedral in his home city.",
+      "Name this pioneering early Italian painter active around the year 1300, often called the father of the Renaissance."
+    ],
+    "answer": "Giotto",
+    "accept": [
+      "Giotto di Bondone"
+    ],
+    "prompt": [],
+    "reject": [
+      "Cimabue",
+      "Duccio",
+      "Masaccio"
+    ]
+  },
+  {
+    "id": 114,
+    "date": "2026-10-07",
+    "category": "Art",
+    "difficulty": "hard",
+    "clues": [
+      "This sculptor's marble group Apollo and Daphne captures the nymph mid-transformation as laurel leaves sprout from her fingers.",
+      "He designed the sweeping colonnade enclosing the piazza of a great basilica.",
+      "His chapel sculpture The Ecstasy of Saint Teresa shows the saint pierced by an angel's golden arrow.",
+      "He created the bronze baldachin canopy over the high altar of Saint Peter's.",
+      "Name this dominant Italian Baroque sculptor and architect."
+    ],
+    "answer": "Gian Lorenzo Bernini",
+    "accept": [
+      "Bernini"
+    ],
+    "prompt": [],
+    "reject": [
+      "Francesco Borromini",
+      "Caravaggio",
+      "Donatello"
+    ]
+  },
+  {
+    "id": 115,
+    "date": "2026-10-08",
+    "category": "Art",
+    "difficulty": "easy",
+    "clues": [
+      "This architect designed a museum in Bilbao clad in shimmering titanium curves.",
+      "He created the Dancing House, a building with two towers resembling a couple.",
+      "His deconstructivist style features fragmented, sculptural metal forms.",
+      "He designed the Walt Disney Concert Hall in Los Angeles.",
+      "Name this Canadian-American architect known for the Guggenheim Museum Bilbao."
+    ],
+    "answer": "Frank Gehry",
+    "accept": [
+      "Gehry",
+      "Frank Owen Gehry"
+    ],
+    "prompt": [],
+    "reject": [
+      "Zaha Hadid",
+      "Frank Lloyd Wright",
+      "Daniel Libeskind"
+    ]
+  },
+  {
+    "id": 116,
+    "date": "2026-10-09",
+    "category": "Film",
+    "difficulty": "easy",
+    "clues": [
+      "This film's antagonist, a wheelchair-using banker, tries to seize control of a building and loan and even offers its idealistic head a lucrative job to shut it down.",
+      "Its director, Frank Capra, also made It Happened One Night and Mr. Smith Goes to Washington.",
+      "The protagonist, who runs a building and loan, is shown a version of his town renamed Pottersville.",
+      "An angel named Clarence earns his wings by helping a despairing man named George Bailey.",
+      "In this Christmas classic, George Bailey learns how much poorer the world would be if he had never been born."
+    ],
+    "answer": "It's a Wonderful Life",
+    "accept": [
+      "Its a Wonderful Life"
+    ],
+    "prompt": [],
+    "reject": [
+      "A Christmas Carol",
+      "Miracle on 34th Street"
+    ]
+  },
+  {
+    "id": 117,
+    "date": "2026-10-10",
+    "category": "Film",
+    "difficulty": "easy",
+    "clues": [
+      "This film opens with its hero snatching a golden idol and fleeing a giant rolling boulder, only to lose the idol to his rival René Belloq.",
+      "Its hero is afraid of snakes, a fear tested when he descends into the Well of Souls.",
+      "Directed by Steven Spielberg, it was the first film featuring a whip-wielding archaeologist played by Harrison Ford.",
+      "The Nazis seek the Ark of the Covenant, which melts the faces of those who gaze upon it.",
+      "This 1981 adventure introduced the fedora-wearing professor Indiana Jones."
+    ],
+    "answer": "Raiders of the Lost Ark",
+    "accept": [
+      "Indiana Jones and the Raiders of the Lost Ark"
+    ],
+    "prompt": [
+      "Indiana Jones"
+    ],
+    "reject": [
+      "The Temple of Doom",
+      "The Last Crusade"
+    ]
+  },
+  {
+    "id": 118,
+    "date": "2026-10-11",
+    "category": "Film",
+    "difficulty": "easy",
+    "clues": [
+      "This film's iconic shower scene was reportedly shot over about a week using dozens of camera setups.",
+      "Its score by Bernard Herrmann features shrieking violins.",
+      "Directed by Alfred Hitchcock, it features the Bates Motel and a character named Norman.",
+      "Marion Crane steals money and stops at a roadside motel run by a man devoted to his mother.",
+      "This 1960 thriller is famous for a murder committed in a shower."
+    ],
+    "answer": "Psycho",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "The Birds",
+      "Vertigo",
+      "Rear Window"
+    ]
+  },
+  {
+    "id": 119,
+    "date": "2026-10-12",
+    "category": "Film",
+    "difficulty": "easy",
+    "clues": [
+      "This film's protagonist sits on a bench at a bus stop telling his life story to strangers.",
+      "It won the Academy Award for Best Picture for 1994.",
+      "Directed by Robert Zemeckis, it inserts its hero into historical footage of presidents.",
+      "The title character runs across the country and co-founds a shrimp company called Bubba Gump.",
+      "Tom Hanks plays the title role and says life is like a box of chocolates."
+    ],
+    "answer": "Forrest Gump",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Cast Away",
+      "Big"
+    ]
+  },
+  {
+    "id": 120,
+    "date": "2026-10-13",
+    "category": "Film",
+    "difficulty": "easy",
+    "clues": [
+      "This film's climax takes place aboard a vessel as it splits in two and sinks into the North Atlantic.",
+      "Directed by James Cameron, it won eleven Academy Awards, tying a record.",
+      "Its theme song, My Heart Will Go On, was performed by Celine Dion.",
+      "A young woman named Rose is drawn by an artist named Jack who lets go of a floating door.",
+      "This 1997 epic depicts the 1912 sinking of a famous ocean liner."
+    ],
+    "answer": "Titanic",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "A Night to Remember",
+      "Avatar"
+    ]
+  },
+  {
+    "id": 121,
+    "date": "2026-10-14",
+    "category": "Film",
+    "difficulty": "easy",
+    "clues": [
+      "This film's villain has a scar over his eye and sings the song Be Prepared.",
+      "Its songs were written by Elton John and Tim Rice.",
+      "Two comic-relief characters, a meerkat and a warthog, espouse a philosophy of Hakuna Matata.",
+      "The young heir Simba flees after his father Mufasa is killed by his uncle Scar.",
+      "This 1994 Disney animated film follows a lion cub destined to be king."
+    ],
+    "answer": "The Lion King",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Tarzan",
+      "The Jungle Book"
+    ]
+  },
+  {
+    "id": 122,
+    "date": "2026-10-15",
+    "category": "Film",
+    "difficulty": "easy",
+    "clues": [
+      "This film's diner climax features a robber and his girlfriend nicknamed Pumpkin and Honey Bunny.",
+      "Its director, Quentin Tarantino, presents the story out of chronological order.",
+      "A mysterious glowing briefcase is recovered by two hitmen named Jules and Vincent.",
+      "John Travolta and Samuel L. Jackson play the hitmen, and Uma Thurman overdoses after a dance contest.",
+      "This 1994 film shares its name with cheap crime magazines printed on rough paper."
+    ],
+    "answer": "Pulp Fiction",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Reservoir Dogs",
+      "Kill Bill"
+    ]
+  },
+  {
+    "id": 123,
+    "date": "2026-10-16",
+    "category": "Film",
+    "difficulty": "medium",
+    "clues": [
+      "This film's protagonist keeps a chess set in his cell and tunnels out using a rock hammer over many years.",
+      "It was adapted from a Stephen King novella titled Rita Hayworth and this prison.",
+      "A fellow inmate named Red, played by Morgan Freeman, narrates the story.",
+      "Andy Dufresne escapes through a sewage pipe and emerges in the rain.",
+      "This 1994 film is set in a fictional Maine penitentiary of the same name."
+    ],
+    "answer": "The Shawshank Redemption",
+    "accept": [
+      "Shawshank Redemption",
+      "Shawshank"
+    ],
+    "prompt": [],
+    "reject": [
+      "The Green Mile",
+      "Cool Hand Luke"
+    ]
+  },
+  {
+    "id": 124,
+    "date": "2026-10-17",
+    "category": "Film",
+    "difficulty": "medium",
+    "clues": [
+      "This film features a piano theme called As Time Goes By, sung by the character Sam.",
+      "Its hero runs a nightclub and gambling den in a North African city during World War II.",
+      "Directed by Michael Curtiz, it ends with two men beginning a beautiful friendship.",
+      "Humphrey Bogart's Rick Blaine helps Ilsa and her husband Victor Laszlo escape.",
+      "This 1942 film is set in a Moroccan city and won Best Picture."
+    ],
+    "answer": "Casablanca",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "The Maltese Falcon",
+      "To Have and Have Not"
+    ]
+  },
+  {
+    "id": 125,
+    "date": "2026-10-18",
+    "category": "Film",
+    "difficulty": "medium",
+    "clues": [
+      "This film's recurring nightmare image shows a torrent of blood gushing from a pair of elevator doors.",
+      "Its protagonist takes a job as a winter caretaker at a remote hotel.",
+      "Directed by Stanley Kubrick, it was adapted from a Stephen King novel.",
+      "Jack Torrance types the same sentence repeatedly and chops through a door announcing his arrival.",
+      "Set at the Overlook Hotel, this 1980 horror film features the line Here's Johnny."
+    ],
+    "answer": "The Shining",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Doctor Sleep",
+      "The Exorcist"
+    ]
+  },
+  {
+    "id": 126,
+    "date": "2026-10-19",
+    "category": "Film",
+    "difficulty": "medium",
+    "clues": [
+      "This film's android character, Bishop, performs a knife trick between a crew member's fingers in its sequel.",
+      "Its tagline declares that in space no one can hear you scream.",
+      "Directed by Ridley Scott, it features the spaceship Nostromo responding to a distress signal.",
+      "A creature bursts from John Hurt's chest at a dinner table, leaving Ripley to fight it.",
+      "This 1979 science-fiction horror film stars Sigourney Weaver battling a xenomorph."
+    ],
+    "answer": "Alien",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Aliens",
+      "Prometheus",
+      "Blade Runner"
+    ]
+  },
+  {
+    "id": 127,
+    "date": "2026-10-20",
+    "category": "Film",
+    "difficulty": "medium",
+    "clues": [
+      "This film's insomniac narrator finds relief by attending support groups for diseases he does not actually have.",
+      "It was adapted from a novel by Chuck Palahniuk and directed by David Fincher.",
+      "The first rule is that you do not talk about it.",
+      "An unnamed narrator played by Edward Norton forms an underground club with Tyler Durden.",
+      "This 1999 film's title names a bare-knuckle club, with the same word used twice."
+    ],
+    "answer": "Fight Club",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Se7en",
+      "Gone Girl"
+    ]
+  },
+  {
+    "id": 128,
+    "date": "2026-10-21",
+    "category": "Film",
+    "difficulty": "medium",
+    "clues": [
+      "This film's score by Hans Zimmer features a slowed, blaring horn motif nicknamed by fans.",
+      "Its plot relies on the concept of a totem, such as a spinning top, to test reality.",
+      "Directed by Christopher Nolan, it stars Leonardo DiCaprio as Dom Cobb.",
+      "A team enters layered dreams to plant an idea in a businessman's mind, a process called inception.",
+      "This 2010 film ends ambiguously as a spinning top wobbles but may not fall."
+    ],
+    "answer": "Inception",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Interstellar",
+      "Tenet",
+      "The Matrix"
+    ]
+  },
+  {
+    "id": 129,
+    "date": "2026-10-22",
+    "category": "Film",
+    "difficulty": "medium",
+    "clues": [
+      "This film's opening sequence depicts a married couple's life together set to the song Married Life.",
+      "Its protagonist ties thousands of balloons to his house to fulfill a promise.",
+      "Directed by Pete Docter for Pixar, it features a talking dog named Dug.",
+      "Carl Fredricksen and a boy scout named Russell journey to Paradise Falls.",
+      "This 2009 animated film shares its name with a single directional word, the opposite of down."
+    ],
+    "answer": "Up",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Wall-E",
+      "Inside Out"
+    ]
+  },
+  {
+    "id": 130,
+    "date": "2026-10-23",
+    "category": "Film",
+    "difficulty": "medium",
+    "clues": [
+      "This film's bullet-dodging visual effect was nicknamed bullet time.",
+      "Its hero can choose between a red pill and a blue pill.",
+      "Directed by the Wachowskis, it features agents in suits led by Agent Smith.",
+      "A hacker named Neo learns that reality is a simulation run by machines.",
+      "In this 1999 film, Morpheus offers to show Neo how deep the rabbit hole goes."
+    ],
+    "answer": "The Matrix",
+    "accept": [
+      "Matrix"
+    ],
+    "prompt": [],
+    "reject": [
+      "The Matrix Reloaded",
+      "The Matrix Revolutions"
+    ]
+  },
+  {
+    "id": 131,
+    "date": "2026-10-24",
+    "category": "Film",
+    "difficulty": "hard",
+    "clues": [
+      "This film originally cast Eric Stoltz in its lead role before replacing him with another actor several weeks into shooting.",
+      "Its plot hinges on a flux capacitor requiring 1.21 gigawatts of power.",
+      "Directed by Robert Zemeckis, it stars Christopher Lloyd as Doc Brown.",
+      "Marty McFly travels from 1985 to 1955 in a modified DeLorean.",
+      "This 1985 film's hero must ensure his parents fall in love so he is not erased from existence."
+    ],
+    "answer": "Back to the Future",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Back to the Future Part II",
+      "Back to the Future Part III"
+    ]
+  },
+  {
+    "id": 132,
+    "date": "2026-10-25",
+    "category": "Film",
+    "difficulty": "hard",
+    "clues": [
+      "This director's breakthrough \"Mean Streets\" (1973) began his long collaboration with the actor Robert De Niro.",
+      "He directed a 2002 historical epic set in the Five Points slums of New York, Gangs of New York.",
+      "His most acclaimed work follows two undercover figures in the criminal underworld of a major city.",
+      "He directed The Departed, which won him the Academy Award for Best Director.",
+      "This filmmaker also made Taxi Driver, Goodfellas, and Raging Bull."
+    ],
+    "answer": "Martin Scorsese",
+    "accept": [
+      "Scorsese"
+    ],
+    "prompt": [],
+    "reject": [
+      "Francis Ford Coppola",
+      "Brian De Palma"
+    ]
+  },
+  {
+    "id": 133,
+    "date": "2026-10-26",
+    "category": "Film",
+    "difficulty": "hard",
+    "clues": [
+      "This film's imprisoned antagonist urges its heroine to read Marcus Aurelius and to ask of each thing, what is it in itself?",
+      "Its protagonist exchanges letters and later meets a captured killer to profile another.",
+      "Directed by Jonathan Demme, it won the top five Academy Awards in major categories.",
+      "An FBI trainee named Clarice Starling consults an imprisoned cannibal.",
+      "This 1991 thriller features Hannibal Lecter and the killer Buffalo Bill."
+    ],
+    "answer": "The Silence of the Lambs",
+    "accept": [
+      "Silence of the Lambs"
+    ],
+    "prompt": [],
+    "reject": [
+      "Hannibal",
+      "Red Dragon",
+      "Manhunter"
+    ]
+  },
+  {
+    "id": 134,
+    "date": "2026-10-27",
+    "category": "Film",
+    "difficulty": "hard",
+    "clues": [
+      "This film's famous overhead crane shot reveals hundreds of wounded soldiers at a railway depot.",
+      "Its production was beset by fires on the studio backlot used to burn a city.",
+      "Directed by Victor Fleming, it won Best Picture for 1939.",
+      "Set on a Georgia plantation called Tara during the Civil War, it stars Vivien Leigh and Clark Gable.",
+      "In this film, Rhett Butler tells Scarlett O'Hara that he doesn't give a damn."
+    ],
+    "answer": "Gone with the Wind",
+    "accept": [
+      "Gone With the Wind"
+    ],
+    "prompt": [],
+    "reject": [
+      "The Wizard of Oz"
+    ]
+  },
+  {
+    "id": 135,
+    "date": "2026-10-28",
+    "category": "Geography",
+    "difficulty": "easy",
+    "clues": [
+      "This river's source is traditionally placed at Lake Itasca in Minnesota, and its name comes from an Ojibwe phrase meaning roughly \"great river.\"",
+      "Its tributaries include the Ohio and the Missouri, and it forms much of the border of the state of Iowa.",
+      "It empties into the Gulf of Mexico through a large delta south of New Orleans.",
+      "Mark Twain wrote about steamboats traveling on this longest river system of the United States.",
+      "This is the major North American river whose name is famously spelled M-I-S-S-I-S-S-I-P-P-I."
+    ],
+    "answer": "Mississippi River",
+    "accept": [
+      "Mississippi"
+    ],
+    "prompt": [],
+    "reject": [
+      "Missouri River",
+      "Ohio River"
+    ]
+  },
+  {
+    "id": 136,
+    "date": "2026-10-29",
+    "category": "Geography",
+    "difficulty": "easy",
+    "clues": [
+      "This country's territory includes the island of Sicily and the region of Tuscany, and its longest river is the Po.",
+      "Its highest peak lies in the Alps along its northern border, and the Apennine mountains run down its center.",
+      "This nation surrounds the microstates of San Marino and Vatican City.",
+      "Shaped like a boot, it is famous for foods such as pizza and pasta.",
+      "This European country has its capital at Rome."
+    ],
+    "answer": "Italy",
+    "accept": [
+      "Italian Republic",
+      "Repubblica Italiana"
+    ],
+    "prompt": [],
+    "reject": [
+      "Greece",
+      "Spain"
+    ]
+  },
+  {
+    "id": 137,
+    "date": "2026-10-30",
+    "category": "Geography",
+    "difficulty": "easy",
+    "clues": [
+      "Lying just a few degrees south of the equator, this mountain was built up by volcanic activity along the East African Rift.",
+      "It rises in northeastern Tanzania near the border with Kenya.",
+      "Its highest point is named Uhuru Peak, and it has three volcanic cones called Kibo, Mawenzi, and Shira.",
+      "It is a free-standing mountain rather than part of a range, and is a popular non-technical climb.",
+      "This is the highest mountain in Africa."
+    ],
+    "answer": "Mount Kilimanjaro",
+    "accept": [
+      "Kilimanjaro"
+    ],
+    "prompt": [],
+    "reject": [
+      "Mount Kenya"
+    ]
+  },
+  {
+    "id": 138,
+    "date": "2026-10-31",
+    "category": "Geography",
+    "difficulty": "easy",
+    "clues": [
+      "This city sits on the Seine River, and its oldest section occupies an island called the Ile de la Cite.",
+      "Its districts are organized into 20 spiraling arrondissements.",
+      "Landmarks here include the Louvre museum and the Notre-Dame cathedral.",
+      "It is home to a wrought-iron tower built for the 1889 World's Fair.",
+      "This is the capital of France."
+    ],
+    "answer": "Paris",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Lyon",
+      "Marseille",
+      "London"
+    ]
+  },
+  {
+    "id": 139,
+    "date": "2026-11-01",
+    "category": "Geography",
+    "difficulty": "medium",
+    "clues": [
+      "This salt lake has no natural outlet, and its level has dropped dramatically over the past century as inflowing rivers were diverted for irrigation.",
+      "It straddles the border between Kazakhstan and Uzbekistan in Central Asia.",
+      "The Syr Darya and Amu Darya rivers once fed it, and a dam has helped restore its northern portion.",
+      "Its shrinkage left behind a salt desert sometimes called the Aralkum, stranding old fishing boats.",
+      "This is the Aral Sea, once one of the largest inland bodies of water on Earth."
+    ],
+    "answer": "Aral Sea",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Caspian Sea",
+      "Lake Balkhash"
+    ]
+  },
+  {
+    "id": 140,
+    "date": "2026-11-02",
+    "category": "Geography",
+    "difficulty": "medium",
+    "clues": [
+      "This country is divided by the Southern Alps, and its highest peak, Aoraki, lies on the South Island.",
+      "Its largest city is Auckland, and the indigenous Maori name for the land is Aotearoa.",
+      "Fiordland National Park here contains the glacial inlet Milford Sound.",
+      "It consists of two main islands separated by the Cook Strait.",
+      "This Pacific country has its capital at Wellington."
+    ],
+    "answer": "New Zealand",
+    "accept": [
+      "Aotearoa"
+    ],
+    "prompt": [],
+    "reject": [
+      "Australia",
+      "Tasmania"
+    ]
+  },
+  {
+    "id": 141,
+    "date": "2026-11-03",
+    "category": "Geography",
+    "difficulty": "medium",
+    "clues": [
+      "This European capital is built across a series of canals and is partly below sea level, protected by dikes.",
+      "It sits on the Amstel River, from which it takes part of its name.",
+      "Its historic canal ring is a UNESCO World Heritage Site, and it is famous for the Rijksmuseum.",
+      "The Anne Frank House is located here, and bicycles are a dominant mode of transport.",
+      "This is the capital of the Netherlands."
+    ],
+    "answer": "Amsterdam",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Rotterdam",
+      "The Hague",
+      "Brussels"
+    ]
+  },
+  {
+    "id": 142,
+    "date": "2026-11-04",
+    "category": "Geography",
+    "difficulty": "medium",
+    "clues": [
+      "This river rises in the Black Forest of Germany and flows generally eastward across Central Europe.",
+      "It passes through four capital cities, including Vienna and Budapest.",
+      "It forms part of the border between Romania and Bulgaria before reaching a large delta.",
+      "It empties into the Black Sea and is the second-longest river in Europe.",
+      "This river was the subject of a Johann Strauss waltz titled for its \"Blue\" waters."
+    ],
+    "answer": "Danube River",
+    "accept": [
+      "Danube",
+      "Donau"
+    ],
+    "prompt": [],
+    "reject": [
+      "Rhine River",
+      "Volga River"
+    ]
+  },
+  {
+    "id": 143,
+    "date": "2026-11-05",
+    "category": "Geography",
+    "difficulty": "hard",
+    "clues": [
+      "This high-altitude body of water sits on the Altiplano plateau and is fed by rivers including the Ramis.",
+      "The Uros people live on artificial floating reed islands within it.",
+      "It straddles the border between Peru and Bolivia in the Andes.",
+      "It is often described as the highest large navigable lake in the world.",
+      "This South American lake bears a name that schoolchildren often find amusing: Titicaca."
+    ],
+    "answer": "Lake Titicaca",
+    "accept": [
+      "Titicaca"
+    ],
+    "prompt": [],
+    "reject": [
+      "Lake Poopo",
+      "Lake Maracaibo"
+    ]
+  },
+  {
+    "id": 144,
+    "date": "2026-11-06",
+    "category": "Geography",
+    "difficulty": "hard",
+    "clues": [
+      "This African country's eastern highlands give rise to the Blue Nile, which begins at Lake Tana.",
+      "Its lowland Danakil Depression is one of the hottest inhabited places on Earth.",
+      "It was historically known as Abyssinia and was never formally colonized by a European power.",
+      "Its currency is the birr, and it uses a unique 13-month calendar.",
+      "This Horn of Africa nation has its capital at Addis Ababa."
+    ],
+    "answer": "Ethiopia",
+    "accept": [
+      "Federal Democratic Republic of Ethiopia",
+      "Abyssinia"
+    ],
+    "prompt": [],
+    "reject": [
+      "Eritrea",
+      "Sudan",
+      "Somalia"
+    ]
+  },
+  {
+    "id": 145,
+    "date": "2026-11-07",
+    "category": "Geography",
+    "difficulty": "hard",
+    "clues": [
+      "This range's name derives from a word meaning \"the abode of snow,\" and it was raised by the collision of two continental plates.",
+      "It contains the world's highest peaks and separates the Indian subcontinent from the Tibetan Plateau.",
+      "Major rivers including the Indus, Ganges, and Brahmaputra originate from its glaciers.",
+      "It stretches across countries such as Nepal, Bhutan, and India.",
+      "This is the mountain range whose name is the Himalayas."
+    ],
+    "answer": "Himalayas",
+    "accept": [
+      "Himalaya",
+      "Himalayan Mountains",
+      "Himalaya Range"
+    ],
+    "prompt": [],
+    "reject": [
+      "Karakoram",
+      "Hindu Kush"
+    ]
+  },
+  {
+    "id": 146,
+    "date": "2026-11-08",
+    "category": "History",
+    "difficulty": "easy",
+    "clues": [
+      "This structure was begun under the Qin dynasty by unifying earlier earthen ramparts built by rival states.",
+      "Much of its most famous brick-and-stone construction was carried out during the Ming dynasty.",
+      "It was built over centuries to defend against nomadic incursions from the north, such as those by the Mongols and Xiongnu.",
+      "This fortification stretches for thousands of miles across northern China.",
+      "Name this enormous defensive barrier, the most famous wall in China."
+    ],
+    "answer": "Great Wall of China",
+    "accept": [
+      "Great Wall",
+      "Changcheng"
+    ],
+    "prompt": [],
+    "reject": [
+      "Hadrian's Wall",
+      "Berlin Wall"
+    ]
+  },
+  {
+    "id": 147,
+    "date": "2026-11-09",
+    "category": "History",
+    "difficulty": "easy",
+    "clues": [
+      "This event is often dated to the deposition of the emperor Romulus Augustulus by the chieftain Odoacer in 476 AD.",
+      "Earlier blows included the sack of the city by Alaric's Visigoths in 410 and by the Vandals in 455.",
+      "It marks the end of imperial rule over the western half of a Mediterranean empire centered on a famous Italian city.",
+      "Historians traditionally use this event to mark the beginning of the Middle Ages in Europe.",
+      "Name this collapse of the Western Roman state in the fifth century."
+    ],
+    "answer": "Fall of the Western Roman Empire",
+    "accept": [
+      "Fall of Rome",
+      "Fall of the Roman Empire",
+      "collapse of the Western Roman Empire"
+    ],
+    "prompt": [
+      "fall of Rome"
+    ],
+    "reject": [
+      "Fall of Constantinople",
+      "Fall of the Byzantine Empire"
+    ]
+  },
+  {
+    "id": 148,
+    "date": "2026-11-10",
+    "category": "History",
+    "difficulty": "easy",
+    "clues": [
+      "This ruler issued a code of laws preserved on a black diorite stele topped by an image of the king before the god Shamash.",
+      "He ruled from a city on the Euphrates and expanded his realm across most of Mesopotamia.",
+      "His famous legal code is often summarized by the principle of 'an eye for an eye.'",
+      "He was the sixth king of the First Babylonian dynasty in the eighteenth century BC.",
+      "Name this Babylonian king famous for an early written law code."
+    ],
+    "answer": "Hammurabi",
+    "accept": [
+      "Hammurapi",
+      "Khammurabi"
+    ],
+    "prompt": [],
+    "reject": [
+      "Nebuchadnezzar",
+      "Sargon"
+    ]
+  },
+  {
+    "id": 149,
+    "date": "2026-11-11",
+    "category": "History",
+    "difficulty": "easy",
+    "clues": [
+      "This conflict grew out of colonial resistance to British measures such as the Stamp Act and the slogan 'no taxation without representation.'",
+      "Key engagements included Lexington and Concord, Saratoga, and a final siege at Yorktown.",
+      "It was aided decisively by France after the colonists' victory at Saratoga.",
+      "It ended with the Treaty of Paris in 1783, recognizing the independence of thirteen former colonies.",
+      "Name this war in which Britain's North American colonies won their independence."
+    ],
+    "answer": "American Revolutionary War",
+    "accept": [
+      "American Revolution",
+      "American War of Independence",
+      "Revolutionary War",
+      "U.S. War of Independence"
+    ],
+    "prompt": [
+      "the Revolution"
+    ],
+    "reject": [
+      "American Civil War",
+      "French Revolution",
+      "War of 1812"
+    ]
+  },
+  {
+    "id": 150,
+    "date": "2026-11-12",
+    "category": "History",
+    "difficulty": "medium",
+    "clues": [
+      "This empire's expansion was halted in the west at the Battle of Tours in 732 by Charles Martel.",
+      "Founded after the death of a religious leader in 632, it was first led by a series of 'rightly guided' caliphs.",
+      "It later split between the Umayyad and Abbasid dynasties, the latter centered on Baghdad.",
+      "At its height it stretched from Spain across North Africa to Persia and into Central Asia.",
+      "Name this vast realm established by the early followers of Islam."
+    ],
+    "answer": "Islamic Caliphate",
+    "accept": [
+      "Caliphate",
+      "Arab Caliphate",
+      "Rashidun Caliphate and successors",
+      "Islamic Empire",
+      "Arab Empire"
+    ],
+    "prompt": [
+      "Umayyad Caliphate",
+      "Abbasid Caliphate"
+    ],
+    "reject": [
+      "Ottoman Empire",
+      "Persian Empire"
+    ]
+  },
+  {
+    "id": 151,
+    "date": "2026-11-13",
+    "category": "History",
+    "difficulty": "medium",
+    "clues": [
+      "This event was triggered when this monarch sought to annul his marriage to Catherine of Aragon, and the Pope refused.",
+      "The Act of Supremacy in 1534 declared this king the supreme head of a new national church.",
+      "This break led to the dissolution of the monasteries across his realm.",
+      "This Tudor king famously had six wives in total.",
+      "Name this English king who broke with Rome to establish the Church of England."
+    ],
+    "answer": "Henry VIII",
+    "accept": [
+      "Henry the Eighth",
+      "King Henry VIII"
+    ],
+    "prompt": [
+      "Henry"
+    ],
+    "reject": [
+      "Henry VII",
+      "Edward VI",
+      "Elizabeth I"
+    ]
+  },
+  {
+    "id": 152,
+    "date": "2026-11-14",
+    "category": "History",
+    "difficulty": "medium",
+    "clues": [
+      "This empire's road network featured a knotted-string recording system known as the quipu.",
+      "Its capital was the city of Cusco, and its ruler was titled the Sapa Inca.",
+      "It was conquered in the 1530s by a Spanish expedition led by Francisco Pizarro, who captured the ruler Atahualpa.",
+      "This was the largest empire in pre-Columbian America, centered in the Andes Mountains.",
+      "Name this South American empire ruled from Cusco."
+    ],
+    "answer": "Inca Empire",
+    "accept": [
+      "Inca",
+      "Incas",
+      "Tawantinsuyu",
+      "Tahuantinsuyu",
+      "Incan Empire"
+    ],
+    "prompt": [],
+    "reject": [
+      "Aztec Empire",
+      "Maya"
+    ]
+  },
+  {
+    "id": 153,
+    "date": "2026-11-15",
+    "category": "History",
+    "difficulty": "medium",
+    "clues": [
+      "This treaty drew a north-south line of demarcation roughly 370 leagues west of the Cape Verde Islands.",
+      "It was mediated in part by Pope Alexander VI and divided newly explored lands between two Iberian crowns.",
+      "Its line is often cited to explain why Brazil came to speak Portuguese while much of the rest of South America speaks Spanish.",
+      "Signed in 1494, it split the non-European world between Spain and Portugal.",
+      "Name this 1494 treaty dividing newly discovered lands between Spain and Portugal."
+    ],
+    "answer": "Treaty of Tordesillas",
+    "accept": [
+      "Tordesillas",
+      "Tratado de Tordesillas"
+    ],
+    "prompt": [],
+    "reject": [
+      "Treaty of Zaragoza",
+      "Treaty of Westphalia"
+    ]
+  },
+  {
+    "id": 154,
+    "date": "2026-11-16",
+    "category": "History",
+    "difficulty": "hard",
+    "clues": [
+      "This ruler's chief minister, Cardinal Mazarin, governed during his minority amid the noble revolts known as the Fronde.",
+      "He revoked the Edict of Nantes in 1685, driving many Huguenots out of his kingdom.",
+      "He built an enormous palace at Versailles and is associated with the phrase 'L'etat, c'est moi.'",
+      "Known as the Sun King, he reigned for 72 years, the longest of any major European monarch.",
+      "Name this French king who reigned from 1643 to 1715."
+    ],
+    "answer": "Louis XIV",
+    "accept": [
+      "Louis the Fourteenth",
+      "the Sun King",
+      "Louis XIV of France"
+    ],
+    "prompt": [
+      "Louis"
+    ],
+    "reject": [
+      "Louis XIII",
+      "Louis XV",
+      "Louis XVI"
+    ]
+  },
+  {
+    "id": 155,
+    "date": "2026-11-17",
+    "category": "History",
+    "difficulty": "hard",
+    "clues": [
+      "This empire reached its greatest territorial extent under Suleiman the Magnificent in the sixteenth century.",
+      "It captured a great Christian capital in 1453 under Mehmed II, ending the Byzantine Empire.",
+      "Its decline in the nineteenth century earned it the nickname 'the sick man of Europe.'",
+      "It was dissolved after World War I, and the modern republic of Turkey arose from its core.",
+      "Name this long-lived Turkish empire ruled from Constantinople."
+    ],
+    "answer": "Ottoman Empire",
+    "accept": [
+      "Ottomans",
+      "Ottoman Turks",
+      "Osmanli Empire"
+    ],
+    "prompt": [],
+    "reject": [
+      "Byzantine Empire",
+      "Seljuk Empire",
+      "Mughal Empire"
+    ]
+  },
+  {
+    "id": 156,
+    "date": "2026-11-18",
+    "category": "History",
+    "difficulty": "hard",
+    "clues": [
+      "This conflict began with a defenestration in Prague in 1618 and was rooted in disputes within the Holy Roman Empire.",
+      "Swedish intervention was led by King Gustavus Adolphus, who died at the Battle of Lutzen in 1632.",
+      "It devastated Central Europe, killing a large fraction of the German-speaking population.",
+      "It was ended in 1648 by the Peace of Westphalia, a landmark in the development of state sovereignty.",
+      "Name this religious and political war fought largely in the Holy Roman Empire from 1618 to 1648."
+    ],
+    "answer": "Thirty Years' War",
+    "accept": [
+      "Thirty Years War",
+      "Dreissigjahriger Krieg"
+    ],
+    "prompt": [],
+    "reject": [
+      "Hundred Years' War",
+      "Eighty Years' War",
+      "Seven Years' War"
+    ]
+  },
+  {
+    "id": 157,
+    "date": "2026-11-19",
+    "category": "Literature",
+    "difficulty": "easy",
+    "clues": [
+      "In this novel, a foundling discovers that Mr. Allworthy's sister Bridget was secretly his mother.",
+      "Its title character is wrongly accused after the gamekeeper Black George and the schemes of the hypocrite Blifil turn his guardian against him.",
+      "The hero of this novel loves Sophia Western and is expelled from Allworthy's estate before a journey toward London.",
+      "Henry Fielding wrote this comic novel about the romantic and worldly adventures of a good-natured foundling.",
+      "This 1749 novel by Henry Fielding bears the full title 'The History of Tom Jones, a Foundling.'"
+    ],
+    "answer": "Tom Jones",
+    "accept": [
+      "The History of Tom Jones, a Foundling"
+    ],
+    "prompt": [],
+    "reject": [
+      "Joseph Andrews",
+      "Amelia"
+    ]
+  },
+  {
+    "id": 158,
+    "date": "2026-11-20",
+    "category": "Literature",
+    "difficulty": "easy",
+    "clues": [
+      "This author's first published novel appeared anonymously in 1811 with the words 'By a Lady' on its title page, having been drafted earlier under the title 'Elinor and Marianne.'",
+      "That novel contrasts the sensible Elinor Dashwood with her emotional sister Marianne.",
+      "Her novels include 'Sense and Sensibility' and 'Mansfield Park,' and her heroines often navigate marriage in English gentry society.",
+      "This English author wrote 'Emma' and 'Northanger Abbey' in the early nineteenth century.",
+      "This author of 'Pride and Prejudice' lived from 1775 to 1817 and is famous for her wit and irony."
+    ],
+    "answer": "Jane Austen",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Charlotte Bronte",
+      "Emily Bronte",
+      "George Eliot"
+    ]
+  },
+  {
+    "id": 159,
+    "date": "2026-11-21",
+    "category": "Literature",
+    "difficulty": "easy",
+    "clues": [
+      "This play opens with sentinels Barnardo and Marcellus on a cold castle rampart, joined by the scholar Horatio.",
+      "In it, a gravedigger unearths the skull of the jester Yorick during the title character's musings on mortality.",
+      "Its title character feigns madness, stages a play called 'The Mousetrap,' and rejects Ophelia.",
+      "In this Shakespeare tragedy, a Danish prince seeks to avenge his father's murder by his uncle Claudius.",
+      "This tragedy's title character delivers the soliloquy beginning 'To be, or not to be.'"
+    ],
+    "answer": "Hamlet",
+    "accept": [
+      "The Tragedy of Hamlet, Prince of Denmark"
+    ],
+    "prompt": [],
+    "reject": [
+      "Macbeth",
+      "King Lear",
+      "Othello"
+    ]
+  },
+  {
+    "id": 160,
+    "date": "2026-11-22",
+    "category": "Literature",
+    "difficulty": "medium",
+    "clues": [
+      "In this novel, the title character runs off with Joe Harper to play pirates on Jackson's Island, and the boys turn up alive at their own funeral.",
+      "Its hero whitewashes a fence by convincing other boys that the chore is a privilege worth paying for.",
+      "Set in St. Petersburg, Missouri, it features the villain Injun Joe and a treasure hunt in a cave.",
+      "In this novel, a boy and his friend Huckleberry Finn witness a graveyard murder.",
+      "This 1876 novel by Mark Twain is titled for its mischievous boy hero."
+    ],
+    "answer": "The Adventures of Tom Sawyer",
+    "accept": [
+      "Tom Sawyer"
+    ],
+    "prompt": [],
+    "reject": [
+      "Adventures of Huckleberry Finn",
+      "Huckleberry Finn",
+      "The Prince and the Pauper"
+    ]
+  },
+  {
+    "id": 161,
+    "date": "2026-11-23",
+    "category": "Literature",
+    "difficulty": "medium",
+    "clues": [
+      "This poet wrote of a 'Lady' who weaves a magic web and dies floating toward Camelot, and of mariners who eat a fruit that induces dreamy languor.",
+      "In one elegy he mourns his friend Arthur Henry Hallam over the course of many sections.",
+      "His works include 'The Lady of Shalott,' 'The Lotos-Eaters,' and the elegy 'In Memoriam A.H.H.'",
+      "This Victorian Poet Laureate wrote 'The Charge of the Light Brigade,' with its line 'Into the valley of Death rode the six hundred.'",
+      "This nineteenth-century English poet, who held the title of Poet Laureate, is best known by the name Alfred, Lord Tennyson."
+    ],
+    "answer": "Alfred, Lord Tennyson",
+    "accept": [
+      "Tennyson",
+      "Alfred Tennyson"
+    ],
+    "prompt": [],
+    "reject": [
+      "Robert Browning",
+      "Matthew Arnold",
+      "William Wordsworth"
+    ]
+  },
+  {
+    "id": 162,
+    "date": "2026-11-24",
+    "category": "Literature",
+    "difficulty": "medium",
+    "clues": [
+      "This novel's narrator, an Englishman named Lockwood, learns the story from the housekeeper Nelly Dean.",
+      "Its plot spans two generations of the Earnshaw and Linton families on the Yorkshire moors.",
+      "A foundling raised by Mr. Earnshaw grows obsessed with Catherine, whom he loses to Edgar Linton.",
+      "This is the only novel by Emily Bronte, centered on the brooding Heathcliff.",
+      "This 1847 novel takes its title from the name of a windswept manor on the moors."
+    ],
+    "answer": "Wuthering Heights",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Jane Eyre",
+      "The Tenant of Wildfell Hall",
+      "Villette"
+    ]
+  },
+  {
+    "id": 163,
+    "date": "2026-11-25",
+    "category": "Literature",
+    "difficulty": "hard",
+    "clues": [
+      "This novel's title character keeps a portrait hidden in a schoolroom while pursuing the actress Sibyl Vane, who later poisons herself.",
+      "The aesthete Lord Henry Wotton corrupts the protagonist with hedonistic philosophy after the painter Basil Hallward immortalizes him on canvas.",
+      "In it, a man stays youthful and beautiful while a painting of him ages and grows hideous, recording his sins.",
+      "This is the only novel by Oscar Wilde.",
+      "This 1890 novel is titled for the portrait of its beautiful, corrupt protagonist."
+    ],
+    "answer": "The Picture of Dorian Gray",
+    "accept": [
+      "The Portrait of Dorian Gray",
+      "Dorian Gray"
+    ],
+    "prompt": [],
+    "reject": [
+      "The Importance of Being Earnest",
+      "An Ideal Husband"
+    ]
+  },
+  {
+    "id": 164,
+    "date": "2026-11-26",
+    "category": "Literature",
+    "difficulty": "hard",
+    "clues": [
+      "This poem's speaker compares evening to 'a patient etherized upon a table' and measures out his life with coffee spoons.",
+      "Its anxious narrator wonders whether he dares to eat a peach and imagines mermaids who will not sing to him.",
+      "The speaker repeatedly notes that 'In the room the women come and go / Talking of Michelangelo.'",
+      "This 1915 poem by T. S. Eliot is a dramatic monologue spoken by an aging, indecisive man.",
+      "This poem's full title names it 'The Love Song' of a man with this surname and the first name J. Alfred."
+    ],
+    "answer": "The Love Song of J. Alfred Prufrock",
+    "accept": [
+      "Prufrock"
+    ],
+    "prompt": [],
+    "reject": [
+      "The Waste Land",
+      "The Hollow Men",
+      "Four Quartets"
+    ]
+  },
+  {
+    "id": 165,
+    "date": "2026-11-27",
+    "category": "Music",
+    "difficulty": "medium",
+    "clues": [
+      "This composer's incidental music for a Henrik Ibsen play includes the movements \"Morning Mood\" and \"In the Hall of the Mountain King.\"",
+      "His Piano Concerto in A minor opens with a dramatic flourish from the soloist after a timpani roll.",
+      "He drew on the folk music of his Scandinavian homeland in collections like the Lyric Pieces.",
+      "He composed the suite \"Peer Gynt.\"",
+      "Name this Norwegian Romantic composer."
+    ],
+    "answer": "Edvard Grieg",
+    "accept": [
+      "Grieg",
+      "Edvard Hagerup Grieg"
+    ],
+    "prompt": [],
+    "reject": [
+      "Jean Sibelius",
+      "Carl Nielsen"
+    ]
+  },
+  {
+    "id": 166,
+    "date": "2026-11-28",
+    "category": "Music",
+    "difficulty": "hard",
+    "clues": [
+      "This composer's opera about a barber was based on a play by Pierre Beaumarchais and premiered to a disastrous first night in 1816.",
+      "He retired from opera composition after writing the grand work \"William Tell,\" whose overture is widely recognized.",
+      "His comic opera \"The Barber of Seville\" features the aria \"Largo al factotum.\"",
+      "He was an Italian composer famed for his crescendos and bel canto operas.",
+      "Name this composer of \"The Barber of Seville.\""
+    ],
+    "answer": "Gioachino Rossini",
+    "accept": [
+      "Rossini",
+      "Gioacchino Rossini"
+    ],
+    "prompt": [],
+    "reject": [
+      "Gaetano Donizetti",
+      "Giuseppe Verdi",
+      "Vincenzo Bellini"
+    ]
+  },
+  {
+    "id": 167,
+    "date": "2026-11-29",
+    "category": "Music",
+    "difficulty": "medium",
+    "clues": [
+      "This composer wrote the symphonic poem \"The Moldau\" as part of a cycle celebrating his homeland called \"Ma vlast.\"",
+      "He depicted the onset of his own deafness with a shrill, sustained high note in his autobiographical String Quartet No. 1, \"From My Life.\"",
+      "He is considered the father of Czech national music.",
+      "His most famous orchestral work depicts a river flowing through the Czech countryside.",
+      "Name this Czech composer of \"The Moldau.\""
+    ],
+    "answer": "Bedřich Smetana",
+    "accept": [
+      "Smetana",
+      "Bedrich Smetana"
+    ],
+    "prompt": [],
+    "reject": [
+      "Antonín Dvořák",
+      "Leoš Janáček"
+    ]
+  },
+  {
+    "id": 168,
+    "date": "2026-11-30",
+    "category": "Music",
+    "difficulty": "easy",
+    "clues": [
+      "This composer wrote a set of orchestral pieces while serving as director of music at a girls' school, including movements titled \"Venus\" and \"Mercury.\"",
+      "He arranged the tune \"Thaxted\" into the patriotic hymn \"I Vow to Thee, My Country.\"",
+      "His best-known suite assigns a movement to each body in the solar system.",
+      "His most famous work is the orchestral suite \"The Planets.\"",
+      "Name this English composer of \"The Planets.\""
+    ],
+    "answer": "Gustav Holst",
+    "accept": [
+      "Holst",
+      "Gustavus Theodore von Holst"
+    ],
+    "prompt": [],
+    "reject": [
+      "Edward Elgar",
+      "Ralph Vaughan Williams"
+    ]
+  },
+  {
+    "id": 169,
+    "date": "2026-12-01",
+    "category": "Music",
+    "difficulty": "easy",
+    "clues": [
+      "This composer's early triumph \"Nabucco\" features the chorus \"Va, pensiero,\" sung by enslaved Hebrews longing for their homeland.",
+      "He set an Egyptian story to music in the grand opera \"Aida.\"",
+      "His opera \"La Traviata\" centers on the courtesan Violetta.",
+      "He was the leading Italian opera composer of the 19th century.",
+      "Name this composer of \"Aida\" and \"La Traviata.\""
+    ],
+    "answer": "Giuseppe Verdi",
+    "accept": [
+      "Verdi"
+    ],
+    "prompt": [],
+    "reject": [
+      "Giacomo Puccini",
+      "Gioachino Rossini"
+    ]
+  },
+  {
+    "id": 170,
+    "date": "2026-12-02",
+    "category": "Music",
+    "difficulty": "medium",
+    "clues": [
+      "This jazz musician recorded the modal album \"Kind of Blue\" in 1959, the best-selling jazz record of all time.",
+      "He pioneered \"cool jazz\" with the \"Birth of the Cool\" sessions and later fused jazz with rock on \"Bitches Brew.\"",
+      "He led influential quintets featuring players like John Coltrane and Herbie Hancock.",
+      "He was a trumpeter who continually reinvented jazz across several decades.",
+      "Name this trumpeter who recorded \"Kind of Blue.\""
+    ],
+    "answer": "Miles Davis",
+    "accept": [
+      "Miles",
+      "Miles Dewey Davis"
+    ],
+    "prompt": [],
+    "reject": [
+      "John Coltrane",
+      "Dizzy Gillespie",
+      "Charlie Parker"
+    ]
+  },
+  {
+    "id": 171,
+    "date": "2026-12-03",
+    "category": "Music",
+    "difficulty": "medium",
+    "clues": [
+      "This artist's debut single was \"Tim McGraw,\" and her album \"Fearless\" featured the song \"Love Story.\"",
+      "She re-recorded her early albums as \"Taylor's Version\" after a dispute over her masters.",
+      "Her 2014 album \"1989\" marked a shift from country to pop with the hit \"Shake It Off.\"",
+      "Her 2022 album \"Midnights\" and the record-breaking \"Eras Tour\" cemented her global stardom.",
+      "Name this American singer-songwriter."
+    ],
+    "answer": "Taylor Swift",
+    "accept": [
+      "Taylor",
+      "Taylor Alison Swift"
+    ],
+    "prompt": [],
+    "reject": [
+      "Carrie Underwood",
+      "Kacey Musgraves"
+    ]
+  },
+  {
+    "id": 172,
+    "date": "2026-12-04",
+    "category": "Music",
+    "difficulty": "hard",
+    "clues": [
+      "This composer mockingly titled a set of piano pieces \"Three Pieces in the Shape of a Pear\" after a critic complained his music lacked form.",
+      "He wrote a ballet called \"Parade\" in collaboration with Jean Cocteau and Pablo Picasso.",
+      "He coined the term \"furniture music\" for pieces meant to blend into the background.",
+      "He composed the dreamlike \"Gymnopédies\" for solo piano.",
+      "Name this eccentric French composer of the \"Gymnopédies.\""
+    ],
+    "answer": "Erik Satie",
+    "accept": [
+      "Satie",
+      "Éric Alfred Leslie Satie"
+    ],
+    "prompt": [],
+    "reject": [
+      "Claude Debussy",
+      "Maurice Ravel",
+      "Emmanuel Chabrier"
+    ]
+  },
+  {
+    "id": 173,
+    "date": "2026-12-05",
+    "category": "Music",
+    "difficulty": "hard",
+    "clues": [
+      "This composer's Symphony No. 5 had its 1937 premiere subtitled \"a Soviet artist's response to just criticism\" after he fell out of official favor.",
+      "His opera \"Lady Macbeth of the Mtsensk District\" was famously denounced in a Pravda editorial.",
+      "His Symphony No. 7 was written during the wartime siege of Leningrad.",
+      "He was the leading Soviet symphonist of the 20th century.",
+      "Name this Russian composer of fifteen symphonies."
+    ],
+    "answer": "Dmitri Shostakovich",
+    "accept": [
+      "Shostakovich",
+      "Dmitri Dmitriyevich Shostakovich",
+      "Dmitry Shostakovich"
+    ],
+    "prompt": [],
+    "reject": [
+      "Sergei Prokofiev",
+      "Sergei Rachmaninoff",
+      "Aram Khachaturian"
+    ]
+  },
+  {
+    "id": 174,
+    "date": "2026-12-06",
+    "category": "Music",
+    "difficulty": "easy",
+    "clues": [
+      "This band recorded its 1969 debut album in only about 36 hours of studio time, and their fourth album bore no title, only four symbols.",
+      "Their drummer John Bonham's death in 1980 led the group to disband.",
+      "Guitarist Jimmy Page and singer Robert Plant anchored their sound.",
+      "Their most famous song builds from acoustic guitar to a soaring solo and is called \"Stairway to Heaven.\"",
+      "Name this English hard rock band."
+    ],
+    "answer": "Led Zeppelin",
+    "accept": [
+      "Zeppelin"
+    ],
+    "prompt": [],
+    "reject": [
+      "Deep Purple",
+      "Black Sabbath",
+      "The Who"
+    ]
+  },
+  {
+    "id": 175,
+    "date": "2026-12-07",
+    "category": "Mythology",
+    "difficulty": "easy",
+    "clues": [
+      "Resentful of his mother for casting him out, this god took revenge by sending her a golden throne that trapped her with invisible bonds until he was persuaded to free her.",
+      "After being thrown from a great height by his mother because she was ashamed of his appearance, this god became the smith of the gods and forged thrones, weapons, and the shield of Achilles.",
+      "His foot was lamed by a fall to earth, and his workshop was said to lie beneath volcanoes, with the Cyclopes as his assistants.",
+      "This god caught his wife Aphrodite in an unbreakable net while she was in bed with Ares, exposing the affair to the other gods.",
+      "This is the Greek god of fire and blacksmiths who forged the weapons of the gods on Mount Olympus."
+    ],
+    "answer": "Hephaestus",
+    "accept": [
+      "Vulcan"
+    ],
+    "prompt": [],
+    "reject": [
+      "Ares",
+      "Mars",
+      "Prometheus"
+    ]
+  },
+  {
+    "id": 176,
+    "date": "2026-12-08",
+    "category": "Mythology",
+    "difficulty": "easy",
+    "clues": [
+      "This goddess turned the weaver Arachne into a spider after losing, or refusing to lose, a weaving contest against her.",
+      "Born fully grown and armored from her father's skull after he swallowed her pregnant mother Metis, this goddess sprang forth shouting a war cry.",
+      "She gave the city that bears her name an olive tree, defeating a rival god who offered a saltwater spring.",
+      "This goddess of wisdom and strategic warfare aided Odysseus and is associated with the owl and the city of Athens.",
+      "This is the Greek goddess of wisdom whose Roman equivalent is Minerva."
+    ],
+    "answer": "Athena",
+    "accept": [
+      "Minerva",
+      "Pallas Athena",
+      "Athene"
+    ],
+    "prompt": [],
+    "reject": [
+      "Artemis",
+      "Hera",
+      "Diana",
+      "Aphrodite"
+    ]
+  },
+  {
+    "id": 177,
+    "date": "2026-12-09",
+    "category": "Mythology",
+    "difficulty": "easy",
+    "clues": [
+      "Forced to serve the mortal king Admetus as a herdsman, this god had been punished for killing the Cyclopes after Zeus slew his son Asclepius.",
+      "When Phaethon, claiming to be this god's son, drove his chariot, he scorched the earth and was struck down by a thunderbolt.",
+      "Sometimes identified with Helios, this Olympian god of prophecy spoke through his oracle at Delphi.",
+      "He flayed the satyr Marsyas alive for losing a musical contest, and his twin sister is the goddess of the hunt.",
+      "This is the Greek god of the sun, music, and prophecy, the son of Zeus and Leto and twin of Artemis."
+    ],
+    "answer": "Apollo",
+    "accept": [
+      "Apollon",
+      "Phoebus Apollo",
+      "Phoebus"
+    ],
+    "prompt": [],
+    "reject": [
+      "Helios",
+      "Dionysus",
+      "Hermes",
+      "Artemis"
+    ]
+  },
+  {
+    "id": 178,
+    "date": "2026-12-10",
+    "category": "Mythology",
+    "difficulty": "easy",
+    "clues": [
+      "When this goddess's daughter was abducted, she wandered the earth and, in mourning, caused the first winter by withholding the harvest.",
+      "At Eleusis she nursed the infant Demophon, placing him in fire by night to make him immortal until his mother interrupted her.",
+      "Her grief is the explanation for the seasons in the myth surrounding her daughter Persephone.",
+      "This Greek goddess of agriculture and the harvest is the mother of Persephone and sister of Zeus.",
+      "This is the Greek goddess of grain and the harvest whose Roman equivalent is Ceres."
+    ],
+    "answer": "Demeter",
+    "accept": [
+      "Ceres"
+    ],
+    "prompt": [],
+    "reject": [
+      "Persephone",
+      "Hestia",
+      "Hera",
+      "Proserpina"
+    ]
+  },
+  {
+    "id": 179,
+    "date": "2026-12-11",
+    "category": "Mythology",
+    "difficulty": "easy",
+    "clues": [
+      "This trickster fathered the wolf Fenrir, the serpent Jormungandr, and the half-dead being Hel with the giantess Angrboda.",
+      "Disguised as a giantess named Thokk, he refused to weep for a slain god, ensuring that god remained in the underworld.",
+      "Bound to rocks with the entrails of his son, he writhes beneath a venom-dripping serpent until Ragnarok.",
+      "This shape-shifting Norse trickster engineered the death of Baldr by guiding the blind god Hodr's mistletoe dart.",
+      "This is the Norse trickster god, blood-brother of Odin, known for his cunning and mischief."
+    ],
+    "answer": "Loki",
+    "accept": [
+      "Loptr"
+    ],
+    "prompt": [],
+    "reject": [
+      "Odin",
+      "Thor",
+      "Baldr",
+      "Hodr"
+    ]
+  },
+  {
+    "id": 180,
+    "date": "2026-12-12",
+    "category": "Mythology",
+    "difficulty": "easy",
+    "clues": [
+      "This hero received winged sandals, a cap of invisibility, and a reflective shield from the gods to complete his quest.",
+      "Conceived when Zeus visited his mother Danae as a shower of gold, he was raised on the island of Seriphos.",
+      "He used the severed head of a Gorgon to turn the sea monster Cetus, and later the king Polydectes, to stone.",
+      "He rescued and married the princess Andromeda after slaying a Gorgon whose blood birthed the winged horse Pegasus.",
+      "This is the Greek hero who beheaded Medusa, the son of Zeus and Danae."
+    ],
+    "answer": "Perseus",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Theseus",
+      "Bellerophon",
+      "Jason",
+      "Heracles"
+    ]
+  },
+  {
+    "id": 181,
+    "date": "2026-12-13",
+    "category": "Mythology",
+    "difficulty": "easy",
+    "clues": [
+      "This god's barge is attacked nightly by the serpent Apep as it travels through the underworld.",
+      "In one myth he grows old and feeble, allowing the goddess Isis to learn his secret name and gain power over him.",
+      "Often depicted with the head of a falcon crowned by a solar disk, he was sometimes merged with Amun or Horus.",
+      "This Egyptian sun god sails across the sky each day in a solar barque and is associated with the city of Heliopolis.",
+      "This is the chief Egyptian sun god, whose name is sometimes spelled Re."
+    ],
+    "answer": "Ra",
+    "accept": [
+      "Re",
+      "Amun-Ra",
+      "Amun-Re"
+    ],
+    "prompt": [
+      "Amun"
+    ],
+    "reject": [
+      "Horus",
+      "Osiris",
+      "Aten",
+      "Atum"
+    ]
+  },
+  {
+    "id": 182,
+    "date": "2026-12-14",
+    "category": "Mythology",
+    "difficulty": "medium",
+    "clues": [
+      "After her son returned to her island home, this woman was reduced to taking refuge at an altar to escape the king who wished to force her into marriage.",
+      "Imprisoned in a wooden chest with her infant son after a prophecy that the boy would kill his grandfather Acrisius, she drifted to Seriphos.",
+      "The king Polydectes sought to marry her and sent her son on a deadly quest to be rid of him.",
+      "She was the mother of the hero who slew Medusa, conceiving him when Zeus came to her as golden rain.",
+      "This is the mother of Perseus, locked in a bronze chamber by her father Acrisius."
+    ],
+    "answer": "Danae",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Andromeda",
+      "Alcmene",
+      "Leda",
+      "Europa"
+    ]
+  },
+  {
+    "id": 183,
+    "date": "2026-12-15",
+    "category": "Mythology",
+    "difficulty": "medium",
+    "clues": [
+      "This monster's name may mean 'restrainer,' and it was raised by Echidna and Typhon according to Hesiod.",
+      "It was tamed not by violence but by music when Orpheus played his lyre to enter the underworld.",
+      "Heracles dragged this creature into the daylight as the final and twelfth of his labors, without using weapons.",
+      "The Sibyl gave this beast a drugged honey cake to lull it so Aeneas could pass.",
+      "This is the multi-headed hound that guards the entrance to the Greek underworld."
+    ],
+    "answer": "Cerberus",
+    "accept": [
+      "Kerberos"
+    ],
+    "prompt": [],
+    "reject": [
+      "Orthrus",
+      "Hydra",
+      "Fenrir",
+      "Garm"
+    ]
+  },
+  {
+    "id": 184,
+    "date": "2026-12-16",
+    "category": "Mythology",
+    "difficulty": "medium",
+    "clues": [
+      "This goddess weeps tears that fall as red gold, and she owns a falcon-feather cloak that allows the wearer to fly.",
+      "She rides a chariot drawn by two cats and owns the boar Hildisvini and the necklace Brisingamen.",
+      "She claims half of those who die in battle, with the rest going to a different hall.",
+      "This Norse goddess of love, fertility, and war belongs to the Vanir and rules the field Folkvangr.",
+      "This is the Norse goddess of love and beauty, often considered the counterpart to Venus."
+    ],
+    "answer": "Freyja",
+    "accept": [
+      "Freya",
+      "Freyia"
+    ],
+    "prompt": [],
+    "reject": [
+      "Frigg",
+      "Freyr",
+      "Sif",
+      "Idun"
+    ]
+  },
+  {
+    "id": 185,
+    "date": "2026-12-17",
+    "category": "Mythology",
+    "difficulty": "medium",
+    "clues": [
+      "This hero captured the Erymanthian Boar and cleaned the Augean stables in a single day by diverting two rivers.",
+      "Driven mad by Hera, he killed his own children, and his penance was a series of labors set by Eurystheus.",
+      "He died when the centaur Nessus's poisoned blood, soaked into a tunic given by his wife Deianira, burned his flesh.",
+      "The strongest of the Greek heroes, he wore the skin of the Nemean lion and was deified after his death.",
+      "This Greek hero is best known for completing twelve labors; he is the son of Zeus and Alcmene."
+    ],
+    "answer": "Heracles",
+    "accept": [
+      "Herakles"
+    ],
+    "prompt": [],
+    "reject": [
+      "Hercules",
+      "Theseus",
+      "Perseus",
+      "Jason"
+    ]
+  },
+  {
+    "id": 186,
+    "date": "2026-12-18",
+    "category": "Mythology",
+    "difficulty": "medium",
+    "clues": [
+      "This deity's name means 'opener of the ways,' and he was thought to scout ahead and clear the path for the pharaoh's armies in battle.",
+      "Originally a war god whose cult center was at Asyut, called Lycopolis or 'city of wolves' by the Greeks, he was depicted with the head of a gray or white wolf rather than a jackal.",
+      "In funerary religion he was believed to open the roads into and through the Duat for the spirits of the dead, and a standard bearing his image led royal processions.",
+      "Often associated with and even called a son of the better-known jackal god of embalming, he is frequently confused with that deity.",
+      "This is the Egyptian wolf god of war and the opening of the ways, distinct from the embalming god Anubis."
+    ],
+    "answer": "Wepwawet",
+    "accept": [
+      "Upuaut",
+      "Wepuat",
+      "Ophois"
+    ],
+    "prompt": [],
+    "reject": [
+      "Anubis",
+      "Osiris",
+      "Thoth",
+      "Set"
+    ]
+  },
+  {
+    "id": 187,
+    "date": "2026-12-19",
+    "category": "Mythology",
+    "difficulty": "medium",
+    "clues": [
+      "This musician charmed even the stones and trees, and his severed head continued to sing as it floated down the river Hebrus.",
+      "He sailed with the Argonauts and drowned out the song of the Sirens with his own music.",
+      "He descended to the underworld and won permission to lead his wife back, on the condition that he not look back at her.",
+      "His wife Eurydice died of a snake bite, prompting his famous journey to Hades.",
+      "This is the legendary Greek musician and poet who tried to rescue Eurydice from the underworld."
+    ],
+    "answer": "Orpheus",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Eurydice",
+      "Apollo",
+      "Amphion",
+      "Linus"
+    ]
+  },
+  {
+    "id": 188,
+    "date": "2026-12-20",
+    "category": "Mythology",
+    "difficulty": "medium",
+    "clues": [
+      "This goddess of magic and crossroads holds torches and is accompanied by ghostly hounds.",
+      "She alone among the Titans retained her honors under Zeus and is associated with the night and witchcraft.",
+      "She helped Demeter search for her abducted daughter, having heard the girl's cries.",
+      "Often depicted in triple form facing three directions, she was invoked by the sorceress Medea.",
+      "This is the Greek goddess of witchcraft, magic, and the crossroads."
+    ],
+    "answer": "Hecate",
+    "accept": [
+      "Hekate"
+    ],
+    "prompt": [],
+    "reject": [
+      "Artemis",
+      "Selene",
+      "Persephone",
+      "Circe"
+    ]
+  },
+  {
+    "id": 189,
+    "date": "2026-12-21",
+    "category": "Mythology",
+    "difficulty": "medium",
+    "clues": [
+      "This hero left a trail of dropped objects, including a ball of thread given to him by a princess.",
+      "He defeated the bandit Procrustes, who stretched or cut victims to fit his iron bed.",
+      "He forgot to change his black sails for white, causing his father Aegeus to leap into the sea.",
+      "He abandoned Ariadne on Naxos after she helped him escape a labyrinth.",
+      "This is the Greek hero who slew the Minotaur in the Labyrinth of Crete."
+    ],
+    "answer": "Theseus",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Perseus",
+      "Jason",
+      "Heracles",
+      "Minos"
+    ]
+  },
+  {
+    "id": 190,
+    "date": "2026-12-22",
+    "category": "Mythology",
+    "difficulty": "hard",
+    "clues": [
+      "This deity dwells at Himinbjorg by the rainbow bridge and guards it with a horn whose blast can be heard in all worlds.",
+      "Born of nine mothers, this god has gold teeth and needs less sleep than a bird, with eyesight that reaches a hundred leagues.",
+      "Under the name Rig, he wandered the world and fathered the social classes of mankind.",
+      "At Ragnarok he and Loki are fated to slay one another, and he sounds the Gjallarhorn to summon the gods to battle.",
+      "This is the Norse watchman god who guards the Bifrost bridge."
+    ],
+    "answer": "Heimdall",
+    "accept": [
+      "Heimdallr",
+      "Rig",
+      "Rigr"
+    ],
+    "prompt": [],
+    "reject": [
+      "Tyr",
+      "Bragi",
+      "Vidar",
+      "Forseti"
+    ]
+  },
+  {
+    "id": 191,
+    "date": "2026-12-23",
+    "category": "Mythology",
+    "difficulty": "hard",
+    "clues": [
+      "This goddess was born from the foam produced when the severed genitals of a primordial god fell into the sea, in Hesiod's account.",
+      "Her girdle, or cestus, was a magical belt that made the wearer irresistibly desirable, which Hera once borrowed.",
+      "She turned the ivory statue carved by Pygmalion into a living woman in answer to his prayer.",
+      "Her affair with Ares was exposed when her husband trapped them in a net, and she promised Helen to Paris.",
+      "This is the Greek goddess of love and beauty, equivalent to the Roman Venus."
+    ],
+    "answer": "Aphrodite",
+    "accept": [
+      "Venus"
+    ],
+    "prompt": [],
+    "reject": [
+      "Hera",
+      "Persephone",
+      "Artemis",
+      "Eros"
+    ]
+  },
+  {
+    "id": 192,
+    "date": "2026-12-24",
+    "category": "Mythology",
+    "difficulty": "hard",
+    "clues": [
+      "This goddess is depicted with outstretched winged arms and was associated with the throne, as her name and headdress suggest.",
+      "She reassembled the dismembered body of her murdered husband and conceived a son using her magic after his death.",
+      "She tricked the sun god into revealing his secret name by creating a serpent from his own spittle and earth.",
+      "The wife and sister of Osiris and mother of Horus, she became one of the most widely worshipped deities of the ancient world.",
+      "This is the Egyptian goddess of magic and motherhood, wife of Osiris."
+    ],
+    "answer": "Isis",
+    "accept": [
+      "Aset",
+      "Eset"
+    ],
+    "prompt": [],
+    "reject": [
+      "Nephthys",
+      "Hathor",
+      "Nut",
+      "Maat"
+    ]
+  },
+  {
+    "id": 193,
+    "date": "2026-12-25",
+    "category": "Mythology",
+    "difficulty": "hard",
+    "clues": [
+      "This sky deity was tricked into the ordeal that cost him a hand when he placed it in a wolf's mouth as a pledge of good faith.",
+      "He sacrificed that hand so the gods could bind the monstrous wolf Fenrir with the fetter Gleipnir.",
+      "A day of the week in English is named for him, derived from his Old English name Tiw.",
+      "At Ragnarok he is fated to fight and die against the hound Garm.",
+      "This is the one-handed Norse god associated with war, law, and justice."
+    ],
+    "answer": "Tyr",
+    "accept": [
+      "Tiw",
+      "Tiu",
+      "Tiwaz",
+      "Tyrr"
+    ],
+    "prompt": [],
+    "reject": [
+      "Odin",
+      "Thor",
+      "Heimdall",
+      "Vidar"
+    ]
+  },
+  {
+    "id": 194,
+    "date": "2026-12-26",
+    "category": "Science",
+    "difficulty": "hard",
+    "clues": [
+      "This quantity is the conjugate variable to position in the canonical commutation relation, and its operator in position space is given by negative i times h-bar times the gradient.",
+      "Noether's theorem links the conservation of this quantity to the translational symmetry of space.",
+      "For a photon, this quantity equals Planck's constant divided by wavelength, a relation proposed by Louis de Broglie for matter waves.",
+      "In a closed system this vector quantity is conserved, a principle used to analyze collisions.",
+      "Defined classically as the product of an object's mass and its velocity, it is often denoted by the letter p."
+    ],
+    "answer": "momentum",
+    "accept": [
+      "linear momentum"
+    ],
+    "prompt": [
+      "p"
+    ],
+    "reject": [
+      "angular momentum",
+      "impulse",
+      "inertia"
+    ]
+  },
+  {
+    "id": 195,
+    "date": "2026-12-27",
+    "category": "Science",
+    "difficulty": "hard",
+    "clues": [
+      "This scientist's namesake equation describes the diffraction of light by a periodic lattice, written as n lambda equals 2 d sine theta, work done with his father William Henry.",
+      "Sharing a Nobel Prize at age 25, he remains the youngest laureate in physics for his X-ray crystallography work.",
+      "His method allowed Rosalind Franklin and others to determine molecular structures from diffraction patterns.",
+      "Together with his father, this physicist pioneered the use of X-rays to study the arrangement of atoms in crystals.",
+      "This British physicist shares with his father a surname attached to the law governing X-ray diffraction."
+    ],
+    "answer": "William Lawrence Bragg",
+    "accept": [
+      "Lawrence Bragg",
+      "W. L. Bragg"
+    ],
+    "prompt": [
+      "Bragg"
+    ],
+    "reject": [
+      "William Henry Bragg",
+      "Max von Laue",
+      "Wilhelm Roentgen"
+    ]
+  },
+  {
+    "id": 196,
+    "date": "2026-12-28",
+    "category": "Science",
+    "difficulty": "hard",
+    "clues": [
+      "This process is catalyzed in the human body by an enzyme that contains a zinc ion at its active site and is among the fastest known enzymes.",
+      "In the Bohr effect, the products of this reaction lower blood pH and promote the release of bound oxygen from hemoglobin.",
+      "The bicarbonate buffer system in blood depends on the equilibrium produced by this reaction.",
+      "This reaction combines a common respiratory gas with water to form a weak acid that can dissociate into hydrogen and bicarbonate ions.",
+      "Carbonic anhydrase speeds up the reversible combination of carbon dioxide and water to form this specific acid."
+    ],
+    "answer": "carbonic acid",
+    "accept": [
+      "H2CO3"
+    ],
+    "prompt": [
+      "the formation of bicarbonate"
+    ],
+    "reject": [
+      "bicarbonate",
+      "carbon dioxide",
+      "carbonate"
+    ]
+  },
+  {
+    "id": 197,
+    "date": "2026-12-29",
+    "category": "Science",
+    "difficulty": "medium",
+    "clues": [
+      "The point on this body's orbit closest to the body it orbits is called perigee, while the farthest is apogee.",
+      "Its synchronous rotation, caused by tidal locking, means the same face always points toward the body it orbits.",
+      "The Apollo program landed humans on this body, beginning in 1969.",
+      "This body causes ocean tides and produces both solar and lunar eclipses depending on its position.",
+      "This is the only natural satellite of Earth."
+    ],
+    "answer": "the Moon",
+    "accept": [
+      "Moon",
+      "Luna"
+    ],
+    "prompt": [],
+    "reject": [
+      "Earth",
+      "Mars",
+      "a planet"
+    ]
+  },
+  {
+    "id": 198,
+    "date": "2026-12-30",
+    "category": "Science",
+    "difficulty": "medium",
+    "clues": [
+      "This organ's namesake islets contain alpha and beta cells that secrete hormones regulating blood sugar.",
+      "Its acinar cells produce digestive enzymes such as amylase, lipase, and trypsinogen released into the duodenum.",
+      "Beta cells in this organ secrete insulin, while alpha cells secrete glucagon.",
+      "Type 1 diabetes results from the immune destruction of insulin-producing cells in this organ.",
+      "This gland behind the stomach has both endocrine and exocrine functions and produces insulin."
+    ],
+    "answer": "the pancreas",
+    "accept": [
+      "pancreas"
+    ],
+    "prompt": [],
+    "reject": [
+      "liver",
+      "spleen",
+      "gallbladder"
+    ]
+  },
+  {
+    "id": 199,
+    "date": "2026-12-31",
+    "category": "Science",
+    "difficulty": "medium",
+    "clues": [
+      "This phenomenon's amount in a sound source affects the magnitude of its shift, quantified by the source's velocity relative to the speed of the medium.",
+      "Edwin Hubble used the redshift version of this effect to conclude that distant galaxies are receding.",
+      "Radar guns and weather radar exploit this effect to measure the speed of moving objects.",
+      "This effect explains why the pitch of an ambulance siren rises as it approaches and falls as it passes.",
+      "Named for an Austrian physicist, this is the change in observed frequency of a wave due to relative motion between source and observer."
+    ],
+    "answer": "the Doppler effect",
+    "accept": [
+      "Doppler effect",
+      "Doppler shift"
+    ],
+    "prompt": [
+      "redshift"
+    ],
+    "reject": [
+      "blueshift",
+      "the Mossbauer effect",
+      "refraction"
+    ]
+  },
+  {
+    "id": 200,
+    "date": "2027-01-01",
+    "category": "Science",
+    "difficulty": "easy",
+    "clues": [
+      "This element is the metallic component of the organometallic Grignard reagents widely used to form carbon-carbon bonds in synthesis.",
+      "This metal burns with a brilliant white light and was once used in camera flashbulbs and flares.",
+      "This element sits at the center of every chlorophyll molecule, analogous to iron in hemoglobin.",
+      "With atomic number 12, this alkaline earth metal is the active ingredient in the antacid milk of this element's hydroxide.",
+      "This element has the chemical symbol Mg and is an important dietary mineral."
+    ],
+    "answer": "magnesium",
+    "accept": [
+      "Mg"
+    ],
+    "prompt": [],
+    "reject": [
+      "calcium",
+      "manganese",
+      "aluminum"
+    ]
+  },
+  {
+    "id": 201,
+    "date": "2027-01-02",
+    "category": "Science",
+    "difficulty": "easy",
+    "clues": [
+      "This process produces two genetically identical diploid daughter cells and is preceded by S phase, during which the genetic material is copied.",
+      "Its phases proceed in the order prophase, metaphase, anaphase, and telophase, followed by cytokinesis.",
+      "During its metaphase, chromosomes align along the cell's equatorial plate before sister chromatids are pulled apart.",
+      "This type of cell division is used for growth and repair in the body, unlike the process that produces gametes.",
+      "This is the process of nuclear division that yields two identical daughter cells, contrasted with meiosis."
+    ],
+    "answer": "mitosis",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "meiosis",
+      "cytokinesis",
+      "binary fission"
+    ]
+  },
+  {
+    "id": 202,
+    "date": "2027-01-03",
+    "category": "Science",
+    "difficulty": "easy",
+    "clues": [
+      "This planet's Great Red Spot is a persistent anticyclonic storm larger than Earth that has raged for centuries.",
+      "Galileo discovered its four largest moons in 1610, now called the Galilean moons including Io and Europa.",
+      "This gas giant is the largest planet in our solar system, composed mainly of hydrogen and helium.",
+      "Named for the king of the Roman gods, it is the fifth planet from the Sun.",
+      "This is the solar system's biggest planet, famous for its Great Red Spot."
+    ],
+    "answer": "Jupiter",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Saturn",
+      "Neptune",
+      "Uranus"
+    ]
+  },
+  {
+    "id": 203,
+    "date": "2027-01-04",
+    "category": "Science",
+    "difficulty": "easy",
+    "clues": [
+      "This force's strength between two objects follows an inverse-square law described by an equation with the constant G.",
+      "Einstein's general relativity reinterpreted this phenomenon as the curvature of spacetime by mass and energy.",
+      "This force keeps the planets in orbit around the Sun and the Moon in orbit around Earth.",
+      "On Earth's surface, this force gives objects an acceleration of about 9.8 meters per second squared.",
+      "This is the force that causes objects to fall toward the ground, famously associated with a falling apple."
+    ],
+    "answer": "gravity",
+    "accept": [
+      "gravitation",
+      "gravitational force"
+    ],
+    "prompt": [],
+    "reject": [
+      "magnetism",
+      "the strong force",
+      "weight"
+    ]
+  },
+  {
+    "id": 204,
+    "date": "2027-01-05",
+    "category": "Sports",
+    "difficulty": "easy",
+    "clues": [
+      "This player won his first Grand Slam title at the 2003 Wimbledon Championships, defeating Mark Philippoussis in the final.",
+      "He completed a career Grand Slam and held the record for most consecutive weeks ranked world number one, a streak of 237 weeks.",
+      "His long rivalry with Rafael Nadal includes a famous 2008 Wimbledon final widely called one of the greatest matches ever.",
+      "This Swiss tennis player won 20 men's singles major titles before retiring in 2022.",
+      "He is the Swiss star famous for his elegant one-handed backhand and a record eight Wimbledon men's singles titles."
+    ],
+    "answer": "Roger Federer",
+    "accept": [
+      "Federer"
+    ],
+    "prompt": [],
+    "reject": [
+      "Rafael Nadal",
+      "Novak Djokovic",
+      "Pete Sampras"
+    ]
+  },
+  {
+    "id": 205,
+    "date": "2027-01-06",
+    "category": "Sports",
+    "difficulty": "easy",
+    "clues": [
+      "This athlete set his first world record in the 100 meters at the 2008 New York Reebok Grand Prix.",
+      "He swept the 100 meters and 200 meters at three consecutive Summer Games, in 2008, 2012, and 2016.",
+      "His signature celebration pose is sometimes called the 'lightning bolt.'",
+      "This Jamaican sprinter holds the world records in both the 100 meters and the 200 meters.",
+      "He is widely regarded as the fastest man ever, nicknamed simply 'Lightning.'"
+    ],
+    "answer": "Usain Bolt",
+    "accept": [
+      "Bolt"
+    ],
+    "prompt": [],
+    "reject": [
+      "Carl Lewis",
+      "Tyson Gay",
+      "Yohan Blake"
+    ]
+  },
+  {
+    "id": 206,
+    "date": "2027-01-07",
+    "category": "Sports",
+    "difficulty": "easy",
+    "clues": [
+      "This club's home ground at Old Trafford is nicknamed the 'Theatre of Dreams.'",
+      "Sir Alex Ferguson managed this team for over 26 years, winning 13 league titles.",
+      "Its players have included Bobby Charlton, George Best, and Cristiano Ronaldo.",
+      "This English soccer club is one of the most successful in Premier League history.",
+      "Based in a city in northwest England, this team is nicknamed the 'Red Devils.'"
+    ],
+    "answer": "Manchester United",
+    "accept": [
+      "Man United",
+      "Man Utd",
+      "Manchester United F.C.",
+      "the Red Devils"
+    ],
+    "prompt": [
+      "Manchester"
+    ],
+    "reject": [
+      "Manchester City",
+      "Liverpool"
+    ]
+  },
+  {
+    "id": 207,
+    "date": "2027-01-08",
+    "category": "Sports",
+    "difficulty": "easy",
+    "clues": [
+      "The first modern version of this event was held in 1903 and was organized by a sports newspaper to boost circulation.",
+      "Its overall leader wears a distinctive yellow jersey known as the maillot jaune.",
+      "The route changes yearly but traditionally finishes on the Champs-Elysees.",
+      "This multi-stage race is the most famous event in the sport of cycling.",
+      "It is the annual bicycle race that loops around a European country known for wine and the Eiffel Tower."
+    ],
+    "answer": "Tour de France",
+    "accept": [
+      "the Tour"
+    ],
+    "prompt": [],
+    "reject": [
+      "Giro d'Italia",
+      "Vuelta a Espana"
+    ]
+  },
+  {
+    "id": 208,
+    "date": "2027-01-09",
+    "category": "Sports",
+    "difficulty": "easy",
+    "clues": [
+      "This player made his major league debut on April 15, 1947, a date now honored leaguewide.",
+      "He was named Rookie of the Year in his first season and later won a National League MVP award.",
+      "He played his entire career with the Brooklyn Dodgers, mostly at second base.",
+      "His uniform number 42 is retired across all of Major League Baseball.",
+      "He broke baseball's color barrier as the first Black player of the modern era."
+    ],
+    "answer": "Jackie Robinson",
+    "accept": [
+      "Robinson",
+      "Jack Roosevelt Robinson"
+    ],
+    "prompt": [],
+    "reject": [
+      "Larry Doby",
+      "Willie Mays",
+      "Hank Aaron"
+    ]
+  },
+  {
+    "id": 209,
+    "date": "2027-01-10",
+    "category": "Sports",
+    "difficulty": "easy",
+    "clues": [
+      "This event was first contested at St Andrews and other links courses in the 1860s, making it golf's oldest major.",
+      "Its winner is awarded the Claret Jug.",
+      "It is the only one of golf's four men's majors held outside the United States.",
+      "Played on links courses, it is officially titled simply 'The Open Championship.'",
+      "Americans commonly call it the 'British' version of this golf tournament."
+    ],
+    "answer": "The Open Championship",
+    "accept": [
+      "British Open",
+      "The Open"
+    ],
+    "prompt": [],
+    "reject": [
+      "U.S. Open",
+      "The Masters",
+      "PGA Championship"
+    ]
+  },
+  {
+    "id": 210,
+    "date": "2027-01-11",
+    "category": "Sports",
+    "difficulty": "easy",
+    "clues": [
+      "This team plays its home games at a venue that opened in 1923 and was rebuilt in 2009.",
+      "It has retired the numbers of Lou Gehrig, Joe DiMaggio, and Mickey Mantle.",
+      "It has won more World Series championships than any other franchise.",
+      "This Major League Baseball team wears iconic pinstripes and an interlocking 'NY' logo.",
+      "Based in the Bronx, this team is nicknamed the 'Bronx Bombers.'"
+    ],
+    "answer": "New York Yankees",
+    "accept": [
+      "Yankees",
+      "the Yanks",
+      "Bronx Bombers"
+    ],
+    "prompt": [
+      "New York"
+    ],
+    "reject": [
+      "New York Mets",
+      "Boston Red Sox"
+    ]
+  },
+  {
+    "id": 211,
+    "date": "2027-01-12",
+    "category": "Sports",
+    "difficulty": "easy",
+    "clues": [
+      "This athlete turned professional in 1996 and won his first major, the Masters, the following year.",
+      "His 2008 U.S. Open victory came while playing on an injured leg.",
+      "He completed the so-called 'Tiger Slam,' holding all four major titles at once across 2000 and 2001.",
+      "He returned to win the 2019 Masters after years of injuries.",
+      "This golfer is one of the most famous in history, often just called by his big-cat nickname."
+    ],
+    "answer": "Tiger Woods",
+    "accept": [
+      "Woods",
+      "Eldrick Tont Woods"
+    ],
+    "prompt": [],
+    "reject": [
+      "Jack Nicklaus",
+      "Phil Mickelson",
+      "Rory McIlroy"
+    ]
+  },
+  {
+    "id": 212,
+    "date": "2027-01-13",
+    "category": "Sports",
+    "difficulty": "medium",
+    "clues": [
+      "This gymnast won her first World Championship all-around title in 2013.",
+      "She has multiple skills named after her in the sport's Code of Points.",
+      "She withdrew from several events at the 2020 Tokyo Games citing mental health, then returned at the 2024 Paris Games.",
+      "She is the most decorated gymnast in World Championship history.",
+      "This American is widely regarded as the greatest female gymnast of all time."
+    ],
+    "answer": "Simone Biles",
+    "accept": [
+      "Biles"
+    ],
+    "prompt": [],
+    "reject": [
+      "Gabby Douglas",
+      "Nadia Comaneci",
+      "Aly Raisman"
+    ]
+  },
+  {
+    "id": 213,
+    "date": "2027-01-14",
+    "category": "Sports",
+    "difficulty": "medium",
+    "clues": [
+      "This driver won his first World Championship in 2008 by a single point on the final corner of the final race.",
+      "He moved from McLaren to Mercedes ahead of the 2013 season.",
+      "He shares the record for most career Formula One World Championships with seven.",
+      "He also holds the record for most career race wins and pole positions in Formula One.",
+      "This British driver became one of the sport's most successful and recognizable figures."
+    ],
+    "answer": "Lewis Hamilton",
+    "accept": [
+      "Hamilton",
+      "Sir Lewis Hamilton"
+    ],
+    "prompt": [],
+    "reject": [
+      "Michael Schumacher",
+      "Sebastian Vettel",
+      "Max Verstappen"
+    ]
+  },
+  {
+    "id": 214,
+    "date": "2027-01-15",
+    "category": "Sports",
+    "difficulty": "medium",
+    "clues": [
+      "This event was first held in 1930 with 13 teams, and the host nation won that inaugural edition.",
+      "Brazil is the only nation to have played in every edition of it.",
+      "The current trophy was designed by Silvio Gazzaniga and first awarded in 1974.",
+      "Held every four years, it is the premier international competition in its sport.",
+      "It is the global championship of men's national teams in soccer."
+    ],
+    "answer": "FIFA World Cup",
+    "accept": [
+      "World Cup",
+      "Men's World Cup",
+      "Soccer World Cup",
+      "Football World Cup"
+    ],
+    "prompt": [],
+    "reject": [
+      "UEFA European Championship",
+      "Copa America",
+      "Women's World Cup"
+    ]
+  },
+  {
+    "id": 215,
+    "date": "2027-01-16",
+    "category": "Sports",
+    "difficulty": "medium",
+    "clues": [
+      "This player was drafted first overall by the Cleveland Cavaliers in 2003 straight out of high school.",
+      "He won his first two NBA championships with the Miami Heat.",
+      "He led a team back from a 3-1 Finals deficit to win a 2016 title for his home-state franchise.",
+      "He became the NBA's all-time leading scorer in 2023.",
+      "Nicknamed 'King James,' he is one of basketball's greatest players ever."
+    ],
+    "answer": "LeBron James",
+    "accept": [
+      "LeBron",
+      "James",
+      "King James"
+    ],
+    "prompt": [],
+    "reject": [
+      "Kobe Bryant",
+      "Stephen Curry",
+      "Kevin Durant"
+    ]
+  },
+  {
+    "id": 216,
+    "date": "2027-01-17",
+    "category": "Sports",
+    "difficulty": "medium",
+    "clues": [
+      "Childhood illness left this player with legs bent in opposite directions, which only sharpened his bewildering dribbling.",
+      "His brilliant individual play at the 1962 World Cup, after the star Pele was injured early, carried his nation to the title.",
+      "He spent the heart of his club career with Botafogo, leading them to multiple Rio state championships.",
+      "He won World Cup titles with Brazil in both 1958 and 1962.",
+      "This Brazilian winger was nicknamed 'Little Bird' and 'the Joy of the People.'"
+    ],
+    "answer": "Garrincha",
+    "accept": [
+      "Manuel Francisco dos Santos",
+      "Mane Garrincha"
+    ],
+    "prompt": [],
+    "reject": [
+      "Pele",
+      "Ronaldo",
+      "Zico"
+    ]
+  },
+  {
+    "id": 217,
+    "date": "2027-01-18",
+    "category": "Sports",
+    "difficulty": "medium",
+    "clues": [
+      "This player won her first major singles title at the 1999 US Open.",
+      "She has held all four major singles titles at once, a feat nicknamed the 'Serena Slam.'",
+      "She won the 2017 Australian Open while in the early stages of pregnancy.",
+      "She has won 23 Grand Slam singles titles in the Open Era.",
+      "This American is widely considered one of the greatest tennis players in history."
+    ],
+    "answer": "Serena Williams",
+    "accept": [
+      "Serena",
+      "Serena Jameka Williams"
+    ],
+    "prompt": [
+      "Williams"
+    ],
+    "reject": [
+      "Venus Williams",
+      "Steffi Graf",
+      "Martina Navratilova"
+    ]
+  },
+  {
+    "id": 218,
+    "date": "2027-01-19",
+    "category": "Sports",
+    "difficulty": "medium",
+    "clues": [
+      "This player entered the NHL with the Edmonton Oilers in 1979.",
+      "He was traded to the Los Angeles Kings in a blockbuster 1988 deal.",
+      "He holds NHL career records for both goals and assists.",
+      "His number 99 is retired across the entire league.",
+      "This Canadian center is universally nicknamed 'The Great One.'"
+    ],
+    "answer": "Wayne Gretzky",
+    "accept": [
+      "Gretzky",
+      "The Great One"
+    ],
+    "prompt": [],
+    "reject": [
+      "Gordie Howe",
+      "Mario Lemieux",
+      "Bobby Orr"
+    ]
+  },
+  {
+    "id": 219,
+    "date": "2027-01-20",
+    "category": "Sports",
+    "difficulty": "medium",
+    "clues": [
+      "This swimmer won six gold medals at the 2004 Athens Games as a teenager.",
+      "He set a single-Games record with eight gold medals at the 2008 Beijing Games.",
+      "He competed in five Olympic Games between 2000 and 2016.",
+      "He holds the record for most Olympic gold medals won by any athlete, with 23.",
+      "This American is widely regarded as the greatest swimmer of all time."
+    ],
+    "answer": "Michael Phelps",
+    "accept": [
+      "Phelps"
+    ],
+    "prompt": [],
+    "reject": [
+      "Mark Spitz",
+      "Ryan Lochte",
+      "Ian Thorpe"
+    ]
+  },
+  {
+    "id": 220,
+    "date": "2027-01-21",
+    "category": "Sports",
+    "difficulty": "medium",
+    "clues": [
+      "This trophy was first awarded in 1893 and is named for a Canadian governor general.",
+      "Each year the winning team's players each get a day with it.",
+      "Names of winning players and staff are engraved directly on its bands.",
+      "It is awarded annually to the champion of the National Hockey League playoffs.",
+      "This silver chalice is the most famous trophy in professional ice hockey."
+    ],
+    "answer": "Stanley Cup",
+    "accept": [
+      "the Cup"
+    ],
+    "prompt": [],
+    "reject": [
+      "Conn Smythe Trophy",
+      "Vince Lombardi Trophy"
+    ]
+  },
+  {
+    "id": 221,
+    "date": "2027-01-22",
+    "category": "Sports",
+    "difficulty": "hard",
+    "clues": [
+      "In a 1973 bout dubbed the \"Sunshine Showdown,\" this boxer knocked down the undefeated champion Joe Frazier six times to take the heavyweight title in Kingston, Jamaica.",
+      "He defended that title against Ken Norton before losing it in the famous 1974 'Rumble in the Jungle.'",
+      "He later staged a comeback and reclaimed a heavyweight title in 1994 at age 45.",
+      "He became far better known to later generations for a best-selling line of grills.",
+      "This American heavyweight shares his first name with five of his sons, all named George."
+    ],
+    "answer": "George Foreman",
+    "accept": [
+      "Foreman",
+      "Big George"
+    ],
+    "prompt": [],
+    "reject": [
+      "Joe Frazier",
+      "Ken Norton",
+      "Larry Holmes",
+      "Sonny Liston"
+    ]
+  },
+  {
+    "id": 222,
+    "date": "2027-01-23",
+    "category": "Sports",
+    "difficulty": "hard",
+    "clues": [
+      "This driver won his first Formula One World Championship in 1994 in controversial fashion after a collision with Damon Hill.",
+      "He took five consecutive titles with Ferrari from 2000 to 2004.",
+      "A serious head injury in a 2013 skiing accident left him out of public life.",
+      "He held the record for most Formula One World Championships for many years with seven.",
+      "This German driver was for a long time considered the greatest in the sport's history."
+    ],
+    "answer": "Michael Schumacher",
+    "accept": [
+      "Schumacher",
+      "Michael"
+    ],
+    "prompt": [
+      "Schumacher (just last name, ambiguous with Ralf/Mick)"
+    ],
+    "reject": [
+      "Ralf Schumacher",
+      "Mick Schumacher",
+      "Lewis Hamilton",
+      "Sebastian Vettel"
+    ]
+  },
+  {
+    "id": 223,
+    "date": "2027-01-24",
+    "category": "Sports",
+    "difficulty": "hard",
+    "clues": [
+      "This player made her senior international debut in 2003 and went on to captain her national team.",
+      "She opened the scoring with a low free kick against host France in the quarterfinals of the 2019 Women's World Cup.",
+      "She won the Golden Boot and the Golden Ball at the 2019 Women's World Cup.",
+      "She was named the Best FIFA Women's Player and won the Ballon d'Or Feminin in 2019.",
+      "This American forward co-captained the team to back-to-back Women's World Cup titles."
+    ],
+    "answer": "Megan Rapinoe",
+    "accept": [
+      "Rapinoe"
+    ],
+    "prompt": [],
+    "reject": [
+      "Alex Morgan",
+      "Abby Wambach",
+      "Mia Hamm",
+      "Carli Lloyd"
+    ]
+  },
+  {
+    "id": 224,
+    "date": "2027-01-25",
+    "category": "Literature",
+    "difficulty": "medium",
+    "clues": [
+      "This novel is framed as a series of letters written home by the Arctic explorer Robert Walton.",
+      "Its subtitle alludes to the Titan Prometheus.",
+      "A lonely, eloquent creature begs its maker to build it a companion, and turns murderous when refused.",
+      "A scientist named Victor animates a being stitched together from dead body parts, then flees in horror.",
+      "Name this Mary Shelley novel often called the first work of science fiction."
+    ],
+    "answer": "Frankenstein",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Dracula",
+      "The Strange Case of Dr Jekyll and Mr Hyde"
+    ]
+  },
+  {
+    "id": 225,
+    "date": "2027-01-26",
+    "category": "Music",
+    "difficulty": "easy",
+    "clues": [
+      "This singer learned to sing in the Detroit church of her father, the noted Baptist preacher C. L. Franklin.",
+      "She recorded landmark albums for Atlantic Records, including \"I Never Loved a Man the Way I Love You.\"",
+      "In 1987 she became the first woman inducted into the Rock and Roll Hall of Fame.",
+      "Her signature hit reworks an Otis Redding song, spelling out a demand for R-E-S-P-E-C-T.",
+      "Name this American singer crowned the \"Queen of Soul.\""
+    ],
+    "answer": "Aretha Franklin",
+    "accept": [
+      "Aretha"
+    ],
+    "prompt": [],
+    "reject": [
+      "Whitney Houston",
+      "Diana Ross"
+    ]
   }
 ]

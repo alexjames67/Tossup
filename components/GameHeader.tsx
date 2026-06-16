@@ -36,7 +36,7 @@ export function GameHeader({
       </button>
 
       <div className="flex items-center gap-1.5">
-        <ThemeSwitcher />
+        <ThemeSwitcher showLabel={false} />
         <button
           type="button"
           onClick={onHelp}

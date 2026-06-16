@@ -51,3 +51,19 @@ export function shuffle<T>(items: readonly T[]): T[] {
   }
   return a;
 }
+
+/**
+ * Shuffle for the "shuffle bag": every item appears exactly once before any
+ * repeats. Avoids starting the new bag with `avoid` (the item just played) so
+ * there is no back-to-back repeat across the reshuffle boundary.
+ */
+export function reshuffleAvoiding<T>(
+  items: readonly T[],
+  avoid: T | null,
+): T[] {
+  const a = shuffle(items);
+  if (avoid !== null && a.length > 1 && a[0] === avoid) {
+    [a[0], a[1]] = [a[1], a[0]];
+  }
+  return a;
+}

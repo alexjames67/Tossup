@@ -2,6 +2,7 @@
 
 import { useSyncExternalStore } from "react";
 import { getTheme, setTheme, subscribeTheme, type Theme } from "@/lib/theme";
+import { playTwangyBass } from "@/lib/sound";
 
 const OPTIONS: { value: Theme; label: string; icon: React.ReactNode }[] = [
   {
@@ -52,36 +53,66 @@ const OPTIONS: { value: Theme; label: string; icon: React.ReactNode }[] = [
   },
 ];
 
-export function ThemeSwitcher() {
+interface ThemeSwitcherProps {
+  /** Show the active theme's name beneath the control. */
+  showLabel?: boolean;
+}
+
+export function ThemeSwitcher({ showLabel = true }: ThemeSwitcherProps) {
   const theme = useSyncExternalStore(subscribeTheme, getTheme, () => "dark");
+  const index = Math.max(
+    0,
+    OPTIONS.findIndex((o) => o.value === theme),
+  );
+  const activeLabel = OPTIONS[index]?.label ?? "";
+
+  function choose(next: Theme) {
+    setTheme(next);
+    // Funky's signature twang on selection.
+    if (next === "funky") playTwangyBass();
+  }
 
   return (
-    <div
-      role="radiogroup"
-      aria-label="Color theme"
-      className="inline-flex items-center gap-0.5 rounded-lg border border-border bg-bg-inset p-0.5"
-    >
-      {OPTIONS.map((opt) => {
-        const active = theme === opt.value;
-        return (
-          <button
-            key={opt.value}
-            type="button"
-            role="radio"
-            aria-checked={active}
-            aria-label={opt.label}
-            title={opt.label}
-            onClick={() => setTheme(opt.value)}
-            className={`focus-ring flex h-7 w-7 items-center justify-center rounded-md transition ${
-              active
-                ? "bg-accent text-on-accent"
-                : "text-fg-faint hover:text-fg"
-            }`}
-          >
-            {opt.icon}
-          </button>
-        );
-      })}
+    <div className="flex flex-col items-center gap-1">
+      <div
+        role="radiogroup"
+        aria-label="Color theme"
+        className="relative inline-grid grid-cols-3 rounded-lg border border-border bg-bg-inset p-0.5"
+      >
+        {/* Sliding highlight that glides between options. */}
+        <span
+          aria-hidden="true"
+          className="pointer-events-none absolute top-0.5 bottom-0.5 left-0.5 w-9 rounded-md bg-accent transition-transform duration-300 ease-out"
+          style={{ transform: `translateX(${index * 100}%)` }}
+        />
+        {OPTIONS.map((opt) => {
+          const active = theme === opt.value;
+          return (
+            <button
+              key={opt.value}
+              type="button"
+              role="radio"
+              aria-checked={active}
+              aria-label={opt.label}
+              title={opt.label}
+              onClick={() => choose(opt.value)}
+              className={`focus-ring relative z-10 flex h-7 w-9 items-center justify-center rounded-md transition-colors ${
+                active ? "text-on-accent" : "text-fg-faint hover:text-fg"
+              }`}
+            >
+              {opt.icon}
+            </button>
+          );
+        })}
+      </div>
+      {showLabel && (
+        <span
+          className="text-[11px] tracking-wide text-fg-faint/60"
+          aria-live="polite"
+        >
+          {activeLabel}
+        </span>
+      )}
     </div>
   );
 }

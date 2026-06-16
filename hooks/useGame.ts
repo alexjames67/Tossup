@@ -17,6 +17,8 @@ import {
 } from "react";
 import { judgeAnswer } from "@/lib/judge";
 import { scoreForCorrect, scoreForMiss, tierValue } from "@/lib/scoring";
+import { getTheme } from "@/lib/theme";
+import { playTwangyBass } from "@/lib/sound";
 import {
   getResultForDate,
   getStatsServerSnapshot,
@@ -231,6 +233,16 @@ export function useGame(
   const recordedRef = useRef(
     mode !== "daily" || state.status === "already-completed",
   );
+  const wonSoundRef = useRef(false);
+
+  // Funky theme: play the signature twang on a correct buzz (once per round).
+  useEffect(() => {
+    if (wonSoundRef.current) return;
+    if (state.status === "won") {
+      wonSoundRef.current = true;
+      if (getTheme() === "funky") playTwangyBass();
+    }
+  }, [state.status]);
 
   // Stats are sourced from storage and refreshed via subscription, so we never
   // call setState from inside an effect.

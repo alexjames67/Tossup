@@ -10,6 +10,7 @@ import {
   availableCategories,
   clampHeadStart,
   filterPuzzles,
+  reshuffleAvoiding,
   shuffle,
   type DifficultyFilter,
   type EndlessConfig,
@@ -135,8 +136,9 @@ export function EndlessScreen({ nav }: { nav: NavHandlers }) {
     if (next < queue.length) {
       setPos(next);
     } else {
-      // Exhausted the shuffled queue — reshuffle for continuous play.
-      setQueue(shuffle(pool));
+      // Bag empty: every puzzle has now been seen once. Refill with a fresh
+      // shuffle that won't repeat the puzzle just played at the boundary.
+      setQueue(reshuffleAvoiding(pool, queue[pos] ?? null));
       setPos(0);
     }
   }

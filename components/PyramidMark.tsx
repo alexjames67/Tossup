@@ -13,7 +13,7 @@ export function PyramidMark({ size = 22 }: PyramidMarkProps) {
       viewBox="0 0 24 24"
       fill="var(--accent)"
       aria-hidden="true"
-      className="shrink-0"
+      className="pyramid-mark shrink-0"
     >
       {/* apex */}
       <polygon points="12,3 9.4,7.9 14.6,7.9" />

@@ -4,6 +4,7 @@ import {
   filterPuzzles,
   clampHeadStart,
   shuffle,
+  reshuffleAvoiding,
   type EndlessConfig,
 } from "./endless";
 import { validatePuzzles } from "./validate";
@@ -87,5 +88,26 @@ describe("shuffle", () => {
     const copy = [...input];
     shuffle(input);
     expect(input).toEqual(copy);
+  });
+});
+
+describe("reshuffleAvoiding (shuffle bag, no boundary repeat)", () => {
+  it("contains every item exactly once", () => {
+    const out = reshuffleAvoiding(puzzles, puzzles[0]);
+    expect(new Set(out.map((p) => p.id))).toEqual(
+      new Set(puzzles.map((p) => p.id)),
+    );
+  });
+
+  it("never starts with the item just played, across many runs", () => {
+    const last = puzzles[2];
+    for (let i = 0; i < 100; i++) {
+      expect(reshuffleAvoiding(puzzles, last)[0]).not.toBe(last);
+    }
+  });
+
+  it("is a no-op guard for a single-item pool", () => {
+    const one = [puzzles[0]];
+    expect(reshuffleAvoiding(one, puzzles[0])).toEqual(one);
   });
 });

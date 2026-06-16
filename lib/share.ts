@@ -13,7 +13,7 @@ const GOT_IT = "🟩"; // the clue they answered correctly
 const UNREACHED = "⬜"; // a clue never revealed
 const MISSED = "🟥"; // reached the giveaway and still missed
 
-export const SHARE_URL = "pyramidalbuzz.com";
+export const SHARE_URL = "pyramidal-buzz.vercel.app";
 export const SHARE_TITLE = "Pyramidal Buzz";
 
 type ShareResult = Pick<DayResult, "won" | "buzzedOn" | "negs" | "score">;

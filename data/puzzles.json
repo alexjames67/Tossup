@@ -1,0 +1,2312 @@
+[
+  {
+    "id": 1,
+    "date": "2026-06-16",
+    "category": "Literature",
+    "difficulty": "hard",
+    "clues": [
+      "This poet's early works include the masque \"Comus\" and \"Lycidas,\" a pastoral elegy mourning his drowned classmate Edward King.",
+      "In the 1644 prose tract \"Areopagitica,\" he argued passionately against the licensing and censorship of books.",
+      "Now blind, he reflected on his condition in the sonnet beginning \"When I consider how my light is spent.\"",
+      "He dictated his greatest work to his daughters after losing his sight entirely.",
+      "Name this 17th-century English poet who wrote the epic \"Paradise Lost\" about the fall of Adam and Eve."
+    ],
+    "answer": "John Milton",
+    "accept": [
+      "Milton"
+    ],
+    "prompt": [],
+    "reject": [
+      "John Donne",
+      "Milton Friedman",
+      "John Bunyan"
+    ]
+  },
+  {
+    "id": 2,
+    "date": "2026-06-17",
+    "category": "Science",
+    "difficulty": "medium",
+    "clues": [
+      "This organelle carries its own small circular genome and is believed to have arisen when an ancient proteobacterium was engulfed in an endosymbiotic event.",
+      "Its highly folded inner membrane forms shelf-like structures called cristae, dramatically increasing surface area.",
+      "It is the principal site of the citric acid cycle and of oxidative phosphorylation along the electron transport chain.",
+      "Through cellular respiration, it produces the bulk of a eukaryotic cell's ATP.",
+      "Frequently dubbed \"the powerhouse of the cell,\" name this organelle."
+    ],
+    "answer": "mitochondrion",
+    "accept": [
+      "mitochondria",
+      "mitochondrial"
+    ],
+    "prompt": [],
+    "reject": [
+      "chloroplast",
+      "nucleus",
+      "ribosome",
+      "Golgi apparatus"
+    ]
+  },
+  {
+    "id": 3,
+    "date": "2026-06-18",
+    "category": "History",
+    "difficulty": "easy",
+    "clues": [
+      "As a young artillery officer, this man first won fame for driving British forces out during the 1793 Siege of Toulon.",
+      "To finance his European ambitions, he sold the vast Louisiana Territory to the United States in 1803.",
+      "His massive Grande Armée was shattered by winter and attrition during an ill-fated 1812 invasion of Russia.",
+      "Defeated at the 1815 Battle of Waterloo, he was exiled to the remote island of Saint Helena, where he died.",
+      "Name this general who crowned himself Emperor of the French in 1804."
+    ],
+    "answer": "Napoleon Bonaparte",
+    "accept": [
+      "Napoleon",
+      "Napoleon I",
+      "Napoleon the First"
+    ],
+    "prompt": [
+      "Bonaparte"
+    ],
+    "reject": [
+      "Napoleon III",
+      "Louis Napoleon",
+      "Charles de Gaulle"
+    ]
+  },
+  {
+    "id": 4,
+    "date": "2026-06-19",
+    "category": "Geography",
+    "difficulty": "easy",
+    "clues": [
+      "Its Blue tributary rises at Lake Tana in the Ethiopian Highlands and merges with its White tributary at Khartoum.",
+      "The Aswan High Dam, completed in 1970, tamed its flow and created the reservoir known as Lake Nasser.",
+      "For millennia, civilizations along its banks relied on its predictable annual flooding to deposit fertile black silt.",
+      "It runs northward through Egypt before fanning out into a broad delta on the Mediterranean Sea.",
+      "Name this African waterway long regarded as the longest river in the world."
+    ],
+    "answer": "Nile River",
+    "accept": [
+      "Nile",
+      "the Nile",
+      "River Nile"
+    ],
+    "prompt": [],
+    "reject": [
+      "Amazon River",
+      "Congo River",
+      "Niger River",
+      "Euphrates"
+    ]
+  },
+  {
+    "id": 5,
+    "date": "2026-06-20",
+    "category": "Art",
+    "difficulty": "medium",
+    "clues": [
+      "While voluntarily committed to an asylum at Saint-Rémy-de-Provence, this painter produced canvases of irises and cypress trees.",
+      "He briefly shared the \"Yellow House\" in Arles with Paul Gauguin, a stay that ended in a violent quarrel.",
+      "According to the famous story, he severed part of his own ear during a mental breakdown.",
+      "His view of a village beneath a turbulent, swirling night sky is titled \"The Starry Night.\"",
+      "Name this Dutch Post-Impressionist who painted a celebrated series of \"Sunflowers.\""
+    ],
+    "answer": "Vincent van Gogh",
+    "accept": [
+      "van Gogh",
+      "Van Gogh"
+    ],
+    "prompt": [
+      "Vincent"
+    ],
+    "reject": [
+      "Paul Gauguin",
+      "Claude Monet",
+      "Paul Cezanne"
+    ]
+  },
+  {
+    "id": 6,
+    "date": "2026-06-21",
+    "category": "Music",
+    "difficulty": "hard",
+    "clues": [
+      "This composer labored for years over his single opera, \"Fidelio,\" producing several different overtures for it.",
+      "He originally dedicated his Third Symphony, the \"Eroica,\" to Napoleon, then furiously scratched out the dedication.",
+      "The choral finale of his Ninth Symphony sets Friedrich Schiller's \"Ode to Joy.\"",
+      "He continued to compose masterpieces even as he went almost completely deaf.",
+      "Name this German composer of the \"Moonlight Sonata\" and the bagatelle \"Für Elise.\""
+    ],
+    "answer": "Ludwig van Beethoven",
+    "accept": [
+      "Beethoven",
+      "van Beethoven"
+    ],
+    "prompt": [],
+    "reject": [
+      "Wolfgang Amadeus Mozart",
+      "Johann Sebastian Bach",
+      "Johannes Brahms"
+    ]
+  },
+  {
+    "id": 7,
+    "date": "2026-06-22",
+    "category": "Literature",
+    "difficulty": "medium",
+    "clues": [
+      "This novel opens with an \"Etymology\" section and a set of \"Extracts\" supposedly gathered by a \"sub-sub-librarian.\"",
+      "Its narrator alone survives the wreck by clinging to a coffin built for the harpooner Queequeg.",
+      "Captain Ahab loses his leg to, and obsessively hunts, a white whale.",
+      "It famously begins, \"Call me Ishmael.\"",
+      "Name this Herman Melville novel about the hunt for a great white whale."
+    ],
+    "answer": "Moby-Dick",
+    "accept": [
+      "Moby Dick"
+    ],
+    "prompt": [],
+    "reject": [
+      "The Old Man and the Sea",
+      "Billy Budd"
+    ]
+  },
+  {
+    "id": 8,
+    "date": "2026-06-23",
+    "category": "Literature",
+    "difficulty": "easy",
+    "clues": [
+      "This novel was originally drafted under the title \"First Impressions.\"",
+      "The clergyman Mr. Collins proposes to the heroine and, refused, soon marries her friend Charlotte Lucas.",
+      "It opens, \"It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.\"",
+      "Its heroine Elizabeth Bennet overcomes her dislike of the proud Mr. Darcy.",
+      "Name this Jane Austen novel about the Bennet sisters."
+    ],
+    "answer": "Pride and Prejudice",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Sense and Sensibility",
+      "Emma"
+    ]
+  },
+  {
+    "id": 9,
+    "date": "2026-06-24",
+    "category": "Literature",
+    "difficulty": "medium",
+    "clues": [
+      "In this novel a green light at the end of a dock symbolizes the protagonist’s yearning for the past.",
+      "Its narrator Nick Carraway rents a small house in West Egg next to a mysterious millionaire.",
+      "The story climaxes with a fatal car crash that kills Myrtle Wilson.",
+      "Jay Gatsby throws extravagant parties hoping to win back Daisy Buchanan.",
+      "Name this F. Scott Fitzgerald novel set in the Jazz Age."
+    ],
+    "answer": "The Great Gatsby",
+    "accept": [
+      "Gatsby"
+    ],
+    "prompt": [],
+    "reject": [
+      "Tender Is the Night"
+    ]
+  },
+  {
+    "id": 10,
+    "date": "2026-06-25",
+    "category": "Literature",
+    "difficulty": "hard",
+    "clues": [
+      "This author’s unfinished novels \"Amerika\" and \"The Castle\" were published posthumously by his friend Max Brod, against his stated wishes.",
+      "In one of his novels, the clerk Josef K. is arrested and prosecuted by an inscrutable authority.",
+      "In his best-known story, the salesman Gregor Samsa wakes up transformed into a giant insect.",
+      "An adjective from his name describes nightmarishly opaque bureaucracy.",
+      "Name this German-language author from Prague who wrote \"The Metamorphosis.\""
+    ],
+    "answer": "Franz Kafka",
+    "accept": [
+      "Kafka"
+    ],
+    "prompt": [],
+    "reject": [
+      "Albert Camus",
+      "Jean-Paul Sartre"
+    ]
+  },
+  {
+    "id": 11,
+    "date": "2026-06-26",
+    "category": "Literature",
+    "difficulty": "medium",
+    "clues": [
+      "This writer’s only complete novel is \"The Narrative of Arthur Gordon Pym of Nantucket.\"",
+      "He is often credited with inventing detective fiction through his sleuth C. Auguste Dupin.",
+      "His tales of terror include \"The Tell-Tale Heart\" and \"The Fall of the House of Usher.\"",
+      "In one poem, a bird perched on a bust of Pallas repeatedly croaks \"Nevermore.\"",
+      "Name this American author of \"The Raven.\""
+    ],
+    "answer": "Edgar Allan Poe",
+    "accept": [
+      "Poe"
+    ],
+    "prompt": [],
+    "reject": [
+      "Nathaniel Hawthorne",
+      "H. P. Lovecraft"
+    ]
+  },
+  {
+    "id": 12,
+    "date": "2026-06-27",
+    "category": "Science",
+    "difficulty": "easy",
+    "clues": [
+      "Chargaff’s rules state that within this molecule the amount of adenine equals that of thymine, and guanine equals cytosine.",
+      "Rosalind Franklin’s X-ray diffraction image \"Photo 51\" was key to revealing its structure.",
+      "James Watson and Francis Crick described its double-helix structure in 1953.",
+      "Its four bases are adenine, thymine, guanine, and cytosine.",
+      "Name this molecule, abbreviated with three letters, that stores genetic information."
+    ],
+    "answer": "DNA",
+    "accept": [
+      "deoxyribonucleic acid"
+    ],
+    "prompt": [],
+    "reject": [
+      "RNA",
+      "ribonucleic acid"
+    ]
+  },
+  {
+    "id": 13,
+    "date": "2026-06-28",
+    "category": "Science",
+    "difficulty": "easy",
+    "clues": [
+      "This scientist advanced a corpuscular theory of light and built the first practical reflecting telescope.",
+      "His masterwork, the \"Principia Mathematica,\" set out three laws of motion.",
+      "He and Gottfried Leibniz independently developed calculus.",
+      "A falling apple supposedly inspired his law of universal gravitation.",
+      "Name this English physicist with three eponymous laws of motion."
+    ],
+    "answer": "Isaac Newton",
+    "accept": [
+      "Newton"
+    ],
+    "prompt": [],
+    "reject": [
+      "Albert Einstein",
+      "Galileo Galilei"
+    ]
+  },
+  {
+    "id": 14,
+    "date": "2026-06-29",
+    "category": "Science",
+    "difficulty": "medium",
+    "clues": [
+      "The light-independent reactions of this process fix carbon dioxide through the Calvin cycle.",
+      "Its light-dependent reactions split water and release oxygen within the thylakoid membranes.",
+      "It takes place in chloroplasts and relies on the green pigment chlorophyll.",
+      "Through it, plants turn sunlight, water, and carbon dioxide into glucose.",
+      "Name this process by which green plants make their own food from light."
+    ],
+    "answer": "photosynthesis",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "cellular respiration",
+      "transpiration"
+    ]
+  },
+  {
+    "id": 15,
+    "date": "2026-06-30",
+    "category": "Science",
+    "difficulty": "medium",
+    "clues": [
+      "Allotropes of this element include buckminsterfullerene and the single-layer sheet graphene.",
+      "Radiocarbon dating relies on a radioactive isotope of this element with mass number 14.",
+      "Having atomic number 6, it forms the backbone of organic chemistry.",
+      "Both diamond and graphite are pure forms of it.",
+      "Name this element with the chemical symbol C."
+    ],
+    "answer": "carbon",
+    "accept": [
+      "C"
+    ],
+    "prompt": [],
+    "reject": [
+      "silicon",
+      "oxygen"
+    ]
+  },
+  {
+    "id": 16,
+    "date": "2026-07-01",
+    "category": "Science",
+    "difficulty": "easy",
+    "clues": [
+      "This physicist’s explanation of the photoelectric effect won him the 1921 Nobel Prize in Physics.",
+      "During his 1905 \"miracle year\" he also published a paper explaining Brownian motion.",
+      "His general theory of relativity describes gravity as the curvature of spacetime.",
+      "He is famous for the mass-energy equivalence equation E = mc².",
+      "Name this German-born physicist known for the theory of relativity."
+    ],
+    "answer": "Albert Einstein",
+    "accept": [
+      "Einstein"
+    ],
+    "prompt": [],
+    "reject": [
+      "Isaac Newton",
+      "Niels Bohr"
+    ]
+  },
+  {
+    "id": 17,
+    "date": "2026-07-02",
+    "category": "Science",
+    "difficulty": "hard",
+    "clues": [
+      "The outer boundary of one of these objects is its event horizon, surrounding a central singularity.",
+      "Stephen Hawking predicted that they slowly emit a faint thermal radiation now named for him.",
+      "One can form when a sufficiently massive star collapses at the end of its life.",
+      "In 2019 the Event Horizon Telescope released the first image of one, at the heart of galaxy M87.",
+      "Name this region of spacetime whose gravity is so strong that not even light can escape."
+    ],
+    "answer": "black hole",
+    "accept": [
+      "black holes"
+    ],
+    "prompt": [],
+    "reject": [
+      "neutron star",
+      "white dwarf"
+    ]
+  },
+  {
+    "id": 18,
+    "date": "2026-07-03",
+    "category": "History",
+    "difficulty": "easy",
+    "clues": [
+      "This man’s account of his own military campaign opens by noting that all Gaul is divided into three parts.",
+      "In 49 BC he crossed the Rubicon, reportedly declaring \"the die is cast.\"",
+      "He was assassinated on the Ides of March, 44 BC, by a group of senators including Brutus.",
+      "The titles \"Kaiser\" and \"Tsar,\" and the month of July, all derive from his name.",
+      "Name this Roman general and dictator."
+    ],
+    "answer": "Julius Caesar",
+    "accept": [
+      "Caesar",
+      "Gaius Julius Caesar"
+    ],
+    "prompt": [],
+    "reject": [
+      "Augustus",
+      "Caesar Augustus"
+    ]
+  },
+  {
+    "id": 19,
+    "date": "2026-07-04",
+    "category": "History",
+    "difficulty": "medium",
+    "clues": [
+      "Legend says this ruler had herself smuggled in to meet Julius Caesar concealed within bedding or a carpet.",
+      "She was the last active monarch of the Greek-speaking Ptolemaic dynasty.",
+      "She formed a political and romantic alliance with the Roman general Mark Antony.",
+      "She is said to have died from the bite of an asp.",
+      "Name this famous final queen of ancient Egypt."
+    ],
+    "answer": "Cleopatra",
+    "accept": [
+      "Cleopatra VII"
+    ],
+    "prompt": [],
+    "reject": [
+      "Nefertiti",
+      "Hatshepsut"
+    ]
+  },
+  {
+    "id": 20,
+    "date": "2026-07-05",
+    "category": "History",
+    "difficulty": "medium",
+    "clues": [
+      "Built starting in 1961, this barrier’s longer stretch ran through countryside as the \"Hinterland\" section.",
+      "Checkpoint Charlie was its best-known crossing point.",
+      "In 1987 Ronald Reagan stood before it and demanded, \"Mr. Gorbachev, tear down this wall!\"",
+      "It was opened on November 9, 1989, paving the way for German reunification.",
+      "Name this wall that long divided a single German city in two."
+    ],
+    "answer": "Berlin Wall",
+    "accept": [
+      "the Berlin Wall"
+    ],
+    "prompt": [],
+    "reject": [
+      "Great Wall of China",
+      "Iron Curtain"
+    ]
+  },
+  {
+    "id": 21,
+    "date": "2026-07-06",
+    "category": "History",
+    "difficulty": "easy",
+    "clues": [
+      "In 1858 this man sharpened his reputation in a series of debates against Stephen Douglas.",
+      "He issued the Emancipation Proclamation in 1863.",
+      "At a battlefield cemetery dedication he delivered an address beginning \"Four score and seven years ago.\"",
+      "He was assassinated by John Wilkes Booth at Ford’s Theatre in 1865.",
+      "Name this 16th U.S. president who led the Union through the Civil War."
+    ],
+    "answer": "Abraham Lincoln",
+    "accept": [
+      "Lincoln"
+    ],
+    "prompt": [],
+    "reject": [
+      "Andrew Johnson",
+      "Ulysses S. Grant"
+    ]
+  },
+  {
+    "id": 22,
+    "date": "2026-07-07",
+    "category": "History",
+    "difficulty": "hard",
+    "clues": [
+      "Born Temüjin, this leader endured a harsh youth, including a period in captivity, before uniting the steppe tribes.",
+      "His body of laws was known as the Yassa.",
+      "The empire he founded grew into the largest contiguous land empire in history.",
+      "He was proclaimed the first Great Khan of the Mongols around 1206.",
+      "Name this Mongol conqueror, the grandfather of Kublai Khan."
+    ],
+    "answer": "Genghis Khan",
+    "accept": [
+      "Chinggis Khan",
+      "Temujin",
+      "Temüjin"
+    ],
+    "prompt": [],
+    "reject": [
+      "Kublai Khan",
+      "Attila the Hun"
+    ]
+  },
+  {
+    "id": 23,
+    "date": "2026-07-08",
+    "category": "Geography",
+    "difficulty": "easy",
+    "clues": [
+      "This peak lies in the Mahalangur Himal sub-range and is called Chomolungma in Tibetan.",
+      "It was first conclusively summited in 1953 by Edmund Hillary and Tenzing Norgay.",
+      "It straddles the border between Nepal and the Tibet region of China.",
+      "Climbers must endure a \"Death Zone\" above 8,000 meters near its summit.",
+      "Name this highest mountain on Earth."
+    ],
+    "answer": "Mount Everest",
+    "accept": [
+      "Everest",
+      "Chomolungma",
+      "Sagarmatha"
+    ],
+    "prompt": [],
+    "reject": [
+      "K2",
+      "Kangchenjunga"
+    ]
+  },
+  {
+    "id": 24,
+    "date": "2026-07-09",
+    "category": "Geography",
+    "difficulty": "easy",
+    "clues": [
+      "The Tibesti and Ahaggar mountain ranges rise out of this region.",
+      "The nomadic Tuareg people have long crossed it by camel caravan.",
+      "Stretching across much of North Africa, it is the largest hot desert in the world.",
+      "Its name comes directly from the Arabic word for \"desert.\"",
+      "Name this vast desert covering most of northern Africa."
+    ],
+    "answer": "Sahara",
+    "accept": [
+      "Sahara Desert"
+    ],
+    "prompt": [],
+    "reject": [
+      "Gobi Desert",
+      "Kalahari Desert"
+    ]
+  },
+  {
+    "id": 25,
+    "date": "2026-07-10",
+    "category": "Geography",
+    "difficulty": "medium",
+    "clues": [
+      "Near Manaus, this river’s dark Rio Negro tributary meets a paler one at the famous \"Meeting of Waters.\"",
+      "It rises in the Andes of Peru and empties into the Atlantic Ocean.",
+      "By volume of water discharged, it is the largest river on Earth.",
+      "It winds through the world’s largest rainforest, mostly within Brazil.",
+      "Name this South American river that rivals the Nile as the world’s longest."
+    ],
+    "answer": "Amazon River",
+    "accept": [
+      "Amazon"
+    ],
+    "prompt": [],
+    "reject": [
+      "Nile River",
+      "Orinoco River"
+    ]
+  },
+  {
+    "id": 26,
+    "date": "2026-07-11",
+    "category": "Geography",
+    "difficulty": "easy",
+    "clues": [
+      "This country’s arid interior, the \"Outback,\" contains the great sandstone monolith Uluru.",
+      "The Great Barrier Reef lies off its northeastern coast.",
+      "Its capital is Canberra, though its largest city is Sydney.",
+      "It is home to marsupials such as kangaroos and koalas.",
+      "Name this country that is also the smallest continent."
+    ],
+    "answer": "Australia",
+    "accept": [
+      "Commonwealth of Australia"
+    ],
+    "prompt": [],
+    "reject": [
+      "New Zealand"
+    ]
+  },
+  {
+    "id": 27,
+    "date": "2026-07-12",
+    "category": "Geography",
+    "difficulty": "hard",
+    "clues": [
+      "Straddling the Mid-Atlantic Ridge, this country taps abundant geothermal energy.",
+      "The 2010 eruption of its volcano Eyjafjallajökull grounded much of European air travel.",
+      "Its legislature, the Althing, is one of the oldest parliaments in the world.",
+      "Its capital and largest city is Reykjavík.",
+      "Name this Nordic island nation nicknamed the \"Land of Fire and Ice.\""
+    ],
+    "answer": "Iceland",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Greenland",
+      "Norway"
+    ]
+  },
+  {
+    "id": 28,
+    "date": "2026-07-13",
+    "category": "Art",
+    "difficulty": "easy",
+    "clues": [
+      "This polymath filled notebooks written in mirror script with sketches of flying machines and anatomy.",
+      "His mural \"The Last Supper\" covers a wall of a convent in Milan.",
+      "His drawing \"Vitruvian Man\" inscribes a figure within a circle and a square.",
+      "He painted a portrait celebrated for its enigmatic smile, the \"Mona Lisa.\"",
+      "Name this Italian Renaissance master."
+    ],
+    "answer": "Leonardo da Vinci",
+    "accept": [
+      "Leonardo",
+      "da Vinci"
+    ],
+    "prompt": [],
+    "reject": [
+      "Michelangelo",
+      "Raphael"
+    ]
+  },
+  {
+    "id": 29,
+    "date": "2026-07-14",
+    "category": "Art",
+    "difficulty": "medium",
+    "clues": [
+      "An early sculpture by this artist, a \"Pietà,\" sits in St. Peter’s Basilica.",
+      "Decades later he painted the swirling \"Last Judgment\" on a chapel’s altar wall.",
+      "He spent roughly four years painting that chapel’s ceiling for Pope Julius II.",
+      "His towering marble \"David\" stands in Florence.",
+      "Name this Italian Renaissance sculptor and painter of the Sistine Chapel."
+    ],
+    "answer": "Michelangelo",
+    "accept": [
+      "Michelangelo Buonarroti"
+    ],
+    "prompt": [],
+    "reject": [
+      "Leonardo da Vinci",
+      "Donatello"
+    ]
+  },
+  {
+    "id": 30,
+    "date": "2026-07-15",
+    "category": "Art",
+    "difficulty": "medium",
+    "clues": [
+      "Around 1907, alongside Georges Braque, this artist developed a radically fragmented style.",
+      "His mural protesting the bombing of a Basque town is titled \"Guernica.\"",
+      "His early career is often split into a \"Blue Period\" and a \"Rose Period.\"",
+      "He is regarded as a co-founder of Cubism.",
+      "Name this Spanish painter of \"Les Demoiselles d’Avignon.\""
+    ],
+    "answer": "Pablo Picasso",
+    "accept": [
+      "Picasso"
+    ],
+    "prompt": [],
+    "reject": [
+      "Salvador Dali",
+      "Henri Matisse"
+    ]
+  },
+  {
+    "id": 31,
+    "date": "2026-07-16",
+    "category": "Art",
+    "difficulty": "hard",
+    "clues": [
+      "This painter made entire series depicting haystacks and the facade of Rouen Cathedral under changing light.",
+      "His final decades centered on the water-lily ponds of his garden at Giverny.",
+      "An entire art movement took its name from his canvas \"Impression, Sunrise.\"",
+      "He was a leading French Impressionist.",
+      "Name this painter of the \"Water Lilies,\" whose surname is often confused with that of Édouard Manet."
+    ],
+    "answer": "Claude Monet",
+    "accept": [
+      "Monet"
+    ],
+    "prompt": [],
+    "reject": [
+      "Edouard Manet",
+      "Édouard Manet",
+      "Pierre-Auguste Renoir"
+    ]
+  },
+  {
+    "id": 32,
+    "date": "2026-07-17",
+    "category": "Art",
+    "difficulty": "medium",
+    "clues": [
+      "This Norwegian artist explored love, anxiety, and death in a cycle of works called the \"Frieze of Life.\"",
+      "He described being seized by an \"infinite scream passing through nature\" during a walk at sunset.",
+      "His signature image shows a hairless figure clutching its face on a bridge beneath a lurid orange sky.",
+      "That painting is titled \"The Scream.\"",
+      "Name this pioneering Expressionist painter."
+    ],
+    "answer": "Edvard Munch",
+    "accept": [
+      "Munch"
+    ],
+    "prompt": [],
+    "reject": [
+      "Gustav Klimt",
+      "Egon Schiele"
+    ]
+  },
+  {
+    "id": 33,
+    "date": "2026-07-18",
+    "category": "Music",
+    "difficulty": "medium",
+    "clues": [
+      "This composer’s final work, a Requiem in D minor, was left unfinished at his death and completed by a pupil.",
+      "His operas include \"The Magic Flute\" and \"Don Giovanni.\"",
+      "A child prodigy, he toured the courts of Europe performing from a very young age.",
+      "His life and rivalry with Salieri were dramatized in the film \"Amadeus.\"",
+      "Name this Austrian composer of \"Eine kleine Nachtmusik.\""
+    ],
+    "answer": "Wolfgang Amadeus Mozart",
+    "accept": [
+      "Mozart"
+    ],
+    "prompt": [],
+    "reject": [
+      "Ludwig van Beethoven",
+      "Joseph Haydn"
+    ]
+  },
+  {
+    "id": 34,
+    "date": "2026-07-19",
+    "category": "Music",
+    "difficulty": "medium",
+    "clues": [
+      "This composer wrote a set of preludes and fugues in every key, \"The Well-Tempered Clavier.\"",
+      "His six \"Brandenburg Concertos\" were dedicated to a German margrave.",
+      "A devout Lutheran, he composed the monumental \"Mass in B minor.\"",
+      "His surname is the German word for \"brook.\"",
+      "Name this Baroque composer of the \"Toccata and Fugue in D minor.\""
+    ],
+    "answer": "Johann Sebastian Bach",
+    "accept": [
+      "Bach",
+      "J.S. Bach"
+    ],
+    "prompt": [],
+    "reject": [
+      "George Frideric Handel",
+      "Antonio Vivaldi"
+    ]
+  },
+  {
+    "id": 35,
+    "date": "2026-07-20",
+    "category": "Music",
+    "difficulty": "easy",
+    "clues": [
+      "This group pushed studio experimentation on the 1966 album \"Revolver,\" including \"Tomorrow Never Knows.\"",
+      "Their 1967 concept album was \"Sgt. Pepper’s Lonely Hearts Club Band.\"",
+      "Managed by Brian Epstein, they inspired a frenzy of fandom dubbed with their own name plus \"-mania.\"",
+      "Its four members were John, Paul, George, and Ringo.",
+      "Name this rock band from Liverpool."
+    ],
+    "answer": "The Beatles",
+    "accept": [
+      "Beatles"
+    ],
+    "prompt": [],
+    "reject": [
+      "The Rolling Stones",
+      "The Beach Boys"
+    ]
+  },
+  {
+    "id": 36,
+    "date": "2026-07-21",
+    "category": "Music",
+    "difficulty": "hard",
+    "clues": [
+      "This composer collaborated with Diaghilev’s Ballets Russes on \"The Firebird\" and \"Petrushka.\"",
+      "The 1913 Paris premiere of one of his ballets reportedly provoked a near-riot in the audience.",
+      "That ballet, depicting a pagan sacrificial rite, is \"The Rite of Spring.\"",
+      "He was a hugely influential 20th-century Russian-born composer.",
+      "Name this composer of \"The Rite of Spring.\""
+    ],
+    "answer": "Igor Stravinsky",
+    "accept": [
+      "Stravinsky"
+    ],
+    "prompt": [],
+    "reject": [
+      "Sergei Prokofiev",
+      "Pyotr Tchaikovsky"
+    ]
+  },
+  {
+    "id": 37,
+    "date": "2026-07-22",
+    "category": "Music",
+    "difficulty": "medium",
+    "clues": [
+      "This composer’s \"1812 Overture\" famously calls for the firing of cannon.",
+      "His ballets include \"Swan Lake\" and \"The Sleeping Beauty.\"",
+      "His Christmas ballet contains the \"Dance of the Sugar Plum Fairy.\"",
+      "That ballet is \"The Nutcracker.\"",
+      "Name this Russian Romantic composer."
+    ],
+    "answer": "Pyotr Tchaikovsky",
+    "accept": [
+      "Tchaikovsky"
+    ],
+    "prompt": [],
+    "reject": [
+      "Igor Stravinsky",
+      "Sergei Rachmaninoff"
+    ]
+  },
+  {
+    "id": 38,
+    "date": "2026-07-23",
+    "category": "Literature",
+    "difficulty": "medium",
+    "clues": [
+      "In this novel the Ministry of Truth employs Winston Smith to rewrite history, and a language called Newspeak shrinks each year to limit thought.",
+      "Citizens practice \"doublethink,\" and dissenters are broken in the dreaded Room 101.",
+      "Its citizens are watched by telescreens under the slogan \"Big Brother is watching you.\"",
+      "It is set in a totalitarian superstate called Oceania.",
+      "Name this dystopian novel by George Orwell, titled with a year."
+    ],
+    "answer": "1984",
+    "accept": [
+      "Nineteen Eighty-Four",
+      "Nineteen Eighty Four"
+    ],
+    "prompt": [],
+    "reject": [
+      "Brave New World",
+      "Animal Farm"
+    ]
+  },
+  {
+    "id": 39,
+    "date": "2026-07-24",
+    "category": "Literature",
+    "difficulty": "easy",
+    "clues": [
+      "A friar’s sleeping potion and a mistimed message drive this play’s tragic ending.",
+      "It is set in Verona and concerns the feuding houses of Montague and Capulet.",
+      "In a famous balcony scene the heroine asks, \"wherefore art thou?\"",
+      "Its prologue calls its title characters \"a pair of star-cross’d lovers.\"",
+      "Name this Shakespeare tragedy about two young lovers."
+    ],
+    "answer": "Romeo and Juliet",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Hamlet",
+      "A Midsummer Night’s Dream"
+    ]
+  },
+  {
+    "id": 40,
+    "date": "2026-07-25",
+    "category": "Literature",
+    "difficulty": "medium",
+    "clues": [
+      "In this epic the hero blinds the Cyclops Polyphemus and escapes beneath the bellies of sheep.",
+      "Its hero lashes himself to a mast to hear the Sirens and resists the enchantress Circe.",
+      "His wife Penelope holds off suitors by weaving and unweaving a shroud.",
+      "It follows the ten-year homeward voyage of Odysseus to Ithaca.",
+      "Name this ancient Greek epic attributed to Homer."
+    ],
+    "answer": "The Odyssey",
+    "accept": [
+      "Odyssey"
+    ],
+    "prompt": [],
+    "reject": [
+      "The Iliad",
+      "The Aeneid"
+    ]
+  },
+  {
+    "id": 41,
+    "date": "2026-07-26",
+    "category": "Literature",
+    "difficulty": "hard",
+    "clues": [
+      "In this novel the destitute ex-student Raskolnikov tests a theory that extraordinary men may transgress moral law.",
+      "He murders a pawnbroker and her sister with an axe, then is tormented by guilt.",
+      "The detective Porfiry Petrovich slowly closes in, and the devout Sonya urges confession.",
+      "It is set in the slums of St. Petersburg.",
+      "Name this Fyodor Dostoevsky novel."
+    ],
+    "answer": "Crime and Punishment",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "The Brothers Karamazov",
+      "Anna Karenina"
+    ]
+  },
+  {
+    "id": 42,
+    "date": "2026-07-27",
+    "category": "Literature",
+    "difficulty": "easy",
+    "clues": [
+      "This novel is narrated by a girl nicknamed Scout in the fictional town of Maycomb, Alabama.",
+      "A reclusive neighbor, Boo Radley, leaves gifts in a tree hollow.",
+      "Its lawyer protagonist Atticus Finch defends Tom Robinson, a Black man falsely accused of rape.",
+      "Its title alludes to the sin of killing a harmless songbird.",
+      "Name this Harper Lee novel."
+    ],
+    "answer": "To Kill a Mockingbird",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Of Mice and Men",
+      "The Help"
+    ]
+  },
+  {
+    "id": 43,
+    "date": "2026-07-28",
+    "category": "Literature",
+    "difficulty": "medium",
+    "clues": [
+      "This novel’s deluded hero, inspired by chivalric romances, renames a farm nag Rocinante and idealizes a peasant as Dulcinea.",
+      "He charges windmills he mistakes for giants.",
+      "His pragmatic squire is Sancho Panza.",
+      "It is set largely in La Mancha, Spain.",
+      "Name this Miguel de Cervantes novel, often called the first modern novel."
+    ],
+    "answer": "Don Quixote",
+    "accept": [
+      "Don Quixote de la Mancha"
+    ],
+    "prompt": [],
+    "reject": [
+      "The Three Musketeers"
+    ]
+  },
+  {
+    "id": 44,
+    "date": "2026-07-29",
+    "category": "Literature",
+    "difficulty": "medium",
+    "clues": [
+      "This novel’s narrator wanders New York after being expelled from Pencey Prep, wondering where the ducks in Central Park go in winter.",
+      "He wears a red hunting hat and rails against \"phonies.\"",
+      "Its narrator is the alienated teenager Holden Caulfield.",
+      "Its title comes from his fantasy of catching children in a field of rye.",
+      "Name this J. D. Salinger novel."
+    ],
+    "answer": "The Catcher in the Rye",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "On the Road"
+    ]
+  },
+  {
+    "id": 45,
+    "date": "2026-07-30",
+    "category": "Literature",
+    "difficulty": "hard",
+    "clues": [
+      "This novel opens as Colonel Aureliano Buendía faces a firing squad and recalls the day his father took him to discover ice.",
+      "It chronicles seven generations of the Buendía family in the town of Macondo.",
+      "A defining work of magical realism, it ends as the town is swept away by wind.",
+      "Its author is Colombian.",
+      "Name this Gabriel García Márquez novel."
+    ],
+    "answer": "One Hundred Years of Solitude",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Love in the Time of Cholera"
+    ]
+  },
+  {
+    "id": 46,
+    "date": "2026-07-31",
+    "category": "Literature",
+    "difficulty": "medium",
+    "clues": [
+      "This author created the convict Magwitch and the orphan Pip in \"Great Expectations.\"",
+      "His novel of the French Revolution opens, \"It was the best of times, it was the worst of times.\"",
+      "In one novella the miser Ebenezer Scrooge is visited by three spirits.",
+      "He also wrote \"Oliver Twist\" and \"David Copperfield.\"",
+      "Name this Victorian English novelist of \"A Christmas Carol.\""
+    ],
+    "answer": "Charles Dickens",
+    "accept": [
+      "Dickens"
+    ],
+    "prompt": [],
+    "reject": [
+      "Thomas Hardy",
+      "Charlotte Brontë"
+    ]
+  },
+  {
+    "id": 47,
+    "date": "2026-08-01",
+    "category": "Literature",
+    "difficulty": "medium",
+    "clues": [
+      "This author, born Samuel Clemens, took his pen name from a riverboat call meaning two fathoms deep.",
+      "He set boyhood adventures in the town of St. Petersburg, modeled on his native Hannibal, Missouri.",
+      "One of his heroes rafts down the Mississippi with a runaway named Jim.",
+      "He wrote \"The Adventures of Tom Sawyer.\"",
+      "Name this American author of \"Adventures of Huckleberry Finn.\""
+    ],
+    "answer": "Mark Twain",
+    "accept": [
+      "Samuel Clemens",
+      "Samuel Langhorne Clemens"
+    ],
+    "prompt": [],
+    "reject": [
+      "Nathaniel Hawthorne",
+      "Ernest Hemingway"
+    ]
+  },
+  {
+    "id": 48,
+    "date": "2026-08-02",
+    "category": "Science",
+    "difficulty": "easy",
+    "clues": [
+      "This naturalist developed his ideas after a five-year voyage aboard HMS Beagle.",
+      "He noted that finches on the Galápagos Islands had beaks suited to different foods.",
+      "His 1859 book is \"On the Origin of Species.\"",
+      "He proposed evolution by natural selection.",
+      "Name this English naturalist often paired with the phrase \"survival of the fittest.\""
+    ],
+    "answer": "Charles Darwin",
+    "accept": [
+      "Darwin"
+    ],
+    "prompt": [],
+    "reject": [
+      "Gregor Mendel",
+      "Jean-Baptiste Lamarck"
+    ]
+  },
+  {
+    "id": 49,
+    "date": "2026-08-03",
+    "category": "Science",
+    "difficulty": "hard",
+    "clues": [
+      "This scientist coined the term \"radioactivity\" while studying uranium ores with her husband.",
+      "She discovered the elements polonium—named for her homeland—and radium.",
+      "She remains the only person to win Nobel Prizes in two different sciences.",
+      "She won the Nobel Prizes in Physics (1903) and Chemistry (1911).",
+      "Name this Polish-born physicist and chemist."
+    ],
+    "answer": "Marie Curie",
+    "accept": [
+      "Marie Skłodowska Curie",
+      "Curie"
+    ],
+    "prompt": [],
+    "reject": [
+      "Lise Meitner",
+      "Rosalind Franklin"
+    ]
+  },
+  {
+    "id": 50,
+    "date": "2026-08-04",
+    "category": "Science",
+    "difficulty": "hard",
+    "clues": [
+      "This chemist left gaps in his great table and predicted the properties of undiscovered elements like \"eka-aluminium,\" later found as gallium.",
+      "He arranged the known elements by increasing atomic weight and recurring properties.",
+      "His name is given to element 101.",
+      "He is credited with formulating the periodic table.",
+      "Name this 19th-century Russian chemist."
+    ],
+    "answer": "Dmitri Mendeleev",
+    "accept": [
+      "Mendeleev"
+    ],
+    "prompt": [],
+    "reject": [
+      "Antoine Lavoisier",
+      "John Dalton"
+    ]
+  },
+  {
+    "id": 51,
+    "date": "2026-08-05",
+    "category": "Science",
+    "difficulty": "medium",
+    "clues": [
+      "This Augustinian friar cross-bred some 28,000 plants in a monastery garden in Brno.",
+      "He described \"dominant\" and \"recessive\" factors and ratios like 3 to 1.",
+      "His experiments used the pea plant.",
+      "His laws of inheritance founded the science of genetics.",
+      "Name this \"father of genetics.\""
+    ],
+    "answer": "Gregor Mendel",
+    "accept": [
+      "Mendel"
+    ],
+    "prompt": [],
+    "reject": [
+      "Charles Darwin",
+      "Thomas Hunt Morgan"
+    ]
+  },
+  {
+    "id": 52,
+    "date": "2026-08-06",
+    "category": "Science",
+    "difficulty": "medium",
+    "clues": [
+      "This scientist’s swan-neck flask experiments refuted spontaneous generation.",
+      "He developed vaccines for anthrax and rabies.",
+      "He championed the germ theory of disease.",
+      "A gentle heating process for milk is named for him.",
+      "Name this French microbiologist behind \"pasteurization.\""
+    ],
+    "answer": "Louis Pasteur",
+    "accept": [
+      "Pasteur"
+    ],
+    "prompt": [],
+    "reject": [
+      "Robert Koch",
+      "Edward Jenner",
+      "Alexander Fleming"
+    ]
+  },
+  {
+    "id": 53,
+    "date": "2026-08-07",
+    "category": "Science",
+    "difficulty": "hard",
+    "clues": [
+      "Georges Lemaître first proposed this idea as a \"primeval atom.\"",
+      "The 1964 discovery of the cosmic microwave background radiation supported it.",
+      "Edwin Hubble’s observation that distant galaxies are receding pointed toward it.",
+      "It dates the origin of the universe to about 13.8 billion years ago.",
+      "Name this leading theory for the expanding universe’s beginning."
+    ],
+    "answer": "the Big Bang",
+    "accept": [
+      "Big Bang",
+      "Big Bang theory"
+    ],
+    "prompt": [],
+    "reject": [
+      "steady state theory"
+    ]
+  },
+  {
+    "id": 54,
+    "date": "2026-08-08",
+    "category": "Science",
+    "difficulty": "medium",
+    "clues": [
+      "Alfred Wegener proposed an early version of this theory, citing matching fossils and coastlines across oceans.",
+      "It holds that a supercontinent called Pangaea once existed and later broke apart.",
+      "New crust forms at mid-ocean ridges and is consumed at subduction zones.",
+      "It explains why earthquakes and volcanoes cluster at the edges of rigid plates.",
+      "Name this theory of the slow motion of Earth’s lithospheric plates."
+    ],
+    "answer": "plate tectonics",
+    "accept": [
+      "continental drift"
+    ],
+    "prompt": [],
+    "reject": [
+      "the Richter scale"
+    ]
+  },
+  {
+    "id": 55,
+    "date": "2026-08-09",
+    "category": "Science",
+    "difficulty": "easy",
+    "clues": [
+      "Joseph Priestley and Carl Scheele independently isolated this gas, which Antoine Lavoisier later named.",
+      "With atomic number 8, it makes up about 21 percent of Earth’s atmosphere.",
+      "It is required for combustion and for animal respiration.",
+      "Its diatomic molecule is written O₂.",
+      "Name this element with chemical symbol O."
+    ],
+    "answer": "oxygen",
+    "accept": [
+      "O2",
+      "O"
+    ],
+    "prompt": [],
+    "reject": [
+      "nitrogen",
+      "carbon dioxide",
+      "hydrogen"
+    ]
+  },
+  {
+    "id": 56,
+    "date": "2026-08-10",
+    "category": "History",
+    "difficulty": "medium",
+    "clues": [
+      "This conflict was sparked by the assassination of Archduke Franz Ferdinand in Sarajevo in 1914.",
+      "Much of it was fought from entrenched lines along the Western Front.",
+      "It introduced widespread use of poison gas and tanks.",
+      "It ended in 1918 and was formalized by the Treaty of Versailles.",
+      "Name this global conflict once called \"the war to end all wars.\""
+    ],
+    "answer": "World War I",
+    "accept": [
+      "First World War",
+      "WWI",
+      "the Great War"
+    ],
+    "prompt": [],
+    "reject": [
+      "World War II",
+      "the Franco-Prussian War"
+    ]
+  },
+  {
+    "id": 57,
+    "date": "2026-08-11",
+    "category": "History",
+    "difficulty": "easy",
+    "clues": [
+      "A committee of five, with Thomas Jefferson as principal author, drafted this document.",
+      "It lists grievances against King George III.",
+      "It asserts that all men are \"endowed by their Creator with certain unalienable Rights.\"",
+      "It was adopted by the Continental Congress on July 4, 1776.",
+      "Name this founding American document proclaiming separation from Britain."
+    ],
+    "answer": "the Declaration of Independence",
+    "accept": [
+      "Declaration of Independence"
+    ],
+    "prompt": [],
+    "reject": [
+      "the Constitution",
+      "the Bill of Rights"
+    ]
+  },
+  {
+    "id": 58,
+    "date": "2026-08-12",
+    "category": "History",
+    "difficulty": "medium",
+    "clues": [
+      "Born Octavian, this man was the grand-nephew and heir of Julius Caesar.",
+      "He defeated Mark Antony and Cleopatra at the naval Battle of Actium.",
+      "His reign began the long peace known as the Pax Romana.",
+      "He is considered the first Roman emperor.",
+      "Name this ruler whose honorific became a title and named a month."
+    ],
+    "answer": "Augustus",
+    "accept": [
+      "Octavian",
+      "Caesar Augustus",
+      "Gaius Octavius"
+    ],
+    "prompt": [],
+    "reject": [
+      "Julius Caesar",
+      "Nero"
+    ]
+  },
+  {
+    "id": 59,
+    "date": "2026-08-13",
+    "category": "History",
+    "difficulty": "medium",
+    "clues": [
+      "This man reputedly nailed 95 Theses to a church door in Wittenberg in 1517.",
+      "Summoned to the Diet of Worms, he refused to recant, saying \"Here I stand.\"",
+      "He translated the Bible into German.",
+      "He launched the Protestant Reformation.",
+      "Name this German monk, not to be confused with the American civil-rights leader."
+    ],
+    "answer": "Martin Luther",
+    "accept": [
+      "Luther"
+    ],
+    "prompt": [],
+    "reject": [
+      "Martin Luther King Jr.",
+      "John Calvin",
+      "Huldrych Zwingli"
+    ]
+  },
+  {
+    "id": 60,
+    "date": "2026-08-14",
+    "category": "History",
+    "difficulty": "easy",
+    "clues": [
+      "This explorer’s voyage was financed by Ferdinand and Isabella of Spain.",
+      "His three ships were the Niña, the Pinta, and the Santa María.",
+      "Believing he had reached the Indies, he called the inhabitants \"Indians.\"",
+      "He reached the Americas in 1492.",
+      "Name this Genoese explorer with a U.S. holiday in October."
+    ],
+    "answer": "Christopher Columbus",
+    "accept": [
+      "Columbus",
+      "Cristoforo Colombo"
+    ],
+    "prompt": [],
+    "reject": [
+      "Amerigo Vespucci",
+      "Ferdinand Magellan"
+    ]
+  },
+  {
+    "id": 61,
+    "date": "2026-08-15",
+    "category": "History",
+    "difficulty": "medium",
+    "clues": [
+      "This upheaval began as the Third Estate broke from the Estates-General.",
+      "A Parisian crowd stormed the Bastille prison on July 14, 1789.",
+      "Its radical phase, the Reign of Terror, sent thousands to the guillotine under Robespierre.",
+      "Its watchwords were \"Liberty, Equality, Fraternity.\"",
+      "Name this late-18th-century revolution that toppled the monarchy of Louis XVI."
+    ],
+    "answer": "the French Revolution",
+    "accept": [
+      "French Revolution"
+    ],
+    "prompt": [],
+    "reject": [
+      "the American Revolution",
+      "the Russian Revolution"
+    ]
+  },
+  {
+    "id": 62,
+    "date": "2026-08-16",
+    "category": "History",
+    "difficulty": "medium",
+    "clues": [
+      "This leader first developed his methods fighting discrimination as a lawyer in South Africa.",
+      "In 1930 he led a 240-mile march to the sea to make salt in defiance of British law.",
+      "He called his philosophy of nonviolent resistance \"satyagraha.\"",
+      "He guided India toward independence in 1947.",
+      "Name this figure honored with the title \"Mahatma.\""
+    ],
+    "answer": "Mahatma Gandhi",
+    "accept": [
+      "Gandhi",
+      "Mohandas Gandhi",
+      "Mohandas Karamchand Gandhi"
+    ],
+    "prompt": [],
+    "reject": [
+      "Jawaharlal Nehru",
+      "Nelson Mandela"
+    ]
+  },
+  {
+    "id": 63,
+    "date": "2026-08-17",
+    "category": "History",
+    "difficulty": "medium",
+    "clues": [
+      "As a youth this ruler was tutored by Aristotle and tamed the horse Bucephalus.",
+      "He is said to have undone the Gordian Knot with his sword.",
+      "He shattered the Persian army of Darius III and founded cities named for himself.",
+      "He was king of Macedon and reportedly never lost a battle.",
+      "Name this conqueror styled \"the Great.\""
+    ],
+    "answer": "Alexander the Great",
+    "accept": [
+      "Alexander III of Macedon",
+      "Alexander"
+    ],
+    "prompt": [],
+    "reject": [
+      "Julius Caesar",
+      "Philip II of Macedon"
+    ]
+  },
+  {
+    "id": 64,
+    "date": "2026-08-18",
+    "category": "Geography",
+    "difficulty": "easy",
+    "clues": [
+      "This country’s highest peak is the sacred volcano Mount Fuji.",
+      "It is an archipelago whose main islands include Honshu and Hokkaido.",
+      "Its capital is Tokyo.",
+      "It is nicknamed the \"Land of the Rising Sun.\"",
+      "Name this East Asian island nation."
+    ],
+    "answer": "Japan",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "China",
+      "South Korea"
+    ]
+  },
+  {
+    "id": 65,
+    "date": "2026-08-19",
+    "category": "Geography",
+    "difficulty": "medium",
+    "clues": [
+      "Roald Amundsen’s team reached this region’s central point in 1911, just ahead of Robert Falcon Scott.",
+      "It has no permanent human population and is governed by an international treaty.",
+      "It contains the geographic South Pole.",
+      "It is the coldest, driest, and windiest continent.",
+      "Name this ice-covered southernmost continent."
+    ],
+    "answer": "Antarctica",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "the Arctic",
+      "Greenland"
+    ]
+  },
+  {
+    "id": 66,
+    "date": "2026-08-20",
+    "category": "Geography",
+    "difficulty": "medium",
+    "clues": [
+      "This landform exposes nearly two billion years of rock strata in its walls.",
+      "It was carved over millions of years by the Colorado River.",
+      "It lies mostly within a national park in the state of Arizona.",
+      "It is roughly 277 miles long and up to a mile deep.",
+      "Name this enormous American gorge."
+    ],
+    "answer": "the Grand Canyon",
+    "accept": [
+      "Grand Canyon"
+    ],
+    "prompt": [],
+    "reject": [
+      "Yosemite",
+      "Yellowstone"
+    ]
+  },
+  {
+    "id": 67,
+    "date": "2026-08-21",
+    "category": "Geography",
+    "difficulty": "medium",
+    "clues": [
+      "Pliny the Younger described this volcano’s eruption in letters, a type now called \"Plinian.\"",
+      "Its 79 AD eruption buried the cities of Pompeii and Herculaneum in ash.",
+      "It overlooks the Bay of Naples.",
+      "It is the only active volcano on mainland Europe.",
+      "Name this Italian volcano."
+    ],
+    "answer": "Mount Vesuvius",
+    "accept": [
+      "Vesuvius"
+    ],
+    "prompt": [],
+    "reject": [
+      "Mount Etna",
+      "Mount St. Helens"
+    ]
+  },
+  {
+    "id": 68,
+    "date": "2026-08-22",
+    "category": "Geography",
+    "difficulty": "medium",
+    "clues": [
+      "This city was once a powerful maritime republic ruled by a doge.",
+      "It is built across more than 100 small islands in a lagoon.",
+      "Its Grand Canal is traversed by gondolas.",
+      "Its central square is dominated by St. Mark’s Basilica.",
+      "Name this canal-filled city in northeastern Italy."
+    ],
+    "answer": "Venice",
+    "accept": [
+      "Venezia"
+    ],
+    "prompt": [],
+    "reject": [
+      "Amsterdam",
+      "Florence"
+    ]
+  },
+  {
+    "id": 69,
+    "date": "2026-08-23",
+    "category": "Geography",
+    "difficulty": "medium",
+    "clues": [
+      "Its shores mark the lowest exposed land on Earth, over 400 meters below sea level.",
+      "It borders Jordan to the east and Israel and the West Bank to the west.",
+      "Its extreme salinity lets bathers float effortlessly.",
+      "Its name reflects the fact that fish cannot survive in it.",
+      "Name this hypersaline lake in the Jordan Rift Valley."
+    ],
+    "answer": "the Dead Sea",
+    "accept": [
+      "Dead Sea"
+    ],
+    "prompt": [],
+    "reject": [
+      "the Great Salt Lake",
+      "the Caspian Sea"
+    ]
+  },
+  {
+    "id": 70,
+    "date": "2026-08-24",
+    "category": "Geography",
+    "difficulty": "easy",
+    "clues": [
+      "The acronym HOMES is a mnemonic for these five bodies of water.",
+      "The largest, Superior, is the world’s largest freshwater lake by area.",
+      "They straddle the border of the United States and Canada.",
+      "They are Superior, Michigan, Huron, Erie, and Ontario.",
+      "Name this group of five large North American lakes."
+    ],
+    "answer": "the Great Lakes",
+    "accept": [
+      "Great Lakes"
+    ],
+    "prompt": [],
+    "reject": [
+      "the Finger Lakes"
+    ]
+  },
+  {
+    "id": 71,
+    "date": "2026-08-25",
+    "category": "Geography",
+    "difficulty": "easy",
+    "clues": [
+      "This country’s purpose-built capital, Brasília, opened in 1960.",
+      "A statue of Christ the Redeemer overlooks its city of Rio de Janeiro.",
+      "It is the only major Portuguese-speaking country in the Americas.",
+      "Most of the Amazon rainforest lies within it.",
+      "Name this largest country in South America."
+    ],
+    "answer": "Brazil",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Argentina",
+      "Portugal"
+    ]
+  },
+  {
+    "id": 72,
+    "date": "2026-08-26",
+    "category": "Art",
+    "difficulty": "medium",
+    "clues": [
+      "This artist collaborated with Luis Buñuel on the film \"Un Chien Andalou.\"",
+      "Famous for a flamboyant waxed mustache, he called his method \"paranoiac-critical.\"",
+      "His best-known canvas depicts limp, melting pocket watches.",
+      "That work is \"The Persistence of Memory.\"",
+      "Name this Spanish Surrealist painter."
+    ],
+    "answer": "Salvador Dalí",
+    "accept": [
+      "Dali",
+      "Salvador Dali"
+    ],
+    "prompt": [],
+    "reject": [
+      "René Magritte",
+      "Joan Miró"
+    ]
+  },
+  {
+    "id": 73,
+    "date": "2026-08-27",
+    "category": "Art",
+    "difficulty": "medium",
+    "clues": [
+      "A near-fatal bus accident at 18 left this artist in lifelong pain that shaped her work.",
+      "She married the muralist Diego Rivera.",
+      "Her many self-portraits feature a distinctive joined eyebrow and Mexican folk dress.",
+      "They include \"The Two Fridas.\"",
+      "Name this Mexican painter."
+    ],
+    "answer": "Frida Kahlo",
+    "accept": [
+      "Kahlo"
+    ],
+    "prompt": [],
+    "reject": [
+      "Diego Rivera",
+      "Georgia O’Keeffe"
+    ]
+  },
+  {
+    "id": 74,
+    "date": "2026-08-28",
+    "category": "Art",
+    "difficulty": "medium",
+    "clues": [
+      "This artist ran a New York studio nicknamed \"The Factory.\"",
+      "He is credited with the idea of \"15 minutes of fame.\"",
+      "He silkscreened repeated images of Marilyn Monroe and Campbell’s Soup Cans.",
+      "He was a leading figure of Pop Art.",
+      "Name this American artist with platinum-wig fame."
+    ],
+    "answer": "Andy Warhol",
+    "accept": [
+      "Warhol"
+    ],
+    "prompt": [],
+    "reject": [
+      "Roy Lichtenstein",
+      "Jean-Michel Basquiat"
+    ]
+  },
+  {
+    "id": 75,
+    "date": "2026-08-29",
+    "category": "Art",
+    "difficulty": "medium",
+    "clues": [
+      "This artist painted dozens of searching self-portraits across his life.",
+      "A master of light and shadow, he also produced celebrated etchings.",
+      "His group portrait of a militia company is popularly called \"The Night Watch.\"",
+      "He was the leading painter of the Dutch Golden Age.",
+      "Name this 17th-century Dutch master, usually known by his first name."
+    ],
+    "answer": "Rembrandt",
+    "accept": [
+      "Rembrandt van Rijn"
+    ],
+    "prompt": [],
+    "reject": [
+      "Johannes Vermeer",
+      "Peter Paul Rubens"
+    ]
+  },
+  {
+    "id": 76,
+    "date": "2026-08-30",
+    "category": "Art",
+    "difficulty": "hard",
+    "clues": [
+      "This artist left only about 35 known paintings, many quiet domestic interiors lit from a left-hand window.",
+      "His works include \"The Milkmaid\" and \"The Art of Painting.\"",
+      "He worked in the Dutch city of Delft.",
+      "His best-known portrait wears a blue-and-gold turban and a single luminous earring.",
+      "Name this painter of \"Girl with a Pearl Earring.\""
+    ],
+    "answer": "Johannes Vermeer",
+    "accept": [
+      "Vermeer",
+      "Jan Vermeer"
+    ],
+    "prompt": [],
+    "reject": [
+      "Rembrandt",
+      "Frans Hals"
+    ]
+  },
+  {
+    "id": 77,
+    "date": "2026-08-31",
+    "category": "Art",
+    "difficulty": "hard",
+    "clues": [
+      "This artist laid huge canvases on the floor and worked from all sides.",
+      "His technique of pouring and flinging paint earned the nickname \"Jack the Dripper.\"",
+      "He was a central figure of American Abstract Expressionism.",
+      "His drip paintings carry titles like \"No. 5, 1948.\"",
+      "Name this American \"action painter.\""
+    ],
+    "answer": "Jackson Pollock",
+    "accept": [
+      "Pollock"
+    ],
+    "prompt": [],
+    "reject": [
+      "Willem de Kooning",
+      "Mark Rothko"
+    ]
+  },
+  {
+    "id": 78,
+    "date": "2026-09-01",
+    "category": "Art",
+    "difficulty": "medium",
+    "clues": [
+      "This sculptor’s unfinished \"The Gates of Hell\" spawned many independent figures.",
+      "His \"The Kiss\" depicts two entwined lovers in marble.",
+      "A seated, brooding nude is his most reproduced work.",
+      "That bronze is called \"The Thinker.\"",
+      "Name this French sculptor."
+    ],
+    "answer": "Auguste Rodin",
+    "accept": [
+      "Rodin"
+    ],
+    "prompt": [],
+    "reject": [
+      "Antonio Canova",
+      "Constantin Brâncuși"
+    ]
+  },
+  {
+    "id": 79,
+    "date": "2026-09-02",
+    "category": "Art",
+    "difficulty": "medium",
+    "clues": [
+      "Critics mocked this artist and his circle as \"fauves,\" or wild beasts, for their wild color.",
+      "Late in life, confined to bed, he made art from cut painted paper.",
+      "Those cut-outs include the book \"Jazz\" and \"The Snail.\"",
+      "His paintings include two versions of \"The Dance.\"",
+      "Name this French pioneer of Fauvism."
+    ],
+    "answer": "Henri Matisse",
+    "accept": [
+      "Matisse"
+    ],
+    "prompt": [],
+    "reject": [
+      "Pablo Picasso",
+      "André Derain"
+    ]
+  },
+  {
+    "id": 80,
+    "date": "2026-09-03",
+    "category": "Music",
+    "difficulty": "medium",
+    "clues": [
+      "This composer wrote almost exclusively for solo piano.",
+      "His works include nocturnes, études, and dances evoking his homeland, such as polonaises and mazurkas.",
+      "A brisk waltz of his is nicknamed the \"Minute Waltz.\"",
+      "Born in Poland, he spent his career largely in Paris.",
+      "Name this Romantic composer and pianist."
+    ],
+    "answer": "Frédéric Chopin",
+    "accept": [
+      "Chopin"
+    ],
+    "prompt": [],
+    "reject": [
+      "Franz Liszt",
+      "Robert Schumann"
+    ]
+  },
+  {
+    "id": 81,
+    "date": "2026-09-04",
+    "category": "Music",
+    "difficulty": "easy",
+    "clues": [
+      "This singer recorded his early hits at Sun Studio in Memphis.",
+      "His gyrating performances earned him the nickname \"Elvis the Pelvis.\"",
+      "His hits include \"Heartbreak Hotel\" and \"Jailhouse Rock.\"",
+      "He lived at a Memphis mansion called Graceland.",
+      "Name this singer crowned the \"King of Rock and Roll.\""
+    ],
+    "answer": "Elvis Presley",
+    "accept": [
+      "Elvis",
+      "Presley"
+    ],
+    "prompt": [],
+    "reject": [
+      "Buddy Holly",
+      "Chuck Berry"
+    ]
+  },
+  {
+    "id": 82,
+    "date": "2026-09-05",
+    "category": "Music",
+    "difficulty": "easy",
+    "clues": [
+      "This band’s 1985 Live Aid set is often called one of rock’s greatest performances.",
+      "Its guitarist Brian May built his own guitar, the \"Red Special.\"",
+      "A six-minute mock-operatic single of theirs has no chorus.",
+      "Its flamboyant frontman was Freddie Mercury.",
+      "Name this British rock band behind \"Bohemian Rhapsody.\""
+    ],
+    "answer": "Queen",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Led Zeppelin",
+      "The Who"
+    ]
+  },
+  {
+    "id": 83,
+    "date": "2026-09-06",
+    "category": "Music",
+    "difficulty": "easy",
+    "clues": [
+      "This performer began his career as the youngest frontman of a Motown family group.",
+      "He popularized a backward-gliding dance step called the moonwalk.",
+      "His 1982 album remains the best-selling of all time.",
+      "That album, \"Thriller,\" includes \"Billie Jean\" and \"Beat It.\"",
+      "Name this entertainer dubbed the \"King of Pop.\""
+    ],
+    "answer": "Michael Jackson",
+    "accept": [
+      "Jackson"
+    ],
+    "prompt": [],
+    "reject": [
+      "Prince",
+      "Stevie Wonder"
+    ]
+  },
+  {
+    "id": 84,
+    "date": "2026-09-07",
+    "category": "Music",
+    "difficulty": "medium",
+    "clues": [
+      "An ordained priest with red hair, this composer was nicknamed \"the Red Priest.\"",
+      "He taught music at a Venetian orphanage for girls, the Pio Ospedale della Pietà.",
+      "He wrote hundreds of concertos, many for violin.",
+      "His best-known set of four concertos depicts the seasons.",
+      "Name this Italian Baroque composer of \"The Four Seasons.\""
+    ],
+    "answer": "Antonio Vivaldi",
+    "accept": [
+      "Vivaldi"
+    ],
+    "prompt": [],
+    "reject": [
+      "Johann Sebastian Bach",
+      "Arcangelo Corelli"
+    ]
+  },
+  {
+    "id": 85,
+    "date": "2026-09-08",
+    "category": "Music",
+    "difficulty": "medium",
+    "clues": [
+      "Born Robert Zimmerman, this musician took his stage surname reputedly from a poet.",
+      "He shocked folk purists by \"going electric\" at the 1965 Newport Folk Festival.",
+      "His protest anthems include \"Blowin’ in the Wind\" and \"The Times They Are a-Changin’.\"",
+      "In 2016 he won the Nobel Prize in Literature.",
+      "Name this American singer-songwriter of \"Like a Rolling Stone.\""
+    ],
+    "answer": "Bob Dylan",
+    "accept": [
+      "Dylan",
+      "Robert Zimmerman"
+    ],
+    "prompt": [],
+    "reject": [
+      "Woody Guthrie",
+      "Joan Baez"
+    ]
+  },
+  {
+    "id": 86,
+    "date": "2026-09-09",
+    "category": "Music",
+    "difficulty": "medium",
+    "clues": [
+      "This New Orleans musician led the Hot Five and Hot Seven recording groups.",
+      "His gravelly voice and trumpet virtuosity helped popularize scat singing.",
+      "He was nicknamed \"Satchmo\" and \"Pops.\"",
+      "His late hits include \"What a Wonderful World\" and \"Hello, Dolly!\"",
+      "Name this foundational jazz trumpeter and singer."
+    ],
+    "answer": "Louis Armstrong",
+    "accept": [
+      "Armstrong",
+      "Satchmo"
+    ],
+    "prompt": [],
+    "reject": [
+      "Duke Ellington",
+      "Miles Davis"
+    ]
+  },
+  {
+    "id": 87,
+    "date": "2026-09-10",
+    "category": "Music",
+    "difficulty": "hard",
+    "clues": [
+      "This German-born composer spent most of his career in London writing Italian operas.",
+      "His orchestral suites include the \"Water Music\" and \"Music for the Royal Fireworks.\"",
+      "His most famous oratorio premiered in Dublin in 1742.",
+      "That work contains the \"Hallelujah\" chorus.",
+      "Name this Baroque composer of \"Messiah.\""
+    ],
+    "answer": "George Frideric Handel",
+    "accept": [
+      "Handel",
+      "Georg Friedrich Händel"
+    ],
+    "prompt": [],
+    "reject": [
+      "Johann Sebastian Bach",
+      "Henry Purcell"
+    ]
+  },
+  {
+    "id": 88,
+    "date": "2026-09-11",
+    "category": "Mythology",
+    "difficulty": "easy",
+    "clues": [
+      "This god overthrew his father Cronus and drew the sky as his domain by lot.",
+      "His many disguises in pursuit of mortals included a swan and a bull.",
+      "He wields the thunderbolt as his weapon.",
+      "He is king of the gods atop Mount Olympus.",
+      "Name this chief Greek god, called Jupiter by the Romans."
+    ],
+    "answer": "Zeus",
+    "accept": [
+      "Jupiter"
+    ],
+    "prompt": [],
+    "reject": [
+      "Poseidon",
+      "Hades",
+      "Apollo"
+    ]
+  },
+  {
+    "id": 89,
+    "date": "2026-09-12",
+    "category": "Mythology",
+    "difficulty": "medium",
+    "clues": [
+      "This god gave one of his eyes for a drink from the well of wisdom.",
+      "Two ravens, Huginn and Muninn, fly the world and report to him.",
+      "Slain warriors feast in his hall, Valhalla.",
+      "He is the chief god of Norse mythology and father of Thor.",
+      "Name this Allfather of the Norse pantheon."
+    ],
+    "answer": "Odin",
+    "accept": [
+      "Woden",
+      "Wotan"
+    ],
+    "prompt": [],
+    "reject": [
+      "Thor",
+      "Loki",
+      "Zeus"
+    ]
+  },
+  {
+    "id": 90,
+    "date": "2026-09-13",
+    "category": "Mythology",
+    "difficulty": "easy",
+    "clues": [
+      "Driven mad by Hera, this hero killed his family and was set penance to atone.",
+      "For his first task he strangled an invulnerable lion and wore its hide.",
+      "He performed Twelve Labors, including capturing Cerberus.",
+      "He was the half-divine son of Zeus, famed for superhuman strength.",
+      "Name this hero, known in Greek as Heracles."
+    ],
+    "answer": "Hercules",
+    "accept": [
+      "Heracles",
+      "Herakles"
+    ],
+    "prompt": [],
+    "reject": [
+      "Perseus",
+      "Theseus",
+      "Achilles"
+    ]
+  },
+  {
+    "id": 91,
+    "date": "2026-09-14",
+    "category": "Mythology",
+    "difficulty": "medium",
+    "clues": [
+      "One myth says Athena cursed this once-beautiful woman after a desecration of her temple.",
+      "She was the only mortal of her three monstrous sisters.",
+      "A hero used a mirrored shield to behead her without looking directly at her.",
+      "Anyone who met her gaze turned to stone, and snakes grew from her head.",
+      "Name this Gorgon slain by Perseus."
+    ],
+    "answer": "Medusa",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Hydra",
+      "Athena",
+      "Pandora"
+    ]
+  },
+  {
+    "id": 92,
+    "date": "2026-09-15",
+    "category": "Mythology",
+    "difficulty": "easy",
+    "clues": [
+      "This god rides a chariot pulled by two goats and wears a belt that doubles his strength.",
+      "His chief foe is the world-serpent Jörmungandr, whom he is fated to slay and die beside.",
+      "He wields the hammer Mjölnir.",
+      "He is the Norse god of thunder.",
+      "Name this hammer-wielding god, son of Odin."
+    ],
+    "answer": "Thor",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Odin",
+      "Loki",
+      "Zeus"
+    ]
+  },
+  {
+    "id": 93,
+    "date": "2026-09-16",
+    "category": "Mythology",
+    "difficulty": "medium",
+    "clues": [
+      "This deity is shown weighing a dead person’s heart against the feather of Ma’at.",
+      "He oversaw embalming and the rites of mummification.",
+      "He is depicted with the black head of a jackal.",
+      "He guided souls in the Egyptian underworld.",
+      "Name this jackal-headed Egyptian god of the dead."
+    ],
+    "answer": "Anubis",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Osiris",
+      "Ra",
+      "Horus"
+    ]
+  },
+  {
+    "id": 94,
+    "date": "2026-09-17",
+    "category": "Film",
+    "difficulty": "easy",
+    "clues": [
+      "Each entry in this saga opens with a yellow text crawl receding into space.",
+      "Its mystical energy field, \"the Force,\" binds the galaxy together.",
+      "A farm boy named Luke Skywalker confronts the masked Darth Vader.",
+      "It was created by George Lucas, beginning with a 1977 film.",
+      "Name this space-opera franchise set \"a long time ago in a galaxy far, far away.\""
+    ],
+    "answer": "Star Wars",
+    "accept": [
+      "Star Wars: A New Hope",
+      "A New Hope"
+    ],
+    "prompt": [],
+    "reject": [
+      "Star Trek",
+      "Dune"
+    ]
+  },
+  {
+    "id": 95,
+    "date": "2026-09-18",
+    "category": "Film",
+    "difficulty": "medium",
+    "clues": [
+      "This film, adapted from a Mario Puzo novel, was directed by Francis Ford Coppola.",
+      "Marlon Brando won an Oscar as its aging patriarch, Vito Corleone.",
+      "A character promises to make someone \"an offer he can’t refuse.\"",
+      "It follows the Corleone Mafia family, with Al Pacino as son Michael.",
+      "Name this 1972 crime epic."
+    ],
+    "answer": "The Godfather",
+    "accept": [
+      "Godfather"
+    ],
+    "prompt": [],
+    "reject": [
+      "Goodfellas",
+      "Scarface"
+    ]
+  },
+  {
+    "id": 96,
+    "date": "2026-09-19",
+    "category": "Film",
+    "difficulty": "medium",
+    "clues": [
+      "This director made cameo appearances in nearly all of his films.",
+      "His thrillers include \"Rear Window,\" \"Vertigo,\" and \"The Birds.\"",
+      "One of his films features a notorious shower-stabbing scene scored with shrieking violins.",
+      "That film is \"Psycho.\"",
+      "Name this English \"Master of Suspense.\""
+    ],
+    "answer": "Alfred Hitchcock",
+    "accept": [
+      "Hitchcock"
+    ],
+    "prompt": [],
+    "reject": [
+      "Stanley Kubrick",
+      "Orson Welles"
+    ]
+  },
+  {
+    "id": 97,
+    "date": "2026-09-20",
+    "category": "Film",
+    "difficulty": "hard",
+    "clues": [
+      "This film’s newspaper magnate was loosely modeled on William Randolph Hearst.",
+      "A reporter investigates the meaning of the title character’s dying word.",
+      "That word, \"Rosebud,\" is revealed to name a childhood sled.",
+      "It was co-written, directed by, and stars Orson Welles.",
+      "Name this 1941 film often ranked the greatest of all time."
+    ],
+    "answer": "Citizen Kane",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Casablanca",
+      "The Magnificent Ambersons"
+    ]
+  },
+  {
+    "id": 98,
+    "date": "2026-09-21",
+    "category": "Film",
+    "difficulty": "easy",
+    "clues": [
+      "This film shifts from sepia to vivid Technicolor when its heroine arrives in a strange land.",
+      "A girl named Dorothy follows a yellow brick road with a dog named Toto.",
+      "She clicks together a pair of ruby slippers, repeating \"There’s no place like home.\"",
+      "Its songs include \"Over the Rainbow.\"",
+      "Name this 1939 MGM musical based on an L. Frank Baum book."
+    ],
+    "answer": "The Wizard of Oz",
+    "accept": [
+      "Wizard of Oz"
+    ],
+    "prompt": [],
+    "reject": [
+      "Alice in Wonderland",
+      "Mary Poppins"
+    ]
+  },
+  {
+    "id": 99,
+    "date": "2026-09-22",
+    "category": "Film",
+    "difficulty": "medium",
+    "clues": [
+      "This film is widely credited with inventing the summer blockbuster.",
+      "A two-note John Williams motif signals the menace.",
+      "A police chief, an oceanographer, and a grizzled fisherman hunt the threat off Amity Island.",
+      "A character quips, \"You’re gonna need a bigger boat.\"",
+      "Name this 1975 Steven Spielberg film about a great white shark."
+    ],
+    "answer": "Jaws",
+    "accept": [],
+    "prompt": [],
+    "reject": [
+      "Jurassic Park",
+      "Moby-Dick"
+    ]
+  },
+  {
+    "id": 100,
+    "date": "2026-09-23",
+    "category": "Sports",
+    "difficulty": "easy",
+    "clues": [
+      "Pierre de Coubertin revived these events in Athens in 1896.",
+      "Their Latin motto is \"Citius, Altius, Fortius\" — faster, higher, stronger.",
+      "Their symbol is five interlocking rings.",
+      "In antiquity they were held at Olympia in honor of Zeus.",
+      "Name this international sporting competition held every four years."
+    ],
+    "answer": "the Olympic Games",
+    "accept": [
+      "Olympic Games",
+      "the Olympics",
+      "Olympics"
+    ],
+    "prompt": [],
+    "reject": [
+      "the World Cup",
+      "the Commonwealth Games"
+    ]
+  },
+  {
+    "id": 101,
+    "date": "2026-09-24",
+    "category": "Sports",
+    "difficulty": "medium",
+    "clues": [
+      "Born Cassius Clay, this boxer changed his name after joining the Nation of Islam.",
+      "He beat George Foreman in Zaire in the \"Rumble in the Jungle.\"",
+      "He promised to \"float like a butterfly, sting like a bee.\"",
+      "He was a three-time world heavyweight champion.",
+      "Name this boxer who called himself \"The Greatest.\""
+    ],
+    "answer": "Muhammad Ali",
+    "accept": [
+      "Ali",
+      "Cassius Clay"
+    ],
+    "prompt": [],
+    "reject": [
+      "Joe Frazier",
+      "Mike Tyson",
+      "George Foreman"
+    ]
+  },
+  {
+    "id": 102,
+    "date": "2026-09-25",
+    "category": "Sports",
+    "difficulty": "medium",
+    "clues": [
+      "Born Edson Arantes do Nascimento, this athlete starred for the club Santos.",
+      "He scored over a thousand career goals and later played for the New York Cosmos.",
+      "He won three World Cups, the first as a teenager in 1958.",
+      "He played the sport called football outside the United States.",
+      "Name this Brazilian soccer legend."
+    ],
+    "answer": "Pelé",
+    "accept": [
+      "Pele",
+      "Edson Arantes do Nascimento"
+    ],
+    "prompt": [],
+    "reject": [
+      "Diego Maradona",
+      "Lionel Messi"
+    ]
+  },
+  {
+    "id": 103,
+    "date": "2026-09-26",
+    "category": "Sports",
+    "difficulty": "medium",
+    "clues": [
+      "This athlete briefly retired to play minor-league baseball before returning to his sport.",
+      "Wearing number 23, he won six championships with the Chicago Bulls.",
+      "A signature line of Nike sneakers bears his name.",
+      "He is widely called the greatest basketball player of all time.",
+      "Name this athlete nicknamed \"Air.\""
+    ],
+    "answer": "Michael Jordan",
+    "accept": [
+      "Jordan"
+    ],
+    "prompt": [],
+    "reject": [
+      "LeBron James",
+      "Kobe Bryant"
+    ]
+  },
+  {
+    "id": 104,
+    "date": "2026-09-27",
+    "category": "Sports",
+    "difficulty": "hard",
+    "clues": [
+      "This player began his career as a star left-handed pitcher for the Boston Red Sox.",
+      "His sale to a rival team supposedly began an 86-year championship drought, \"the Curse\" of his nickname.",
+      "Nicknamed \"the Bambino\" and \"the Sultan of Swat,\" he is said to have \"called his shot\" in the 1932 World Series.",
+      "He set a long-standing home run record with the New York Yankees.",
+      "Name this baseball legend."
+    ],
+    "answer": "Babe Ruth",
+    "accept": [
+      "George Herman Ruth",
+      "The Bambino"
+    ],
+    "prompt": [],
+    "reject": [
+      "Lou Gehrig",
+      "Joe DiMaggio"
+    ]
+  }
+]

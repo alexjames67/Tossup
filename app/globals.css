@@ -1,0 +1,134 @@
+@import "tailwindcss";
+
+/*
+ * Pyramidal Buzz design system.
+ * Identity: a deep "night study" indigo with a single confident amber accent,
+ * emerald for correct, rose for negs. The pyramid is the recurring motif.
+ */
+
+:root {
+  --bg: #0b0d1a;
+  --bg-raised: #14172a;
+  --bg-inset: #0a0c16;
+  --border: #262a44;
+  --border-strong: #363c63;
+  --fg: #f4f5fb;
+  --fg-muted: #a6abce;
+  --fg-faint: #6b7099;
+
+  --accent: #f6b53c; /* amber — the buzz */
+  --accent-strong: #ffca5f;
+  --correct: #34d399; /* emerald */
+  --correct-strong: #6ee7b7;
+  --neg: #fb6a82; /* rose */
+
+  --ring: rgba(246, 181, 60, 0.55);
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-raised: var(--bg-raised);
+  --color-bg-inset: var(--bg-inset);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-fg: var(--fg);
+  --color-fg-muted: var(--fg-muted);
+  --color-fg-faint: var(--fg-faint);
+  --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
+  --color-correct: var(--correct);
+  --color-correct-strong: var(--correct-strong);
+  --color-neg: var(--neg);
+
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+  --font-display: var(--font-display), Georgia, "Times New Roman", serif;
+}
+
+html {
+  background: var(--bg);
+  color: var(--fg);
+  color-scheme: dark;
+}
+
+body {
+  background:
+    radial-gradient(
+      120% 80% at 50% -10%,
+      rgba(246, 181, 60, 0.07),
+      transparent 60%
+    ),
+    var(--bg);
+  min-height: 100dvh;
+}
+
+/* Clue reveal animation, respectful of reduced-motion. */
+@keyframes clue-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-clue-in {
+  animation: clue-in 360ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-5px);
+  }
+  40% {
+    transform: translateX(5px);
+  }
+  60% {
+    transform: translateX(-3px);
+  }
+  80% {
+    transform: translateX(3px);
+  }
+}
+
+.animate-shake {
+  animation: shake 320ms ease-in-out both;
+}
+
+@keyframes pop-in {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-pop-in {
+  animation: pop-in 280ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-clue-in,
+  .animate-shake,
+  .animate-pop-in {
+    animation: none;
+  }
+  * {
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Focus ring used across interactive elements. */
+.focus-ring:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--ring);
+}

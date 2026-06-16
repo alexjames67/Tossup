@@ -1,7 +1,8 @@
 /**
  * Tiny Web Audio synth — no audio assets, works offline / static export.
- * `playTwangyBass` makes a short, plucky, wobbling bass note used as the Funky
- * theme's signature sound.
+ * `playTwangyBass` is a warm 1970s funk-bass pluck: a quick slide up into the
+ * note, a resonant envelope-filter "wah" flare, soft tube saturation, a
+ * finger-pluck transient, and a fat sub-octave.
  */
 
 type WebkitWindow = Window &
@@ -18,58 +19,108 @@ function getCtx(): AudioContext | null {
   return audioCtx;
 }
 
-/** A short twangy bass pluck (~0.6s). Safe to call from a user gesture. */
+/** Soft asymmetric saturation curve for tube-like warmth. */
+function saturationCurve(amount: number): Float32Array<ArrayBuffer> {
+  const n = 1024;
+  const curve = new Float32Array(new ArrayBuffer(n * 4));
+  for (let i = 0; i < n; i++) {
+    const x = (i * 2) / n - 1;
+    curve[i] = ((1 + amount) * x) / (1 + amount * Math.abs(x));
+  }
+  return curve;
+}
+
+/** A warm, twangy 70s funk-bass pluck (~1s). Call from a user gesture. */
 export function playTwangyBass(): void {
   const ac = getCtx();
   if (!ac) return;
-  // Browsers start the context suspended until a gesture; resume on demand.
   if (ac.state === "suspended") void ac.resume();
 
   const t = ac.currentTime;
-  const f0 = 73.42; // D2 — low and fat
+  const root = 82.41; // E2
+  const slideFrom = root * 0.75; // a fourth below — the slide-up "twang"
 
-  const master = ac.createGain();
-  master.gain.setValueAtTime(0.0001, t);
-  master.gain.exponentialRampToValueAtTime(0.4, t + 0.006); // quick pluck attack
-  master.gain.exponentialRampToValueAtTime(0.0001, t + 0.6); // decay
-  master.connect(ac.destination);
+  const out = ac.createGain();
+  out.gain.value = 0.85;
+  out.connect(ac.destination);
 
+  // Amp envelope: snappy finger attack, then a warm sustain into a long decay.
+  const amp = ac.createGain();
+  amp.gain.setValueAtTime(0.0001, t);
+  amp.gain.exponentialRampToValueAtTime(0.42, t + 0.012);
+  amp.gain.exponentialRampToValueAtTime(0.2, t + 0.2);
+  amp.gain.exponentialRampToValueAtTime(0.0001, t + 0.95);
+  amp.connect(out);
+
+  // Resonant envelope filter (auto-wah) — opens fast, then closes. The funk.
   const filter = ac.createBiquadFilter();
   filter.type = "lowpass";
-  filter.frequency.setValueAtTime(2600, t);
-  filter.frequency.exponentialRampToValueAtTime(420, t + 0.4);
-  filter.Q.value = 7;
-  filter.connect(master);
+  filter.Q.value = 9;
+  filter.frequency.setValueAtTime(300, t);
+  filter.frequency.exponentialRampToValueAtTime(1850, t + 0.09);
+  filter.frequency.exponentialRampToValueAtTime(240, t + 0.6);
+  filter.connect(amp);
 
-  // Main saw with a downward pitch bend = the "twang".
+  // Soft saturation for warmth/growl.
+  const shaper = ac.createWaveShaper();
+  shaper.curve = saturationCurve(2.2);
+  shaper.oversample = "2x";
+  shaper.connect(filter);
+
+  // Main oscillator: sawtooth sliding up into the root note.
   const osc = ac.createOscillator();
   osc.type = "sawtooth";
-  osc.frequency.setValueAtTime(f0 * 2, t);
-  osc.frequency.exponentialRampToValueAtTime(f0, t + 0.12);
-  osc.connect(filter);
+  osc.frequency.setValueAtTime(slideFrom, t);
+  osc.frequency.exponentialRampToValueAtTime(root, t + 0.07);
+  osc.connect(shaper);
 
-  // Sub-octave sine for body.
+  // Sub-octave sine for a round low end — bypasses the wah, stays clean.
   const sub = ac.createOscillator();
   sub.type = "sine";
-  sub.frequency.setValueAtTime(f0 / 2, t);
+  sub.frequency.setValueAtTime(slideFrom / 2, t);
+  sub.frequency.exponentialRampToValueAtTime(root / 2, t + 0.07);
   const subGain = ac.createGain();
   subGain.gain.value = 0.5;
   sub.connect(subGain);
-  subGain.connect(filter);
+  subGain.connect(amp);
 
-  // Vibrato LFO for the wobble.
+  // Gentle, slow vibrato (not the toy-like fast wobble).
   const lfo = ac.createOscillator();
   lfo.type = "sine";
-  lfo.frequency.value = 6;
+  lfo.frequency.value = 4.5;
   const lfoGain = ac.createGain();
-  lfoGain.gain.value = 11;
+  lfoGain.gain.value = 2;
   lfo.connect(lfoGain);
   lfoGain.connect(osc.frequency);
 
-  const end = t + 0.62;
+  // Finger-pluck transient: a short filtered noise click at the very start.
+  const noiseBuf = ac.createBuffer(
+    1,
+    Math.floor(ac.sampleRate * 0.05),
+    ac.sampleRate,
+  );
+  const data = noiseBuf.getChannelData(0);
+  for (let i = 0; i < data.length; i++) {
+    data[i] = (Math.random() * 2 - 1) * (1 - i / data.length);
+  }
+  const noise = ac.createBufferSource();
+  noise.buffer = noiseBuf;
+  const noiseBp = ac.createBiquadFilter();
+  noiseBp.type = "bandpass";
+  noiseBp.frequency.value = 1500;
+  noiseBp.Q.value = 0.8;
+  const noiseGain = ac.createGain();
+  noiseGain.gain.setValueAtTime(0.16, t);
+  noiseGain.gain.exponentialRampToValueAtTime(0.0001, t + 0.05);
+  noise.connect(noiseBp);
+  noiseBp.connect(noiseGain);
+  noiseGain.connect(out);
+
+  const end = t + 1.0;
   osc.start(t);
   sub.start(t);
   lfo.start(t);
+  noise.start(t);
   osc.stop(end);
   sub.stop(end);
   lfo.stop(end);

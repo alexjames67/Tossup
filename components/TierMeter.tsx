@@ -1,74 +1,48 @@
-import { NEG_PENALTY, TIER_VALUES, applyNegs } from "@/lib/scoring";
+import { TIER_VALUES } from "@/lib/scoring";
 import { CLUE_COUNT } from "@/lib/types";
 
 interface TierMeterProps {
   /** The clue index currently in focus (0 hardest .. 4 giveaway). */
   activeIndex: number;
-  /** Accumulated negs, used to show the live point value on the active tier. */
-  negs: number;
   /** Visual mode: during play, on a win, or on a loss. */
   mode: "playing" | "won" | "lost";
 }
 
 /**
- * The pyramid. Apex (clue 1) is hardest and worth the most; the base
- * (giveaway) is worth the least. The active tier is highlighted and steps
- * downward as clues are revealed.
+ * The scoring pyramid: five centered bars widening toward the base, each
+ * labelled with its point value. The active tier is highlighted; tiers already
+ * passed are dimmed. Purely a visual indicator — live point math (after negs)
+ * is shown beneath it by the play screen.
  */
-export function TierMeter({ activeIndex, negs, mode }: TierMeterProps) {
+export function TierMeter({ activeIndex, mode }: TierMeterProps) {
   return (
     <div
-      className="flex flex-col items-center gap-1"
+      className="mx-auto flex w-full max-w-[280px] flex-col items-center gap-1.5"
       role="img"
-      aria-label={
-        mode === "playing"
-          ? `Scoring pyramid. Currently worth ${applyNegs(
-              TIER_VALUES[activeIndex],
-              negs,
-            )} points on clue ${activeIndex + 1} of ${CLUE_COUNT}.`
-          : `Scoring pyramid, round over.`
-      }
+      aria-label={`Scoring pyramid — clue ${activeIndex + 1} of ${CLUE_COUNT}, worth ${TIER_VALUES[activeIndex]} points.`}
     >
       {TIER_VALUES.map((value, i) => {
-        const widthPct = 44 + i * 14; // apex narrow → base wide
+        const width = 40 + i * 15; // 40 → 100%, a clean triangle
         const isActive = i === activeIndex && mode === "playing";
         const isWin = i === activeIndex && mode === "won";
         const isPast = i < activeIndex;
-        const live = applyNegs(value, negs);
 
-        let tone = "border-border bg-bg-inset text-fg-faint"; // future / inactive
-        if (isPast) tone = "border-border bg-bg-raised text-fg-faint";
-        if (isActive)
-          tone =
-            "border-accent bg-accent/15 text-accent-strong shadow-[0_0_0_1px_var(--accent)]";
-        if (isWin) tone = "border-correct bg-correct/20 text-correct-strong";
+        let tone = "border border-border bg-transparent text-fg-faint";
+        if (isPast) tone = "border border-border bg-bg-inset text-fg-faint";
+        if (isActive) tone = "bg-accent text-bg font-semibold";
+        if (isWin) tone = "bg-correct text-bg font-semibold";
 
         return (
           <div
             key={i}
-            style={{ width: `${widthPct}%` }}
-            className={`flex items-center justify-between rounded-md border px-3 py-1.5 text-sm font-mono tabular-nums transition-colors ${tone}`}
+            style={{ width: `${width}%` }}
+            className={`flex justify-center rounded-md py-1 font-mono text-xs tabular-nums transition-colors ${tone}`}
             aria-hidden="true"
           >
-            <span className="opacity-70">clue {i + 1}</span>
-            <span className="font-semibold">
-              {isActive && negs > 0 ? (
-                <>
-                  <span className="line-through opacity-50">{value}</span>{" "}
-                  {live}
-                </>
-              ) : (
-                value
-              )}
-            </span>
+            {value}
           </div>
         );
       })}
-      {mode === "playing" && negs > 0 && (
-        <p className="mt-1 text-xs text-neg" aria-hidden="true">
-          −{negs * NEG_PENALTY} from {negs} neg{negs > 1 ? "s" : ""}
-        </p>
-      )}
     </div>
   );
 }

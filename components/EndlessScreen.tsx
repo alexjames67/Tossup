@@ -179,7 +179,7 @@ export function EndlessScreen({ nav }: { nav: NavHandlers }) {
         ← Change filters
       </button>
 
-      <main className="mt-4 flex flex-1 flex-col gap-6">
+      <main className="mt-4 flex flex-1 flex-col justify-center gap-6 py-2">
         <EndlessRound
           key={roundId}
           puzzle={puzzle}
@@ -440,7 +440,7 @@ function EndlessResultCard({
 }: EndlessResultCardProps) {
   return (
     <section
-      className="animate-pop-in flex flex-col gap-5 rounded-2xl border border-border-strong bg-bg-raised p-6 text-center shadow-xl"
+      className="animate-pop-in flex flex-col gap-5 rounded-2xl border border-border-strong bg-bg-raised p-6 text-center"
       aria-live="polite"
     >
       <div>

@@ -33,7 +33,7 @@ export function DailyScreen({ puzzle, date, nav }: DailyScreenProps) {
         onHelp={nav.openHelp}
         onStats={nav.openStats}
       />
-      <main className="flex flex-1 flex-col gap-6">
+      <main className="flex flex-1 flex-col justify-center gap-6 py-2">
         {game.isOver ? (
           <ResultCard
             puzzle={puzzle}

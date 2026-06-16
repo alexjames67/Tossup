@@ -60,7 +60,7 @@ export function ResultCard({
 
   return (
     <section
-      className="animate-pop-in flex flex-col gap-5 rounded-2xl border border-border-strong bg-bg-raised p-6 text-center shadow-xl"
+      className="animate-pop-in flex flex-col gap-5 rounded-2xl border border-border-strong bg-bg-raised p-6 text-center"
       aria-live="polite"
     >
       <div>

@@ -37,17 +37,20 @@ export function PlayArea({ game }: PlayAreaProps) {
 
   return (
     <>
-      <div className="flex flex-col items-center gap-2 pt-1">
-        <TierMeter
-          activeIndex={game.currentClueIndex}
-          negs={game.negs}
-          mode="playing"
-        />
+      <div className="flex flex-col items-center gap-3">
+        <TierMeter activeIndex={game.currentClueIndex} mode="playing" />
         <p className="text-sm text-fg-muted">
-          Buzz now for{" "}
+          Worth{" "}
           <span className="font-semibold text-accent-strong">
             {livePoints} pts
-          </span>
+          </span>{" "}
+          if you buzz now
+          {game.negs > 0 && (
+            <span className="text-neg">
+              {" "}
+              · {game.negs} neg{game.negs > 1 ? "s" : ""}
+            </span>
+          )}
         </p>
       </div>
 

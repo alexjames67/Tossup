@@ -47,7 +47,7 @@ export function Modal({ open, onClose, title, children }: ModalProps) {
         aria-modal="true"
         aria-label={title}
         tabIndex={-1}
-        className="animate-pop-in max-h-[85dvh] w-full max-w-md overflow-y-auto rounded-2xl border border-border-strong bg-bg-raised p-6 shadow-2xl outline-none"
+        className="animate-pop-in max-h-[85dvh] w-full max-w-md overflow-y-auto rounded-2xl border border-border-strong bg-bg-raised p-6 shadow-[0_8px_24px_rgba(25,24,23,0.08)] outline-none"
       >
         <div className="mb-4 flex items-center justify-between">
           <h2 className="font-display text-xl font-bold text-fg">{title}</h2>

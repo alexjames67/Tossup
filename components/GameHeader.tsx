@@ -1,4 +1,5 @@
 import { PyramidMark } from "./PyramidMark";
+import { ThemeSwitcher } from "./ThemeSwitcher";
 
 interface GameHeaderProps {
   /** Small line under the title, e.g. "#1 · Literature" or "Endless · Science". */
@@ -34,7 +35,8 @@ export function GameHeader({
         </span>
       </button>
 
-      <div className="flex items-center gap-1">
+      <div className="flex items-center gap-1.5">
+        <ThemeSwitcher />
         <button
           type="button"
           onClick={onHelp}

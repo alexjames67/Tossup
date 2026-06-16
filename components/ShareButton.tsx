@@ -50,7 +50,7 @@ export function ShareButton({
     <button
       type="button"
       onClick={handleShare}
-      className="focus-ring w-full rounded-lg bg-correct px-6 py-3 text-base font-semibold text-bg transition hover:bg-correct-strong"
+      className="focus-ring w-full rounded-lg bg-correct px-6 py-3 text-base font-semibold text-on-accent transition hover:bg-correct-strong"
     >
       {state === "copied"
         ? "Copied!"

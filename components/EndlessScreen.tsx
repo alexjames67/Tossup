@@ -336,7 +336,7 @@ function EndlessSetup({
           type="button"
           onClick={onStart}
           disabled={poolCount === 0}
-          className="focus-ring rounded-lg bg-accent px-6 py-3 text-base font-semibold text-bg transition enabled:hover:bg-accent-strong disabled:cursor-not-allowed disabled:opacity-40"
+          className="focus-ring rounded-lg bg-accent px-6 py-3 text-base font-semibold text-on-accent transition enabled:hover:bg-accent-strong disabled:cursor-not-allowed disabled:opacity-40"
         >
           Start practicing
         </button>
@@ -489,7 +489,7 @@ function EndlessResultCard({
         type="button"
         onClick={onNext}
         autoFocus
-        className="focus-ring w-full rounded-lg bg-accent px-6 py-3 text-base font-semibold text-bg transition hover:bg-accent-strong"
+        className="focus-ring w-full rounded-lg bg-accent px-6 py-3 text-base font-semibold text-on-accent transition hover:bg-accent-strong"
       >
         Next puzzle →
       </button>

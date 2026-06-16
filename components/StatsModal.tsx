@@ -54,7 +54,7 @@ export function StatsModal({ open, onClose, stats }: StatsModalProps) {
             </span>
             <div className="h-5 flex-1 rounded bg-bg-inset">
               <div
-                className="flex h-5 min-w-6 items-center justify-end rounded bg-correct px-2 text-[11px] font-semibold text-bg transition-all"
+                className="flex h-5 min-w-6 items-center justify-end rounded bg-correct px-2 text-[11px] font-semibold text-on-accent transition-all"
                 style={{
                   width: `${Math.max((count / maxBar) * 100, count > 0 ? 12 : 0)}%`,
                 }}

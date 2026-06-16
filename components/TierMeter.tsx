@@ -29,8 +29,8 @@ export function TierMeter({ activeIndex, mode }: TierMeterProps) {
 
         let tone = "border border-border bg-transparent text-fg-faint";
         if (isPast) tone = "border border-border bg-bg-inset text-fg-faint";
-        if (isActive) tone = "bg-accent text-bg font-semibold";
-        if (isWin) tone = "bg-correct text-bg font-semibold";
+        if (isActive) tone = "bg-accent text-on-accent font-semibold";
+        if (isWin) tone = "bg-correct text-on-accent font-semibold";
 
         return (
           <div

@@ -84,7 +84,7 @@ export function AnswerInput({
         <button
           type="submit"
           disabled={disabled || value.trim().length === 0}
-          className="focus-ring shrink-0 rounded-lg bg-accent px-6 py-3 text-base font-semibold text-bg transition enabled:hover:bg-accent-strong disabled:cursor-not-allowed disabled:opacity-40"
+          className="focus-ring shrink-0 rounded-lg bg-accent px-6 py-3 text-base font-semibold text-on-accent transition enabled:hover:bg-accent-strong disabled:cursor-not-allowed disabled:opacity-40"
         >
           Buzz
         </button>

@@ -1,6 +1,7 @@
 "use client";
 
 import { PyramidMark } from "./PyramidMark";
+import { ThemeSwitcher } from "./ThemeSwitcher";
 import { winRate } from "@/lib/storage";
 import type { Stats } from "@/lib/types";
 
@@ -38,7 +39,7 @@ export function Home({
         <button
           type="button"
           onClick={onPlayDaily}
-          className="focus-ring group flex flex-col items-start gap-1 rounded-xl bg-accent px-5 py-4 text-left text-bg transition hover:bg-accent-strong"
+          className="focus-ring group flex flex-col items-start gap-1 rounded-xl bg-accent px-5 py-4 text-left text-on-accent transition hover:bg-accent-strong"
         >
           <span className="text-lg font-bold">Daily Puzzle</span>
           <span className="text-sm font-medium opacity-80">
@@ -81,6 +82,13 @@ export function Home({
         >
           Statistics
         </button>
+      </div>
+
+      <div className="flex flex-col items-center gap-2">
+        <span className="text-[11px] uppercase tracking-wider text-fg-faint">
+          Theme
+        </span>
+        <ThemeSwitcher />
       </div>
     </div>
   );

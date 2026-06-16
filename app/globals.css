@@ -1,28 +1,101 @@
 @import "tailwindcss";
 
 /*
- * Pyramidal Buzz — refined dark theme.
- * Neutral charcoal canvas, a single warm-gold accent, emerald for correct,
- * soft red for negs. Depth from layered surfaces and hairline borders.
+ * Pyramidal Buzz — themeable.
+ * Three themes via [data-theme] on <html>: dark (default), light, funky.
+ * Tailwind utilities resolve to runtime CSS variables, so switching the
+ * attribute reskins the whole app.
  */
 
+/* ---------- DARK (default) ---------- */
 :root {
-  --bg: #111317; /* neutral charcoal */
-  --bg-raised: #191c22; /* cards / surfaces */
-  --bg-inset: #15171c; /* wells, chips */
+  --bg: #111317;
+  --bg-raised: #191c22;
+  --bg-inset: #15171c;
   --border: #262a31;
   --border-strong: #363b45;
   --fg: #f2f3f5;
   --fg-muted: #a4a9b4;
   --fg-faint: #6c7280;
 
-  --accent: #e3b34d; /* warm gold */
-  --accent-strong: #f1c86b; /* brighter gold for text/hover */
-  --correct: #4ec98c; /* emerald */
+  --accent: #e3b34d;
+  --accent-strong: #f1c86b;
+  --on-accent: #1a1206; /* dark ink on gold/emerald fills */
+  --correct: #4ec98c;
   --correct-strong: #7fe3b1;
-  --neg: #ef6e6e; /* soft red */
+  --neg: #ef6e6e;
 
   --ring: rgba(227, 179, 77, 0.5);
+  --display-family: var(--font-display-base);
+  --page-glow: radial-gradient(
+    90% 60% at 50% -20%,
+    rgba(227, 179, 77, 0.06),
+    transparent 70%
+  );
+}
+
+/* ---------- LIGHT ---------- */
+[data-theme="light"] {
+  --bg: #faf8f3;
+  --bg-raised: #ffffff;
+  --bg-inset: #f0ede5;
+  --border: #e4e0d6;
+  --border-strong: #d2cdbf;
+  --fg: #1b1c20;
+  --fg-muted: #5b5e66;
+  --fg-faint: #8b8e96;
+
+  --accent: #b07d12; /* deeper gold for contrast on light */
+  --accent-strong: #8a610c;
+  --on-accent: #fffdf5; /* light text on the deeper gold/green fills */
+  --correct: #1f9d63;
+  --correct-strong: #167a4c;
+  --neg: #cc4444;
+
+  --ring: rgba(176, 125, 18, 0.45);
+  --page-glow: radial-gradient(
+    90% 60% at 50% -20%,
+    rgba(176, 125, 18, 0.05),
+    transparent 70%
+  );
+}
+
+/* ---------- FUNKY ---------- */
+[data-theme="funky"] {
+  --bg: #160d2e;
+  --bg-raised: #241544;
+  --bg-inset: #1c0f3a;
+  --border: #3b2a6b;
+  --border-strong: #573c97;
+  --fg: #f6e9ff;
+  --fg-muted: #c4abe6;
+  --fg-faint: #8f76c0;
+
+  --accent: #ff3da6; /* hot pink */
+  --accent-strong: #ff79c6;
+  --on-accent: #1a0a2e;
+  --correct: #2ff0b0; /* neon mint */
+  --correct-strong: #7dffd4;
+  --neg: #ff7a47; /* neon orange */
+
+  --ring: rgba(255, 61, 166, 0.6);
+  --display-family: var(--font-funky);
+  --page-glow:
+    radial-gradient(
+      60% 50% at 12% 0%,
+      rgba(255, 61, 166, 0.18),
+      transparent 55%
+    ),
+    radial-gradient(
+      60% 50% at 90% 12%,
+      rgba(47, 240, 176, 0.14),
+      transparent 55%
+    ),
+    radial-gradient(
+      70% 60% at 50% 110%,
+      rgba(124, 77, 255, 0.2),
+      transparent 60%
+    );
 }
 
 @theme inline {
@@ -36,30 +109,23 @@
   --color-fg-faint: var(--fg-faint);
   --color-accent: var(--accent);
   --color-accent-strong: var(--accent-strong);
+  --color-on-accent: var(--on-accent);
   --color-correct: var(--correct);
   --color-correct-strong: var(--correct-strong);
   --color-neg: var(--neg);
 
   --font-sans: var(--font-sans-custom), ui-sans-serif, system-ui, sans-serif;
   --font-mono: var(--font-mono-custom), ui-monospace, monospace;
-  --font-display: var(--font-display), Georgia, "Times New Roman", serif;
+  --font-display: var(--display-family), ui-sans-serif, system-ui, sans-serif;
 }
 
 html {
   background: var(--bg);
   color: var(--fg);
-  color-scheme: dark;
 }
 
 body {
-  /* Subtle warmth at the top, otherwise flat — no garish gradients. */
-  background:
-    radial-gradient(
-      90% 60% at 50% -20%,
-      rgba(227, 179, 77, 0.06),
-      transparent 70%
-    ),
-    var(--bg);
+  background: var(--page-glow), var(--bg);
   min-height: 100dvh;
 }
 
@@ -70,6 +136,16 @@ h3 {
 }
 p {
   text-wrap: pretty;
+}
+
+/* Funky flourish: neon glow on the big display headline + tracked caps. */
+[data-theme="funky"] .font-display {
+  letter-spacing: 0.01em;
+}
+[data-theme="funky"] h1.font-display {
+  text-shadow:
+    0 0 18px rgba(255, 61, 166, 0.55),
+    0 0 40px rgba(124, 77, 255, 0.35);
 }
 
 @keyframes clue-in {

@@ -47,7 +47,7 @@ export function HowToPlay({ open, onClose }: HowToPlayProps) {
         <button
           type="button"
           onClick={onClose}
-          className="focus-ring mt-1 rounded-lg bg-accent px-5 py-2.5 font-semibold text-bg transition hover:bg-accent-strong"
+          className="focus-ring mt-1 rounded-lg bg-accent px-5 py-2.5 font-semibold text-on-accent transition hover:bg-accent-strong"
         >
           Got it
         </button>
